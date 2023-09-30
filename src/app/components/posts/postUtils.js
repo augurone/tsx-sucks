@@ -55,7 +55,7 @@ const getAllPosts = async (isDraftMode) => {
         }`,
         isDraftMode
       );
-        console.log(entries);
+      
       return extractPostEntries(entries);
 };
 
