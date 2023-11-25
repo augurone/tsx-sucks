@@ -3,13 +3,51 @@ import fetching from '../../utils/fetching';
 // src/utils.js
 const EVENT_GRAPHQL_FIELDS = `
   name
-  description {}
-  coverImage {}
-  series {}
+  description {
+    json
+  }
+  coverImage {
+    title
+    url
+    description
+    width
+    height
+  }
+  heroBackgroundImage {
+    title
+    url
+    description
+    width
+    height
+  }
+  artworkCollection(limit: 5) {
+    items {
+        title
+        url
+        description
+        width
+        height
+    }
+  }
+  group {
+    name
+  }
+  series {
+    seriesName
+    description {
+        json
+    }
+    blurb {
+        json
+    }
+  }
+  eventLocation {
+    lat
+    lon
+  }
   online
   dateAndTime
-  location
-  registrationLink {}
+  registrationLink
 `;
 
 const extractEventEntries = ({
@@ -26,6 +64,8 @@ const getAllEvents = async (isDraftMode) => {
         `query {
           eventCollection(
             where: { name_exists: true },
+            limit: 100,
+            skip: 0
             order: dateAndTime_DESC,
             preview: ${isDraftMode ? 'true' : 'false'}
           ) {
@@ -37,8 +77,8 @@ const getAllEvents = async (isDraftMode) => {
         isDraftMode
       );
 
-      console.log(entries);
-      
+      // console.log(extractEventEntries(entries));
+
       return extractEventEntries(entries);
 };
 
