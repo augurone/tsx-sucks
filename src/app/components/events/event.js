@@ -1,7 +1,7 @@
 import RichText from '../rte/RichText';
 import MultiSrcImg from '../image/Image';
 
-const Event = (event) => {
+const Event = (event = {}) => {
     const {
         coverImage,
         dateAndTime,
