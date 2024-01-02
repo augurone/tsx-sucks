@@ -1,16 +1,15 @@
 import RichText from '../rte/RichText';
 
-const Series = (series = {}, isHero = false) => {
-    if (!series) return;
-
-    const {
+const Series = ({
         seriesName,
         blurb: {
             json: {
                 content: blurb
             } = {}
         } = {},
-    } = series;
+    } = {}, isHero = false) => {
+
+    if (!(seriesName)) return;
 
     return (
         <aside className={`col-span-5 ${isHero ? 'p-4 bg-opacity-75 bg-white rounded-lg 2xl:col-span-2' : ''}`}>
