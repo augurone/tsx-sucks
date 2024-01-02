@@ -1,5 +1,5 @@
 import { draftMode } from 'next/headers'
-import { getAllEvents } from '@/app/components/events/eventUtils';
+import { getAllEvents } from './eventUtils';
 import Event from './Event';
 
 export default async function Events() {
@@ -26,8 +26,6 @@ export default async function Events() {
         past: []
     });
 
-    if (!past.length) return;
-    
     // Sorts future events from oldest to newest, and takes the first one, this is the next event
     const [next, ...future] = upcoming.sort(({ dateAndTime: a }, { dateAndTime: b }) => {
         const aDate = new Date(a);
@@ -39,11 +37,15 @@ export default async function Events() {
     const hero = next ? next : last;
     const theRealPast = future.length ? past : furtherGone;
 
+    if (!past.length) return;
+
     return (
         <>
+        { hero &&
         <section className="w-full overflow-hidden relative flex items-start lg:items-center justify-center h-auto min-h-screen mx-auto mt-[-150px] pt-[150px] md:pt-[185px] lg:pt-[150px] pb-8 px-8 lg:pb-24 lg:px-24 mb-16 light">
-            {hero && <Event {...hero} hero={true} timeLine="future"/>}
+            <Event {...hero} hero={true} timeLine="future"/>
         </section>
+        }
         {!!(future.length) &&
         <section className="container px-8 md:px-24 my-[4rem] flex flex-col gap-8">
             <h3 className="text-2xl text-left font-extrabold leading-tight">Future Events</h3>
