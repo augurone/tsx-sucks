@@ -14,14 +14,6 @@ const Event = (event = {}) => {
         heroBackgroundImage,
         name,
         registrationLink,
-        series: {
-            seriesName,
-            blurb: {
-                json: {
-                    content: blurb
-                } = {}
-            } = {},
-        } =  {},
         timeLine
     } = event;
     const date = new Date(dateAndTime);
@@ -58,14 +50,6 @@ const Event = (event = {}) => {
                     {(timeLine === 'future' && registrationLink) &&
                     <a href={registrationLink} className="block w-full text-center text-xl text-pink-900 font-bold pt-2">&#10027;&#10027;Participate&#10027;&#10027;</a>}
                 </div>
-                <aside className={`col-span-5 ${hero ? 'p-4 bg-opacity-75 bg-white rounded-lg 2xl:col-span-2' : ''}`}>
-                    <section>
-                        {(hero) ?
-                        <h3 className="text-left text-lg font-bold leading-tight">{`${seriesName} series:`}</h3> :
-                        <h5 className="text-left text-lg font-bold leading-tight">{`${seriesName} series:`}</h5>}
-                        <RichText textNodeArray={blurb} />
-                    </section>
-                </aside>
             </figcaption>
         </figure>
     );

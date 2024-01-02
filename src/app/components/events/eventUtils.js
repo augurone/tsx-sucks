@@ -32,15 +32,6 @@ const EVENT_GRAPHQL_FIELDS = `
   group {
     name
   }
-  series {
-    seriesName
-    description {
-        json
-    }
-    blurb {
-        json
-    }
-  }
   eventLocation {
     lat
     lon
