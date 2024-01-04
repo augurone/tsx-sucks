@@ -43,7 +43,7 @@ const Event = (event = {}) => {
                 <h4 className="text-left text-3xl font-light leading-tight col-span-5">
                     {name}
                 </h4>}
-                <div className={`col-span-5 ${hero ? 'p-4 bg-opacity-75 bg-white rounded-lg' : ''} ${!!(series) ? '2xl:col-span-3' : ''}`}>
+                <div className={`col-span-5 ${hero ? 'p-4 bg-opacity-75 bg-white rounded-lg' : ''} ${!!(hero && series) ? '2xl:col-span-3' : ''}`}>
                     <RichText textNodeArray={content} />
 
                     {(timlineString !== 'Last Event' && registrationLink) &&
