@@ -59,7 +59,7 @@ const extractEventEntries = ({
 } = {}) => items;
 
 // Retrieve the list of blog posts from Contentful
-const getAllEvents = async (isDraftMode) => {
+const getAllEvents = async (isDraftMode = false) => {
     const entries = await fetching(
         `query {
           eventCollection(
