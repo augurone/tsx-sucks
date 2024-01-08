@@ -10,7 +10,7 @@ const MultiSrcImg = ({
     hero,
     width,
     height,
-    loading = auto,
+    loading = 'auto',
     unoptimized = false
 }) => {
     const heo = {
