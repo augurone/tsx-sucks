@@ -29,6 +29,7 @@ export default async function Home() {
             className="col-span-1 justify-self-center md:justify-self-auto min-w-[93px]"
             description="Babalon Salon is women led group for all women affiliated with the College of Thelema whose lamen is represented here"
             height={236}
+            loading="lazy"
             title="COT Lamen"
             unoptimized={true}
             url="/floating_lamen.png"
