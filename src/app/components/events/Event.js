@@ -28,7 +28,7 @@ const Event = (event = {}) => {
         ${!hero ? 'min-h-fit relative p-8 rounded-lg overflow-hidden vignette--deep light' : ''}
         `}>
             {/* add W & H for none hero */}
-            {(heroBackgroundImage) && <MultiSrcImg hero={true} {...heroBackgroundImage} loading="eager" />}
+            {(heroBackgroundImage) && <MultiSrcImg hero={true} {...heroBackgroundImage} {...hero ? {loading:"eager"} : {loading:"lazy"}} />}
             {hero &&
             <h2 className="text-left text-3xl font-bold md:col-span-8 p-4 bg-opacity-75 bg-white rounded-lg">
                 <span className="font-light font-italic">{`${timlineString} — `}</span>
@@ -36,7 +36,7 @@ const Event = (event = {}) => {
             </h2>}
             <aside className="relative col-span-1 md:col-span-3">
                 {/* add W & H */}
-                {coverImage?.description && <MultiSrcImg {...coverImage} {...hero && {loading:"eager"}} {...!hero && {loading:"lazy"}} />}
+                {coverImage?.description && <MultiSrcImg {...coverImage} {...hero ? {loading:"eager"} : {loading:"lazy"}} />}
             </aside>
             <figcaption className={`container grid col-span-1 md:col-span-5 grid-cols-5 gap-3`}>
                 {!hero &&
