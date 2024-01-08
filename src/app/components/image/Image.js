@@ -32,7 +32,7 @@ const MultiSrcImg = ({
             src={`${url}?fm=webp${(!unoptimized) ? '&w=640' :''}`}
             {...((!unoptimized) && { srcSet: srcset(url)})}
            { ...(description && { alt: description })}
-           {...(loading && { loading })}
+            loading
             width={width}
             height={height}
             title={title} />
