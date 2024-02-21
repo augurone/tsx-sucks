@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from '../../../node_modules/next/image';
-import Navbar from '../components/nav';
+import Navbar from '../components/navitgation/nav';
+import Footer from '../components/navitgation/footer';
 
 export default function Page() {
     return (
@@ -25,7 +26,7 @@ export default function Page() {
                         <h3>“Every man and every woman is a star” Liber Legis, I v.3</h3>
                         <div>
                             <span className="wrapper-img wrapper-img--large">
-                                <Image alt="Phyllis Seckler (Soror Meral)" width="93" height="93" src="/profile-seckler_phyllis.jpg" style={{backgroundImage: 'url(/profile-seckler_phyllis.jpg)'}} />
+                                <Image alt="Phyllis Seckler (Soror Meral)" width="93" height="93" src="/profile-seckler_phyllis.webp" style={{backgroundImage: 'url(/profile-seckler_phyllis.webp)'}} />
                             </span>
                             <p>
                                 <strong>Founded in service to the A&there4;A&there4;</strong> in the early 1970&apos;s CE by Soror Meral, the College of Thelema seeks to guide the student to an understanding of the Law of Thelema. Most especially, this means a deeper understanding of oneself and of one&apos;s True Will.
@@ -85,7 +86,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                        <div className="wrapper-img wrapper-img--med">
-                                           <Image alt="Zeph Bender— Chancellor" width="62" height="62" src="/profile-bender_zeph.jpg" style={{backgroundImage: 'url(/profile-bender_zeph.jpg)', backgroundPosition: '0 0'}} />
+                                           <Image alt="Zeph Bender— Chancellor" width="62" height="62" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '0 0'}} />
                                        </div>
                                        <span className="text text--medium">
                                            Zeph Bender <br />
@@ -112,7 +113,7 @@ export default function Page() {
                                 <p className="text text--medium">Every Other Thursday starting September 1, V<sup>9</sup></p>
                                 <section className="wrapper--event card--event">
                                     <div className="wrapper-img wrapper-img--rect">
-                                        <Image alt="Becoming Human" width="276" height="156" src="/event_Harpocrates_BecomingHuman.jpg" style={{backgroundImage: 'url(/event_Harpocrates_BecomingHuman.jpg)', backgroundPosition: '50% 50%'}}/>
+                                        <Image alt="Becoming Human" width="276" height="156" src="/event_Harpocrates_BecomingHuman.webp" style={{backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)', backgroundPosition: '50% 50%'}}/>
                                         <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
                                     </div>
                                     <h5>Becoming Human - starting September 1, V<sup>9</sup></h5>
@@ -126,7 +127,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Juan Ramirez—Treasurer" width="62" height="62" src="/profile-ramirez_juan.jpg" style={{backgroundImage: 'url(/profile-ramirez_juan.jpg)'}} />
+                                            <Image alt="Juan Ramirez—Treasurer" width="62" height="62" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Juan Ramirez <br />
@@ -135,7 +136,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Ayesha Adamo—Dean" width="62" height="62" src="/profile-adamo_ayesha.jpg" style={{backgroundImage: 'url(/profile-adamo_ayesha.jpg)'}} />
+                                            <Image alt="Ayesha Adamo—Dean" width="62" height="62" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Ayesha Adamo <br />
@@ -177,7 +178,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Chad Augur—Grand Cancellarius" width="62" height="62" src="/profile-augur_chad.jpg"style={{backgroundImage: 'url(/profile-augur_chad.jpg)', backgroundPosition: '50% 0', backgroundSize: '156%'}} />
+                                            <Image alt="Chad Augur—Grand Cancellarius" width="62" height="62" src="/profile-augur_chad.webp"style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: '156%'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Chad Augur <br />
@@ -186,7 +187,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Billie Austin—Bursar" width="62" height="62" src="/profile-austin_billie.jpg" style={{backgroundImage: 'url(/profile-austin_billie.jpg)', backgroundPosition: '0 0'}} />
+                                            <Image alt="Billie Austin—Bursar" width="62" height="62" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Billie Austin
@@ -212,7 +213,7 @@ export default function Page() {
                                 <p className="text text--medium">3rd Wednesdays Monthly, next topic:</p>
                                 <section className="wrapper--event card--event">
                                     <div className="wrapper-img wrapper-img--rect">
-                                        <Image alt="Rite of the Child 7-23 V.8" width="276" height="156" src="/event_AstroLab-zodiac.jpg"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.jpg)', backgroundPosition: '0 0'}}/>
+                                        <Image alt="Rite of the Child 7-23 V.8" width="276" height="156" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}}/>
                                         <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
                                     </div>
                                     <h5>Sidereal Astrology Lab: The Zodiac - July 20, V<sup>9</sup></h5>
@@ -277,6 +278,7 @@ export default function Page() {
                 </article>
             </section>
         </main>
+        <Footer />
     </body>
     );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from '../components/nav';
+import Navbar from '../components/navitgation/nav';
+import Footer from '../components/navitgation/footer';
 import Image from '../../../node_modules/next/image';
 
 export default function Page() {
@@ -45,7 +46,7 @@ export default function Page() {
                             <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium">
                                 <li>
                                     <div className="wrapper-img wrapper-img--med">
-                                        <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.jpg" style={{backgroundImage: 'url(/profile-adamo_ayesha.jpg)'}} />
+                                        <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
                                     </div>
                                     <span className="text text--medium">
                                         Ayesha Adamo <br />
@@ -149,7 +150,7 @@ export default function Page() {
                                 Temple of Thelema has two levels of First Order bodies &#40;or working groups): <strong>Temples</strong>, which are fully operating initiatory bodies, and <strong>Pronaoi</strong> (singular, Pronaos&#41;.— literally pre-Temples, Temples-in-the making.
                             </p>
                             <p>
-                                When sufficient initiated membership exists in a geographic area, the members will be authorized to form a <strong>Pronaos</strong> — a ceremonial and teaching group authorized to meet, celebrate ongoing group rituals, perform public ceremonies, and undertake other outreach activities. <em>&#40;This is in addition to the initiated members&apos; personal practices.&#40;</em>
+                                When sufficient initiated membership exists in a geographic area, the members will be authorized to form a <strong>Pronaos</strong> — a ceremonial and teaching group authorized to meet, celebrate ongoing group rituals, perform public ceremonies, and undertake other outreach activities. <em>&#40;This is in addition to the initiated members&apos; personal practices.&#41;</em>
                             </p>
                             <p>A <strong>Pronaos</strong> operates under the authority of a <strong>Temple</strong> &#40;usually the one nearest in proximity to the Pronoas&#41;.and its Temple Chiefs, and may not perform initiations under its own authority. Various provisions are made for the initiation of approved candidates in developing areas.</p>
                             <p>Once a <strong>Pronaos</strong> develops a certain maturity and stability, and meets the criteria for <strong>Temple</strong> status, it is fully warranted as a <strong>Temple</strong> performing initiations and Degree Work.</p>
@@ -169,7 +170,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="James A. Eshleman—Prolocutor General" src="/profile-eshelman_jim.jpg" style={{backgroundImage: 'url(/profile-eshelman_jim.jpg)'}} />
+                                                <Image height="62" width="62" alt="James A. Eshleman—Prolocutor General" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 James A. Eshleman <br/>
@@ -178,7 +179,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.jpg" style={{backgroundImage: 'url(/profile-bender_zeph.jpg)', backgroundPosition: ' 0 0'}} />
+                                                <Image height="62" width="62" alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: ' 0 0'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Zeph Bender <br />
@@ -189,7 +190,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.jpg" style={{backgroundImage: 'url(/profile-adamo_ayesha.jpg)'}} />
+                                                <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Ayesha Adamo <br />
@@ -198,7 +199,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Chad Augur—Grand Cancellarius" src="/profile-augur_chad.jpg" style={{backgroundImage: 'url(/profile-augur_chad.jpg)', backgroundPosition: '50% 0', backgroundSize: ' 156%'}} />
+                                                <Image height="62" width="62" alt="Chad Augur—Grand Cancellarius" src="/profile-augur_chad.webp" style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: ' 156%'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Chad Augur <br />
@@ -207,7 +208,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Juan Ramirez—Grand Imperator" src="/profile-ramirez_juan.jpg" style={{backgroundImage: 'url(/profile-ramirez_juan.jpg)'}} />
+                                                <Image height="62" width="62" alt="Juan Ramirez—Grand Imperator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Juan Ramirez <br />
@@ -231,7 +232,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                         <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image height="62" width="62" alt="Zeph Bender—Praemonstrator" src="/profile-bender_zeph.jpg" style={{backgroundImage: 'url(/profile-bender_zeph.jpg)', backgroundPosition: ' 0 0'}} />
+                                            <Image height="62" width="62" alt="Zeph Bender—Praemonstrator" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: ' 0 0'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Zeph Bender <br />
@@ -240,7 +241,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image height="62" width="62" alt="Gabriel Osuna—Cancelarius" src="/profile-osuna_gabriel.jpg" style={{backgroundImage: 'url(/profile-osuna_gabriel.jpg)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} />
+                                            <Image height="62" width="62" alt="Gabriel Osuna—Cancelarius" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Gabriel Osuna <br />
@@ -249,7 +250,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image height="62" width="62" alt="Kimberly Manibusan—Imperator" src="/profile-manibusan_kimberly.jpg" style={{backgroundImage: 'url(/profile-manibusan_kimberly.jpg)', backgroundPosition: '0 0'}} />
+                                            <Image height="62" width="62" alt="Kimberly Manibusan—Imperator" src="/profile-manibusan_kimberly.webp" style={{backgroundImage: 'url(/profile-manibusan_kimberly.webp)', backgroundPosition: '0 0'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Kimberly Manibusan <br />
@@ -279,7 +280,7 @@ export default function Page() {
                                     <h4>Events</h4>
                                     <section className="wrapper--event card--event">
                                         <div className="wrapper-img wrapper-img--rect wrapper--cta">
-                                            <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_ROC_fbbanner-1200x628.jpg"  style={{backgroundImage: 'url(/event_ROC_fbbanner-1200x628.jpg)', backgroundPosition: '0 0'}}/>
+                                            <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_ROC_fbbanner.webp"  style={{backgroundImage: 'url(/event_ROC_fbbanner.webp)', backgroundPosition: '0 0'}}/>
                                             <a className="link link--blocker" href="https://www.facebook.com/events/830638938310050" target="_blank"></a>
                                         </div>
                                         <h5>Rite of the Child - July 23rd, V<sup>9</sup></h5>
@@ -305,7 +306,7 @@ export default function Page() {
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" src="/profile-kali_aleph.jpg" style={{backgroundImage: 'url(/profile-kali_aleph.jpg)', backgroundPosition: '0 0'}} />
+                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" src="/profile-kali_aleph.webp" style={{backgroundImage: 'url(/profile-kali_aleph.webp)', backgroundPosition: '0 0'}} />
                                                     </div>
                                                     <span className="text text--medium">
                                                         Aleph Kali <br />
@@ -314,7 +315,7 @@ export default function Page() {
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Billie Austin—Bursar" src="/profile-austin_billie.jpg" style={{backgroundImage: 'url(/profile-austin_billie.jpg)', backgroundPosition: '0 0'}} />
+                                                        <Image height="62" width="62" alt="Billie Austin—Bursar" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} />
                                                     </div>
                                                     <span className="text text--medium">
                                                         Billie Austin <br />
@@ -344,7 +345,7 @@ export default function Page() {
                                         <h4>Events</h4>
                                         <section className="wrapper--event card--event">
                                             <div className="wrapper-img wrapper-img--rect">
-                                                <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_AstroLab-zodiac.jpg"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.jpg)', backgroundPosition: '0 0'}}/>
+                                                <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}}/>
                                                 <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
                                             </div>
                                             <h5>Sidereal Astrology Lab: The Zodiac - July 20, V<sup>9</sup></h5>
@@ -363,7 +364,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Juan Ramirez—Praemonstrator" src="/profile-ramirez_juan.jpg" style={{backgroundImage: 'url(/profile-ramirez_juan.jpg)', backgroundPosition: '0 0'}} />
+                                                <Image height="62" width="62" alt="Juan Ramirez—Praemonstrator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)', backgroundPosition: '0 0'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Juan Ramirez <br />
@@ -381,7 +382,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Tamara Wyndham—Imperator" src="/profile-wyndham_tamara.jpg" style={{backgroundImage: 'url(/profile-wyndham_tamara.jpg)', backgroundPosition: '0 0'}} />
+                                                <Image height="62" width="62" alt="Tamara Wyndham—Imperator" src="/profile-wyndham_tamara.webp" style={{backgroundImage: 'url(/profile-wyndham_tamara.webp)', backgroundPosition: '0 0'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Tamara Wyndham<br />
@@ -411,7 +412,7 @@ export default function Page() {
                                     <h4>Events</h4>
                                     <section className="wrapper--event card--event">
                                         <div className="wrapper-img wrapper-img--rect">
-                                            <Image height="156" width="276" alt="At WitchFest 7-16 V.8" src="/event_Aiwass-witchfest.jpg"  style={{backgroundImage: 'url(/event_Aiwass-witchfest.jpg)', backgroundPosition: '0 0'}}/>
+                                            <Image height="156" width="276" alt="At WitchFest 7-16 V.8" src="/event_Aiwass-witchfest.webp"  style={{backgroundImage: 'url(/event_Aiwass-witchfest.webp)', backgroundPosition: '0 0'}}/>
                                             <a className="link link--blocker" href="https://www.facebook.com/events/948030722588306" target="_blank"></a>
                                         </div>
                                         <h5>Aiwass @ Witchfest - July 16, V<sup>9</sup></h5>
@@ -441,6 +442,7 @@ export default function Page() {
                     </article>
                 </section>
             </main>
+            <Footer />
         </body>
     );
 }

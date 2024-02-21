@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../../node_modules/next/image';
 import Link from '../../node_modules/next/link';
 import Socials from './components/socialLinks/Socials';
+import Footer from './components/navitgation/footer';
 
 export default async function Home() {
   return (
@@ -164,7 +165,7 @@ export default async function Home() {
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image alt="A.'.A.'." width="62" height="62" src="/seal_of_aa.png" style={{backgroundImage: 'url(/seal_of_aa.png)'}}/>
+                                    <Image alt="A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{backgroundImage: 'url(/seal_of_aa.webp)'}}/>
                                 </div>
                                 <span>A&there4;A&there4;</span>
                                 <Link aria-label="The A&there4;A&there4" className="link link--blocker" href="aa/" prefetch={true}></Link>
@@ -185,7 +186,7 @@ export default async function Home() {
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image alt="Tax Exempt Donations" width="62"  height="62" src="/charity.png" style={{backgroundImage: 'url(/charity.png)'}} />
+                                    <Image alt="Tax Exempt Donations" width="62"  height="62" src="/charity.webp" style={{backgroundImage: 'url(/charity.webp)'}} />
                                 </div>
                                 <span>Donate</span>
                                 <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="college/#article--donate" prefetch={true}></Link>
@@ -230,7 +231,7 @@ export default async function Home() {
                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                         <li>
                             <div className="wrapper-img wrapper-img--large">
-                                <img alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.jpg" style={{backgroundImage: 'url(/profile-bender_zeph.jpg)', backgroundPosition: '50% 0'}}/>
+                                <img alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '50% 0'}}/>
                             </div>
                             <span className="text text--medium">
                                 Zeph Bender <br />
@@ -242,8 +243,7 @@ export default async function Home() {
                 </article>
             </section>
         </main>
-        <footer className="relative w-full p-24 grid grid-cols-1 md:grid-cols-[repeat(12,minmax(min-content,1fr))] gap-4">
-        </footer>
+        <Footer />
     </body>
   );
 }

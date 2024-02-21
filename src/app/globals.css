@@ -29,7 +29,7 @@
     --layout-container-max-width: calc(42 * var(--base-increment));
     --base-line-height: var(--base-increment);
     --base-rem: 16px;
-    --footer-image-background: url("/pearlsbk.png");
+    --footer-image-background: url("/pearlsbk.webp");
     --marquee-image-background: url("/header_img.png");
     --type-blockquote-graphics-quotes: "“" "”";
     --type-font-family-body: "Helvetica Neue", "Helvetica", sans-serif;
@@ -671,11 +671,26 @@ ul.list--thumbnails li:last-of-type {
     text-align: left;
 }
 
-
 /* card styles */
-.card--book .wrapper-img img {
-    background-size: contain;
-    background-position: 0 50%;
+figure.card--book {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+figure.card--book > div {
+    flex-shrink: 0;
+    width: 220px;
+}
+
+figure.card--book img {
+    height: auto;
+    max-width: 100%;
+    width: 220px;
+}
+
+figure.card--book section {
+    flex: 1 1 66%;
 }
 
 .card--event {
@@ -759,7 +774,7 @@ ul.list--thumbnails li:last-of-type {
     margin: 1rem 0 0;
 }
 
-list--thumbnails address a[href ^= "mailto"] ~ a {
+.list--thumbnails address a[href ^= "mailto"] ~ a {
     display: inline-block;
     margin-top: 0.65rem;
 }
@@ -847,7 +862,6 @@ main section .wrapper--fullWidth {
     background-image: inherit;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    overflow: hidden;
     content: "";
     display: block;
     height: 100%;
@@ -1130,6 +1144,7 @@ article.article {
     main > aside ul.list li:last-child {
         flex: 0 0 auto;
         padding: 0;
+        max-width: none;
     }
 
     main > section {
@@ -1139,6 +1154,12 @@ article.article {
         grid-template-columns: repeat(8, 1fr);
         max-width: 100%;
         min-width: 100%;
+        width: 100%;
+    }
+
+    p > img {
+        float: none;
+        max-width: unset;
         width: 100%;
     }
 

@@ -61,7 +61,7 @@ const LiberL = () => (
                 <li>My scribe Ankh-af-na-khonsu, the priest of the princes, shall not in one letter change this book; but lest there be folly, he shall comment thereupon by the wisdom of Ra-Hoor-Khuit.</li>
                 <li>Also the mantras and spells; the obeah and the wanga; the work of the wand and the work of the sword; these he shall learn and teach.</li>
                 <li>He must teach; but he may make severe the ordeals.</li>
-                <li>The word of the Law is THELEMA.</li>
+                <li>The word of the Law is &Theta;&epsilon;&lambda;&eta;&mu;&alpha;.</li>
                 <li>Who calls us Thelemites will do no wrong, if he look but close into the word.  For there are therein Three Grades, the Hermit, and the Lover, and the man of Earth.  Do what thou wilt shall be the whole of the Law.</li>    
                 <li>The word of Sin is Restriction.  O man! refuse not thy wife, if she will! O lover, if thou wilt, depart! There is no bond that can unite the divided but love: all else is a curse. Accursed! Accursed be it to the aeons! Hell.</li>
                 <li>Let it be that state of manyhood bound and loathing.  So with thy all; thou hast no right but to do thy will.</li>
@@ -87,7 +87,7 @@ const LiberL = () => (
                 <li>Change not as much as the style of a letter; for behold! thou, o prophet, shalt not behold all these mysteries hidden therein.</li>
                 <li>The child of thy bowels, he shall behold them.</li>
                 <li>Expect him not from the East, nor from the West; for from no expected house cometh that child.  Aum! All words are sacred and all prophets true; save only that they understand a little; solve the first half of the equation, leave the second unattacked.  But thou hast all in the clear light, and some, though not all, in the dark.</li>
-                <li>Invoke me under my stars! Love is the law, love under will.  Nor let the fools mistake love; for there are love and love.  There is the dove, and there is the serpent.  Choose ye well! He, my prophet, hath chosen, knowing the law of the fortress, and the great mystery of the House of God.  All these old letters of my Book are aright; but [Tzaddi] is not the Star.  This also is secret: my prophet shall reveal it to the wise.</li>
+                <li>Invoke me under my stars! Love is the law, love under will.  Nor let the fools mistake love; for there are love and love.  There is the dove, and there is the serpent.  Choose ye well! He, my prophet, hath chosen, knowing the law of the fortress, and the great mystery of the House of God.  All these old letters of my Book are aright; but &#1510; is not the Star.  This also is secret: my prophet shall reveal it to the wise.</li>
                 <li>I give unimaginable joys on earth: certainty, not faith, while in life, upon death; peace unutterable, rest, ecstasy; nor do I demand aught in sacrifice.</li>
             </ol>
         </section>

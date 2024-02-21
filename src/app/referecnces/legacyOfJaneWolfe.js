@@ -44,7 +44,7 @@ const LegacyOfJaneWolfe = () => (
         <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly pt-8">
                 <li>
                     <div className="wrapper-img wrapper-img--large">
-                        <Image alt="Jim Eshelman" height="62" width="62" src="/profile-eshelman_jim.jpg" style={{backgroundImage: 'url(/profile-eshelman_jim.jpg)', backgroundPosition: '50% 0'}}/>
+                        <Image alt="Jim Eshelman" height="62" width="62" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)', backgroundPosition: '50% 0'}}/>
                     </div>
                     <span className="text text--medium">
                         Jim Eshelman <br />
