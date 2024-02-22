@@ -39,7 +39,7 @@ const LiberXIII = () => (
             <br />
             <cite>- Liber LXV, Cap. V </cite>
         </blockquote>
-        <section  className="wrapper-text--columns">
+        <section  className="wrapper-text wrapper-text--columns">
             <ul>
                 <li>I. <strong>The Probationer</strong>. His duties are laid down in Paper A, Class D. Being without,
             they are vague and general. He receives Liber LXI and LXV.</li>

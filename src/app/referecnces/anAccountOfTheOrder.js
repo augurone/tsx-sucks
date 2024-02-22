@@ -16,11 +16,11 @@ const AccountOfTheOrder = () => (
                 N.S.F. 5° = 6<br/>
             </em>
         </hgroup>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>IT is necessary, my dear brothers, to give you a clear idea of the interior Order; of that illuminated community which is scattered throughout the world, but which is governed by one truth and united in one spirit.</p>
             <p>This community possesses a School, in which all who thirst for knowledge are instructed by the Spirit of Wisdom itself; and all the mysteries of nature are preserved in this school for the children of light. Perfect knowledge of nature and of humanity is taught in this school. It is from her that all truths penetrate into the world; she is the school of all who search for wisdom, and it is in this community alone that truth and the explantation of all mystery are to be found. It is the most hidden of communities, yet it contains members from many circles; nor is there any Centre of Thought whose activity is not due to the presence of one of ourselves. From all time there has been an exterior school based on the interior one, of which it is but the outer expression. From all time, therefore, there has been a hidden assembly, a society of the Elect, of those who sought for and had capacity for light, and this interior society was the Axle of the R.O.T.A. All that any external order possesses in symbol, ceremony, or rite is the letter expressive outwardly of that spirit of truth which dwelleth in the interior Sanctuary. Nor is the contradiction of the exterior any bar to the harmony of the interior. </p> <p>Hence this Sanctuary, composed of members widely scattered indeed but united by the bonds of perfect love, has been occupied from the earliest ages in building the grand Temple (through the evolution of humanity) by which the reign of L.V.X. will be manifest. This society is in the communion of those who have most capacity for light; they are united in truth, and their Chief is the Light of the World himself, V.V.V.V.V., the One Anointed in Light, the single teacher for the human race, the Way, the Truth, and the Life.</p> <p>The interior Order was formed immediately after the first perception of man&apos;s wider heritage had dawned upon the first of the adepts; it received from the Masters at first-hand the revelation of the means by which humanity could be raised to its rights and delivered from its misery. It received the primitive charge of all revelation and mystery; it received the key of true science, both divine and natural.</p>
         </section> 
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>But as men multiplied, the frailty of man necessitated an exterior society which veiled the interior one, and concealed the spirit and the truth in the letter, because many people were not capable of comprehending great interior truth. Therefore, interior truths were wrapped in external and perceptible ceremonies, so that men, by the perception of the outer which is the symbol of the interior, might by degrees be enabled safely to approach the interior spiritual truths. </p>
             <p>But the inner truth has always been confided to him who in his day had the most capacity for illumination, and he became the sole guardian of the original Trust, as High Priest of the Sanctuary.</p>
             <p>But the inner truth has always been confided to him who in his day had the most capacity for illumination, and he became the sole guardian of the original Trust, as High Priest of the Sanctuary.</p>
@@ -28,7 +28,7 @@ const AccountOfTheOrder = () => (
             <p>The external worship would never have been separated from interior revel but for the weakness of man, which tends too easily to forget the spirit in the letter; but the Masters are vigilant to note in every nation those who are able to receive light, and such persons are employed as agents to spread the light according to man&apos;s capacity and to revivify the dead letter.</p>   
             <p>Through these instruments the interior truths of the Sanctuary were taken into every nation, and modified symbolically according to their customs, capacity for instruction, climate, and receptiveness. So that the external types of every religion, worship, ceremonies and Sacred Books in general have more or less clearly, as their object of instruction, the interior truths of the Sanctuary, by which man will be conducted to the universal knowledge of the one Absolute Truth. </p>
         </section> 
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>The more the external worship of a people has remained united with the spirit of esoteric truth, the purer its religion; but the wider the difference between the symbolic letter and the invisible truth, the more imperfect has become the religion. Finally, it may be, the external form has entirely parted from its inner truth, so that ceremonial observances without soul or life have remained alone.</p>
             <p>In the midst of all this, truth reposes inviolable in the inner Sanctuary.</p>
             <p>Faithful to the spirit of truth, the members of the interior Order live in silence, but in real activity.</p>   
@@ -40,7 +40,7 @@ const AccountOfTheOrder = () => (
             <p>Now then finally in nameless ways, as one of our Brethren hath it now in mind to declare, have they raised up One to deliver unto men the keys of Spiritual Knowledge, and by His work shall He be judged. </p>
             <p>This interior community of light is the reunion of all those capable of receiving light, and it is known as the Communion of Saints, the primitive receptacle for all strength and truth, confided to it from all time.</p>
         </section> 
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>By it the agents of L.V.X. were formed in every age, passing from the interior to the exterior, and communicating spiritand life to the dead letter, as already said.</p>
             <p>This illuminated community is the true school of L.V.X.; it has its Chair, its Doctors; it possesses a rule for students; it has forms and objects for study.</p>
             <p>It has also its degrees for successive development to greater altitudes.</p>
@@ -51,7 +51,7 @@ const AccountOfTheOrder = () => (
             <p>But all exterior societies subsist only by virtue of this interior one. As soon as external societies wish to transform a temple of wisdom into a political edifice, the interior society retires and leaves only the letter without the spirit. It is thus that secret external societies of wisdom were nothing but hieroglyphic screens, the truth remaining inviolable in the Sanctuary so that she might never be profaned.</p>
             <p>In this interior society man finds wisdom and with her All--- not the wisdom of this world, which is but scientific knowledge, which revolves round the outside but never touches the centre (in which is contained all strength), but true wisdom, understanding and knowledge, reflections of the supreme illumination.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>All disputes, all controversies, all the things belonging to the false cares of this world, fruitless discussions, useless germs of opinions which spread the seeds of disunion, all error, schisms, and systems are banished. Neither calumny nor scandal is known. Every man is honoured. Love alone reigns.</p>
             <p>We must not, however, imagine that this society resembles any secret society, meeting at certain times, choosing leaders and members, united by special objects. All societies, be what they may, can but come after this interior illuminated circle. This society knows none of the formalities which belong to the outer rings, the work of man. In this kingdom of power all outward forms cease.</p>
             <p>L.V.X. is the Power always present. The greatest man of his times, the chief himself, does not always know all the members, but the moment when it is necessary that he should accomplish any object he finds them in the world with certainty ready to his hand.</p>
@@ -61,7 +61,7 @@ const AccountOfTheOrder = () => (
             <p>No one member can choose another; unanimous choice is required. Though not all men are called, many of called are chosen, and that as soon as they become fit for entrance.</p>
             <p>Any man can look for the entrance, and any man who is within can teach another to seek for it; but only he who is fit can arrive within.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>Unprepared men occasion disorder in a community, and disorder is not compatible with the Sanctuary. Thus it is impossible to profane the Sanctuary, since admission is not formal but real.</p>
             <p>Worldly intelligence seeks this Sanctuary in vain; fruitless also will be the efforts of malice to penetrate these great mysteries; all is indecipherable to him who is not ripe; he can see nothing, read nothing in the interior.</p>
             <p>Any man can look for the entrance, and any man who is within can teach another to seek for it; but only he who is fit can arrive within.</p>

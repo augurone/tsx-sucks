@@ -22,7 +22,7 @@ export default function Page() {
                 <h2>College of Thelema</h2>
                 <article className="article article--fullWidth">
                     <strong>Do what thou wilt shall be the whole of the Law.</strong>
-                    <section className="wrapper wrapper-text--columns">
+                    <section className="wrapper wrapper-text wrapper-text--columns">
                         <h3>“Every man and every woman is a star” Liber Legis, I v.3</h3>
                         <div>
                             <span className="wrapper-img wrapper-img--large">
@@ -37,13 +37,13 @@ export default function Page() {
                         <p>A personal teacher is assigned to each student. Successful completion of Course I is one way to fulfill the <strong>A&there4;A&there4;</strong> Student requirement. A combination of instruction techniques is employed, including seminars and classes, written texts, and individual work. The organization of the College is designed with the individual student in mind. Once enrolled, the student works at her own pace, within a two-year time period. The student is expected to determine how much personal instruction she requires, and take the initiative to seek out that instruction by maintaining contact with her teacher and attending classes and seminars.</p>
                         <p>The College of Thelema is suitable for serious students who wish to study Thelema and apply themselves actively to the Great Work, while working at their own pace and providing their own level of structure and schedule.</p>
                     </section>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <h3>GENERAL INFORMATION</h3>
                         <p>Experience has shown that teaching done in a classroom or on an individualized, one-on-one basis is much more effective than any correspondence course can possibly be. Hence, the College requires in-person contact with students. A minimum amount of 60 class hours must be accumulated in order to complete each Course, and these hours may be acquired through attendance at classes, seminars, and personal instruction.</p>
                         <p>Should the student prove competent, and should she desire it, she may request admission into <strong>A&there4;A&there4;</strong> after successful completion of Course I. If accepted, she may affiliate through that Initiate in her vicinity, or with the teacher who appeals to her the most.</p>
                         <p>The College of Thelema holds high standards of excellency in both its teachers and students. All teachers of the College are Initiates of <strong>A&there4;A&there4;</strong>, and are bound to the Order and to Its precepts and philosophy as revealed in Liber AL vel Legis, and through the work of TO MEGA THERION, the Prophet of the Aeon of Horus. The College is autonomous, and is not affiliated with any other organization other than <strong>A&there4;A&there4;</strong>. The faculty of the College serve without personal pay in the great tradition of <strong>A&there4;A&there4;</strong>; any fees requested scarcely cover the cost of materials and operation. The College reserves the right to expel from its faculty and otherwise discipline any teacher who fails to live up to the Policies of the College as stated, and to the great principles of <strong>A&there4;A&there4;</strong>.</p>
                     </section>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <h3>ENTRANCE REQUIREMENTS</h3>
                         <p>Following is an outline of the minimum requirements which must be met by the student applying for admission into enrollment in the College of Thelema:</p>
                         <ol>
@@ -52,12 +52,12 @@ export default function Page() {
                             <li>Desire to explore, understand and know, in all of its detail, and with integrity, honesty and love of Truth, the nature and powers of one&apos;s own Being — to Know Thyself.</li>
                         </ol>
                     </section>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <h3>COURSE OVERVIEW</h3>
                             <p>The curriculum of the College of Thelema is broken into four consecutive Courses, which deal progressively with the practical application of psychology, Thelemic philosophy, qabalah, astrology, and magick.</p>
                             <p>Once enrolled, the Student has two years to complete the Course. If, at the end of this period, the Student has not completed the course work but would like to remain enrolled, extensions can be granted for an additional fee. Other than the two year time frame, there are no other time restrictions on the Student. You are free to work at your own pace, and accumulate a minimum of 60 class hours at your convenience. As an enrolled Student, the resources of the College will be made available to you. You will be assigned a personal teacher, with whom you will be responsible for keeping in contact, for arranging individual sessions and for coordinating examinations and assignments. Additionally, you will be informed of classes, seminars, and other events which you may choose to attend. The amount of your participation is left entirely up to you.</p>
                     </section>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <h3>Application Procedure</h3>
                         <p>Write a detailed letter to the College of Thelema, introducing yourself, explaining all aspects of your background you feel to be relevant, and describing your reasons for seeking admission. The mailing addresses of several of the College&apos;s campuses are below. With the letter, be sure to include any transcripts of previous college work. If you do not have two years of college experience, then please explain what experience or background you have that may be equivalent. Please be as objective and candid as possible in your self-assessment.</p>
                         <p>In writing your letter, please include the following information:</p>
@@ -226,7 +226,7 @@ export default function Page() {
                     <h2>Donations and Fundraising</h2>
                     <em>Dear Friends,</em>
                     <strong>Do what thou wilt shall be the whole of the Law.</strong>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <p>This letter is an invitation for you to assist us directly, in any of several ways, in the important work we are undertaking.</p>
                         <p>College of Thelema and Temple of Thelema have been growing and expanding in many ways. One of our accomplishments, in recent years, was the obtaining of our tax exempt status with the Federal government as a non-profit religious organization.</p>
                         <p>This accomplishment is already helping facilitate a more permanent physical vehicle for the College, and for both the Outer and Inner Orders of the Temple work. The foundation of the Temple of Thelema has been assembled, since 1987, through the dedication and commitment of its founders and members; and these individuals continue to give to its growth with their funds, labor, and love. But as the organization grows, extending even further its outward reach to benefit more and more of humanity in general and the occult community in particular, we are also reaching out to invite contributions, of various types, from those such as yourself who make up the greater community.</p>
@@ -234,13 +234,13 @@ export default function Page() {
                         <p>The College of Thelema and Temple of Thelema comprise one such “public benefit” corporation and, if you believe that what we are doing is of real service to you and/or others, this letter is an invitation for you to contribute in whatever way you can and will.</p>
                         <p>The following is a partial list of ways in which you can offer your support to this Order.</p>
                     </section>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <h3>Sponsorship:</h3>
                         <p>
                             Sponsorships can be a contribution either of products or of money, and may be either credited or anonymous as you choose. With a sponsorship, you can direct the particular purpose toward which your contribution is applied. Examples of sponsorships would include: underwriting some or all of the costs &#40;rent, food, advertising, supplies) for any of the public rituals offered by our various groups throughout the year; assisting with the publication of new material (books, monographs, etc.) by the Order; organizing and sponsoring public lectures both locally and in other parts of North America; supporting this present Web page (recently given by Magellan a Four Star rating, the highest rating received by any page on the World Wide Web&#41;.
                         </p>
                     </section>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <h3>Donations:</h3>
                         <p>
                             Outright, unencumbered monetary donations are, of course, always welcome. Contributions of time or needed services are equally appreciated.
@@ -249,7 +249,7 @@ export default function Page() {
                             Any of the types of contributions mentioned above can be partially or fully compensated with a documenting receipt which will allow you a tax deduction for charitable contributions.
                         </p>
                     </section>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <h3>Letters of Support:</h3>
                         <p>
                             <em>ALL</em> support and contributions of any kind — including simply your good wishes! — are truly appreciated. &#40;You have our sincere thanks just for wading through this letter!&#41;

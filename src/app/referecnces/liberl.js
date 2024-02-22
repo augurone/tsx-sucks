@@ -12,7 +12,7 @@ const LiberL = () => (
                 A&there4;A&there4; Publication in Class A<br/>
             </em>
         </hgroup>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <h3>Chapter I</h3>
             <ol>
                 <li>Had! The manifestation of Nuit.</li>
@@ -36,7 +36,7 @@ const LiberL = () => (
                 <li>O azure-lidded woman, bend upon them!</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={20}>
                 <li>The key of the rituals is in the secret word which I have given unto him.</li>
                 <li>With the God &amp; the Adorer I am nothing: they do not see me. They are as upon the earth; I am Heaven, and there is no other God than me, and my lord Hadit.</li>
@@ -52,7 +52,7 @@ const LiberL = () => (
                 <li>For these fools of men and their woes care not thou at all! They feel little; what is, is balanced by weak joys; but ye are my chosen ones.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={32}>
                 <li>Obey my prophet! follow out the ordeals of my knowledge! seek me only! Then the joys of my love will redeem ye from all pain. This is so: I swear it by the vault of my body; by my sacred heart and tongue; by all I can give, by all I desire of ye all.</li>
                 <li>Then the priest fell into a deep trance or swoon, &amp; said unto the Queen of Heaven; Write unto us the ordeals; write unto us the rituals; write unto us the law!</li>
@@ -68,7 +68,7 @@ const LiberL = () => (
                 <li>Do that, and no other shall say nay.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={44}>
                 <li>For pure will, unassuaged of purpose, delivered from the lust of result, is every way perfect.</li>
                 <li>The Perfect and the Perfect are one Perfect and not two; nay, are none!</li>
@@ -80,7 +80,7 @@ const LiberL = () => (
                 <li>There are four gates to one palace; the floor of that palace is of silver and gold; lapis lazuli &amp; jasper are there; and all rare scents; jasmine &amp; rose, and the emblems of death.  Let him enter in turn or at once the four gates; let him stand on the floor of the palace.  Will he not sink? Amn.  Ho! warrior, if thy servant sink? But there are means and means.  Be goodly therefore: dress ye all in fine apparel; eat rich foods and drink sweet wines and wines that foam! Also, take your fill and will of love as ye will, when, where and with whom ye will! But always unto me.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={52}>
                 <li>If this be not aright; if ye confound the space-marks, saying: They are one; or saying, They are many; if the ritual be not ever unto me: then expect the direful judgments of Ra Hoor Khuit!</li>
                 <li>This shall regenerate the world, the little world my sister, my heart &amp; my tongue, unto whom I send this kiss.  Also, o scribe and prophet, though thou be of the princes, it shall not assuage thee nor absolve thee.  But ecstasy be thine and joy of earth: ever To me! To me!</li>
@@ -91,7 +91,7 @@ const LiberL = () => (
                 <li>I give unimaginable joys on earth: certainty, not faith, while in life, upon death; peace unutterable, rest, ecstasy; nor do I demand aught in sacrifice.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={59}>
                 <li>My incense is of resinous woods &amp; gums; and there is no blood therein: because of my hair the trees of Eternity.</li>
                 <li>My number is 11, as all their numbers who are of us.  The Five Pointed Star, with a Circle in the Middle, &amp; the circle is Red. My colour is black to the blind, but the blue &amp; gold are seen of the seeing.  Also I have a secret glory for them that love me.</li>
@@ -106,7 +106,7 @@ const LiberL = () => (
     </article>
     <article id="article--LiberLII" className="article article--fullWidth">
         <h3>Chapter II</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol>
                 <li>Nu! the hiding of Hadit.</li>
                 <li>Come! all ye, and learn the secret that hath not yet been revealed.  I, Hadit, am the complement of Nu, my bride.  I am not extended, and Khabs is the name of my House.</li>
@@ -127,7 +127,7 @@ const LiberL = () => (
                 <li>Hear me, ye people of sighing!<br />&nbsp;&nbsp;&nbsp;The sorrows of pain and regret<br />Are left to the dead and the dying,<br />&nbsp;&nbsp;&nbsp;The folk that not know me as yet.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={18}>
                 <li>These are dead, these fellows; they feel not.  We are not for the poor and sad: the lords of the earth are our kinsfolk.</li>
                 <li>Is a God to live in a dog? No! but the highest are of us.  They shall rejoice, our chosen: who sorroweth is not of us.</li>
@@ -138,7 +138,7 @@ const LiberL = () => (
                 <li>Behold! these be grave mysteries; for there are also of my friends who be hermits.  Now think not to find them in the forest or on the mountain; but in beds of purple, caressed by magnificent beasts of women with large limbs, and fire and light in their eyes, and masses of flaming hair about them; there shall ye find them.  Ye shall see them at rule, at victorious armies, at all the joy; and there shall be in them a joy a million times greater than this.  Beware lest any force another, King against King! Love one another with burning hearts; on the low men trample in the fierce lust of your pride, in the day of your wrath. </li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={25}>
                 <li>Ye are against the people, O my chosen!</li>
                 <li>I am the secret Serpent coiled about to spring: in my coiling there is joy.  If I lift up my head, I and my Nuit are one.  If I droop down mine head, and shoot forth venom, then is rapture of the earth, and I and the earth are one.</li>
@@ -165,7 +165,7 @@ const LiberL = () => (
                 <li>Where I am these are not.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={48}>
                 <li>Pity not the fallen! I never knew them.  I am not for them.  I console not: I hate the consoled &amp; the consoler.</li>
                 <li>I am unique &amp; conqueror.  I am not of the slaves that perish.  Be they damned &amp; dead! Amen.  (This is of the 4: there is a fifth who is invisible, &amp; therein am I as a babe in an egg.)</li>
@@ -179,7 +179,7 @@ const LiberL = () => (
                 <li>He that is righteous shall be righteous still; he that is filthy shall be filthy still.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={58}>
                 <li>Yea! deem not of change: ye shall be as ye are, &amp; not other. Therefore the kings of the earth shall be Kings for ever: the slaves shall serve.  There is none that shall be cast down or lifted up: all is ever as it was.  Yet there are masked ones my servants: it may be that yonder beggar is a King.  A King may choose his garment as he will: there is no certain test: but a beggar cannot hide his poverty.</li>
                 <li>Beware therefore! Love all, lest perchance is a King concealed! Say you so? Fool! If he be a King, thou canst not hurt him.</li>
@@ -195,7 +195,7 @@ const LiberL = () => (
                 <li>Ah! Ah! What do I feel? Is the word exhausted?</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={70}>
                 <li>There is help &amp; hope in other spells. Wisdom says: be strong! Then canst thou bear more joy.  Be not animal; refine thy rapture! If thou drink, drink by the eight and ninety rules of art: if thou love, exceed by delicacy; and if thou do aught joyous, let there be subtlety therein!</li>
                 <li>But exceed! exceed!</li>
@@ -212,7 +212,7 @@ const LiberL = () => (
     </article>
     <article id="article--LiberLIII" className="article article--fullWidth">
         <h3>Chapter III</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol>
                 <li>Abrahadabra; the reward of Ra Hoor Khut.</li>
                 <li>There is division hither homeward; there is a word not known. Spelling is defunct; all is not aught.  Beware! Hold! Raise the spell of Ra-Hoor-Khuit!</li>
@@ -232,7 +232,7 @@ const LiberL = () => (
                 <li>Deem not too eagerly to catch the promises; fear not to undergo the curses.  Ye, even ye, know not this meaning all.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={17}>
                 <li>Fear not at all; fear neither men nor Fates, nor gods, nor anything.  Money fear not, nor laughter of the folk folly, nor any other power in heaven or upon the earth or under the earth. Nu is your refuge as Hadit your light; and I am the strength, force, vigour, of your arms.</li>
                 <li>Mercy let be off; damn them who pity! Kill and torture; spare not; be upon them!</li>
@@ -249,7 +249,7 @@ const LiberL = () => (
                 <li>Moreover, be they long kept, it is better; for they swell with my force.  All before me.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={30}>
                 <li>My altar is of open brass work: burn thereon in silver or gold!</li>
                 <li>There cometh a rich man from the West who shall pour his gold upon thee.</li>
@@ -261,7 +261,7 @@ const LiberL = () => (
                 <li>I adore thee in the song &mdash;<br />I am the Lord of Thebes, and I<br />&nbsp;&nbsp;&nbsp;The inspired forth-speaker of Mentu;<br />For me unveils the veiled sky,<br />&nbsp;&nbsp;&nbsp;The self-slain Ankh-af-na-khonsu<br />Whose words are truth.  I invoke, I greet<br />&nbsp;&nbsp;&nbsp;Thy presence, O Ra-Hoor-Khuit! Unity uttermost showed!<br />&nbsp;&nbsp;&nbsp;I adore the might of Thy breath,<br />Supreme and terrible God,<br />&nbsp;&nbsp;&nbsp;Who makest the gods and death<br />To tremble before Thee:&mdash;<br />&nbsp;&nbsp;&nbsp;I, I adore thee! Appear on the throne of Ra!<br />&nbsp;&nbsp;&nbsp;Open the ways of the Khu!<br />Lighten the ways of the Ka!<br />&nbsp;&nbsp;&nbsp;The ways of the Khabs run through<br />To stir me or still me!<br />&nbsp;&nbsp;&nbsp;Aum! let it fill me!</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={38}>    
                 <li>So that thy light is in me; &amp; its red flame is as a sword in my hand to push thy order.  There is a secret door that I shall make to establish thy way in all the quarters, (these are the adorations, as thou hast written), as it is said:<br />The light is mine; its rays consume<br />&nbsp;&nbsp;&nbsp;Me: I have made a secret door<br />Into the House of Ra and Tum,<br />&nbsp;&nbsp;&nbsp;Of Khephra and of Ahathoor.<br />I am thy Theban, O Mentu,<br />&nbsp;&nbsp;&nbsp;The prophet Ankh-af-na-khonsu!<br/>By Bes-na-Maut my breast I beat;<br />&nbsp;&nbsp;&nbsp;By wise Ta-Nech I weave my spell.<br />Show thy star-splendour, O Nuit!<br />&nbsp;&nbsp;&nbsp;Bid me within thine House to dwell,<br />O wing&egrave;d snake of light, Hadit!<br />&nbsp;&nbsp;&nbsp;Abide with me, Ra-Hoor-Khuit!</li>
                 <li>All this and a book to say how thou didst come hither and a reproduction of this ink and paper for ever &mdash; for in it is the word secret &amp; not only in the English &mdash; and thy comment upon this the Book of the Law shall be printed beautifully in red ink and black upon beautiful paper made by hand; and to each man and woman that thou meetest, were it but to dine or to drink at them, it is the Law to give.  Then they shall chance to abide in this bliss or no; it is no odds.  Do this quickly!</li>
@@ -269,7 +269,7 @@ const LiberL = () => (
                 <li>Establish at thy Kaaba a clerk-house: all must be done well and with business way.</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={42}>        
                 <li>The ordeals thou shalt oversee thyself, save only the blind ones.  Refuse none, but thou shalt know &amp; destroy the traitors. I am Ra-Hoor-Khuit; and I am powerful to protect my servant. Success is thy proof: argue not; convert not; talk not over much! Them that seek to entrap thee, to overthrow thee, them attack without pity or quarter; &amp; destroy them utterly.  Swift as a trodden serpent turn and strike! Be thou yet deadlier than he! Drag down their souls to awful torment: laugh at their fear: spit upon them!</li>
                 <li>Let the Scarlet Woman beware! If pity and compassion and tenderness visit her heart; if she leave my work to toy with old sweetnesses; then shall my vengeance be known.  I will slay me her child: I will alienate her heart: I will cast her out from men: as a shrinking and despised harlot shall she crawl through dusk wet streets, and die cold and an-hungered.</li>
@@ -278,7 +278,7 @@ const LiberL = () => (
                 <li>I am the warrior Lord of the Forties: the Eighties cower before me, &amp; are abased.  I will bring you to victory &amp; joy: I will be at your arms in battle &amp; ye shall delight to slay.  Success is your proof; courage is your armour; go on, go on, in my strength; &amp; ye shall turn not back for any!</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={47}>
                 <li>This book shall be translated into all tongues: but always with the original in the writing of the Beast; for in the chance shape of the letters and their position to one another: in these are mysteries that no Beast shall divine.  Let him not seek to try: but one cometh after him, whence I say not, who shall discover the Key of it all.  Then this line drawn is a key: then this circle squared in its failure is a key also.  And Abrahadabra.  It shall be his child &amp; that strangely.  Let him not seek after this; for thereby alone can he fall from it.</li>    
                 <li>Now this mystery of the letters is done, and I want to go on to the holier place.</li>
@@ -295,7 +295,7 @@ const LiberL = () => (
                 <li>As brothers fight ye!</li>
             </ol>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <ol start={60}>
                 <li>There is no law beyond Do what thou wilt.</li>
                 <li>There is an end of the word of the God enthroned in Ra&apos;s seat, lightening the girders of the soul.</li>

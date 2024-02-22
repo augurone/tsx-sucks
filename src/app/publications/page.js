@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../../../node_modules/next/image';
 import Navbar from '../components/navitgation/nav';
 import Footer from '../components/navitgation/footer';
+import AmazonLogo from '../vectors/Amazon_logo';
 
 export default function Page() {
     return (
@@ -30,10 +31,11 @@ export default function Page() {
                                         <h4><strong>Pearls of Wishom</strong></h4>
                                         <span>James A. Eshelman</span>
                                     </hgroup>
-                                    <strong><em>This is the “director&apos;s cut” of Black Pearl — and more!</em></strong>
+                                    <strong><em>This is the “director&apos;s cut” of Black Pearl — and more!</em></strong> <br /><br />
+                                    <a href="https://www.amazon.com/Pearls-Wisdom-Journal-Black-Pearl/dp/0970449658/ref=sr_1_1?crid=K2UDGJQAJNIT&dib=eyJ2IjoiMSJ9.wPFLXSDxZGP6QnuhCyrIXcOFBYorjnE3QD2G02rZO1NRzyWwFGeduXOy-Wfr7Tf1.f-sAfRaRQ2J851XWrGXyr7oMwco792tdKZ-V8hcLBwE&dib_tag=se&keywords=pearls+of+wisdom+eshelman&qid=1708551329&sprefix=Pearls+of+Wisdom+eshel%2Caps%2C170&sr=8-1" target="_blank">Find this title on: <AmazonLogo/> </a>
                                 </aside>
                             </div>
-                            <figcaption>
+                            <figcaption className="wrapper-text">
                                 <h4><strong>&quot;A Black Pearl of Infinite Preciousness&quot;</strong></h4>
                                 <p>&quot;Seek the New in the Old ~ Seek the Old in the New.&quot; That was the motto of Black Pearl, Temple of Thelema / College of Thelema&apos;s biannual journal published 1997-2002. Author James A. Eshelman contributed 100 articles during one of the most prolific periods of his career. This anthology gathers over 40 essays, many of them substantially updated and expanded, and some of them never previously published.</p>
                                 <p>An Introduction to Thelema - the ground shifting world-view of Aleister Crowley — explains Thelema&apos;s core principles of Will, Love, and Star, then expands on the nature of True Will and Love Under Will; Thelema&apos;s pantheon of gods; and the New Era of Aspiration now opening before us. The rest of the book is organized in 7 parts:</p>
@@ -57,9 +59,11 @@ export default function Page() {
                                             <h4><strong>The Mystical &amp; Magical System of the A&there4;A&there4;</strong></h4>
                                             <span>James A. Eshelman</span>
                                         </hgroup>
+                                        <br />
+                                        <a href="https://www.amazon.com/Mystical-Magical-System-Step-Step/dp/0970449607/ref=sr_1_1?crid=1SGB4MN6ZRRFN&dib=eyJ2IjoiMSJ9.L5Fa7IO8lh8GianM6Kvj2Z1dOA-ipmKKOGA-nt7YDTkPHXRTcCM95HOrR5L83VHTxf4CPztsM2NJuPa2EzMe3MKZksq2yx6GQQ-q5EcTBSPNuPHLOSY1BSNr7xlsfu7IdW9432kSoc1326oQWsK1DjnCkYf-gNMLvc9rtbhskAFRaxkx3mQtMj30K2rMGRYXo9mOgmaStZooFmGMeZBLuqG3lrkO6p0qi7v49O4Zq_g.tOYPqa3bn_9R425zf-ryUFk5N7CkCKa-tv-XPijoXYM&dib_tag=se&keywords=james+a.+eshelman&qid=1708550641&sprefix=James+A.+Es%2Caps%2C151&sr=8-1" target="_blank">Find this title on: <AmazonLogo/> </a>
                                     </aside>
                             </div>
-                            <figcaption>
+                            <figcaption className="wrapper-text">
                                 <blockquote>
                                   <p>In all systems of religion is to be found a system of Initiation, which may be defined as the process by which a [person] comes to learn that unknown Crown. Though none can communicate either the knowledge or the power to achieve this, which we may call the Great Work, it is yet possible for initiates to guide others.</p>
                                     <cite>Aleister Crowley summarizes the nature &amp; purpose of A&there4;A&there4; </cite>
@@ -78,9 +82,11 @@ export default function Page() {
                                             <h4><strong>Visions &amp; Voices:</strong> Aleister Crowley&apos;s Enochian Visions, with Astrological & Qabalistic Commentary</h4>
                                             <span>James A. Eshelman</span>
                                         </hgroup>
+                                        <br />
+                                        <a href="https://www.amazon.com/Visions-Voices-Astrological-Qabalistic-Commentary/dp/097044964X/ref=sr_1_1?crid=35O1F7NQSZQ8P&dib=eyJ2IjoiMSJ9.D-m6VTIyRYFlWWdMXmlwrA.jmXVj2XERaub8OgU70P2jmVRhq-juyLbyJA-IZt6jo8&dib_tag=se&keywords=visions+and+voices+eshelman&qid=1708551444&sprefix=visions+and+voice+eshelman%2Caps%2C167&sr=8-1" target="_blank">Find this title on: <AmazonLogo/> </a>
                                     </aside>
                             </div>
-                            <figcaption>
+                            <figcaption className="wrapper-text">
                                 <strong>The Vision of Wonder is come!</strong>
                                 <p>In 1909, Aleister Crowley and his protégé Victor Neuburg obtained a series of 33 mystical visions. At once beautiful, horrible, and inspiring, these inner world explorations &#40;and two earlier ones&#41; were published in 1911 as The Vision &amp; the Voice.</p>
                                 <p>A classic, both of the Enochian magick of Elizabethan wizard John Dee and of Crowley&apos;s then-emerging Thelemic magick, The Vision &amp; the Voice remains a living work, its value increasing with each generation.</p>
@@ -102,19 +108,18 @@ export default function Page() {
                                             <h4><strong>776&frac12;</strong></h4>
                                             <span>James A. Eshelman</span>
                                         </hgroup>
-                                        <strong>Reigniting the spark of magick in the hearts of a new generation of aspirants!</strong>
+                                        <strong>Reigniting the spark of magick in the hearts of a new generation of aspirants!</strong> <br /><br />
+                                        <a href="https://www.amazon.com/776-Practical-Ceremonial-James-Eshelman/dp/0970449623/ref=sr_1_1?crid=2QSWG2S9H23WZ&dib=eyJ2IjoiMSJ9.DEIAKKmDBesvL1ZlLlvtnPWa0i7zE6UDgC-KLILttZs.rP7t0xBgxOMxLcNRgcbvLfDSpnToKIuTX3ZeKS2Kqi0&dib_tag=se&keywords=776+eshelman&qid=1708551509&sprefix=776+eshelman%2Caps%2C162&sr=8-1" target="_blank">Find this title on: <AmazonLogo/> </a>
                                     </aside>
                             </div>
-                            <figcaption>
+                            <figcaption className="wrapper-text">
                                 <h4><strong>In this new edition, 776&frac12; has grown so much, it should be renamed 776&frac12;!</strong></h4>
-                                <p>Have you ever tried to use <em>Liber 777</em> &#40;really <strong>use</strong> it!&#41; to design and implement magical ritual?</p>
-                                <p>Can you read it without your glasses? Can you read it <strong>with</strong> your glasses?</p>
-                                <p>Can you tell its Gimel from its Nun? Can you <strong>pronounce</strong> the Hebrew names and words in <em>777</em> once you can read them? Can you find your way around its tables quickly and efficiently? &#40;Can you answer &quot;yes&quot; to <strong>any</strong> of these questions?&#41;</p>
+                                <p>Have you ever tried to use <em>Liber 777</em> &#40;really <strong>use</strong> it!&#41; to design and implement magical ritual? Can you read it without your glasses? Can you read it <strong>with</strong> your glasses? Can you tell its Gimel from its Nun? Can you <strong>pronounce</strong> the Hebrew names and words in <em>777</em> once you can read them? Can you find your way around its tables quickly and efficiently? &#40;Can you answer &quot;yes&quot; to <strong>any</strong> of these questions?&#41;</p>
                                 <p>Aleister Crowley&apos;s <em>Liber 777</em> remains one of the most important occult references of the 20th Century, demonstrating the interrelationships of diverse philosophical, religious, mystical, and magical systems from around the world. One of Crowley&apos;s finest contributions to both practical and theoretical philosophy was this correlation of numerous world traditions, of East and West alike. Yet it has never been very handy for the practicing magician.</p>
                                 <p>Now, this extraordinary compilation by James A. Eshelman, titled <strong>776&frac12;,</strong>  is designed exclusively to support <strong>the practice of ceremonial magick.</strong> According to its author, &quot;<em>776&frac12;</em> is not quite <em>777</em>.&quot;</p>
                                 <p><em>776&frac12;</em> contains 182 tables of the most useful practical ceremonial information. Although much of this comes originally from <em>777,</em> most of the tables have been supplemented and expanded. The Hebrew and other letters are large, clear, and readable. The columns have been reorganized into a more useful sequence. Additionally, almost every Hebrew word or Name in the entire work is also transliterated into English to assist the practitioner in pronunciation. Numerous typographical and other mistakes from <em>777</em> have been corrected.</p>
                                 <p>New tables have been added on such topics as: The Genii and Averse Spirits of the 22 Paths from <em>Liber Arcanorum</em> and <em>Liber Carcerorum;</em> the Thelemic, Scandinavian, Assyro-Babylonian, Celtic, Voudoun, and Santeria pantheons; Psychological Attributions of the 32 Paths; use of the Unicursal Hexagram; the Enochian alphabet and three models of its enumeration; and more. Practical correspondences of animals, plants, precious and semiprecious stones, magical weapons, incenses, &quot;magical powers and mystical states,&quot; and others have been expanded.</p>
-                                <p><strong>And that&apos;s just the first half of the book!</strong></p>
+                                <strong>And that&apos;s just the first half of the book!</strong>
                                 <p>Supplementing these extensive lists is a new essay on Ritual Construction &#40;which is also a partial study guide to Crowley&apos;s <em>Magick in Theory & Practice</em>&#41; and <strong>ten sample magick rituals</strong> for such purposes as generating magical force, prosperity, obtaining angelic guardians, remapping your character patterns, the highest spiritual attainments, and The Thelemic Mass.</p>
                                 <p><strong>This third revised edition</strong> expands the already popular 1995 edition with new tables and additional data. The instructional essays have been significantly expanded and updated to incorporate new teaching approaches. A new Appendix contains instructions for frequently used small rituals of banishing, invoking, and energizing — including the never-before-published — <em>Liber Pleiades.</em></p>
                             </figcaption>
@@ -138,7 +143,7 @@ export default function Page() {
                                     <a href="http://www.limitlesslight.org/ITCarchive/ITCvol5.zip" target="_blank"><strong>Volume V:</strong> (1991-1995)</a>
                                 </aside>
                             </div>
-                            <figcaption>
+                            <figcaption className="wrapper-text">
                                 <p>IN THE CONTINUUM is a Thelemic periodical, published by <a href="../college/">College of Thelema®</a> from 1976 through 1995. It features writings by Aleister Crowley that are difficult
                                     &#40;or even impossible&#41; to find in print, or which are basic studies in the understanding of Thelemic
                                     principles expressed in <a href="/aa/#article--LiberL"><em>Liber L. vel Legis</em></a>.</p>
@@ -168,7 +173,7 @@ export default function Page() {
                                     <a href="http://www.limitlesslight.org/BParchive/bp_volI_x-volII_i.zip" target="_blank">Issues 10-11</a>
                                 </aside>
                             </div>
-                            <figcaption>
+                            <figcaption className="wrapper-text">
                                 <p>BLACK PEARL is a Thelemic periodical published by <a href="/college/">College of Thelema</a> from 1997 through 2002. In addition to printing interesting &#40;and often unavailable&#41; pieces by Aleister Crowley, its primary focus was on supporting students of Thelema at all levels and, in particular, using the established legacy of Aleister Crowley and the methods of <a href="/aa">A&there4;A&there4;</a> as a stable platform for the next generation of aspirants.</p>
                                 <p>Continuing the proud tradition of In the Continuum, BLACK PEARL includes articles on Qabalah, tarot, ceremonial magick, astrology, and more to assist the aspirant undertake and fulfill the Great Work. It is particularly strong in the area of magick ritual. Regular features include a column on the Qabalistic analysis of various numbers, a 10-part series of astrological and Qabalistic analysis of <em>The Vision &amp; the Voice,</em> and a continuing series on how to construct magick ceremonial. Each issue is laced with poetry by Aleister Crowley, Soror Meral, and others, and features original artwork.</p>
                                 <p>Eleven issues appeared twice yearly, at the Spring and Autumn Equinoxes. All issues are available in continuing physical or electronic publication. The superior proven value of their instructional content fills a great need among students of Thelema.</p>
@@ -178,7 +183,7 @@ export default function Page() {
                     </figure>
                 </article>
                 <article id="article--monographs" className="article article--fullWidth">
-                    <h3>Monographs</h3>
+                    <h3>Monographs For Download</h3>
                     <ul className="list list--collection collection--4up">
                         <li className="card card--book">
                             <div className="wrapper-img wrapper-img--rect">
@@ -213,7 +218,7 @@ export default function Page() {
                                 <Image width="207" height="267" alt="Liber VII: Liber Liberi vel Lapidis Lazuli &#40;with commentary)" src="/cover_LapisLazuli.webp" style={{backgroundImage: 'url(/cover_LapisLazuli.webp)'}} />
                             </div>
                             <cite><strong>Liber VII: Liber Liberi vel Lapidis Lazuli &#40;with commentary)</strong>(v2.0&#41;</cite><br />
-                            <span>Unattrubted</span>
+                            <span>Unattributed</span>
                         </li>
                     </ul>
                 </article>

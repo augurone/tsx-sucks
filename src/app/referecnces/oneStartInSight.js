@@ -81,7 +81,7 @@ const OneStarInSight = () => (
     {/*-- Page 2 */}
     <article id="article--OneStarInSightII" className="article article--fullWidth">
         <h3 className="liberh3">II</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>The order consists of eleven grades or degrees, and is numbered as follows: these compose three groups, the Orders of the S.S., of the R.C., and of the G.D., respectively.</p>
             <table>
                 <thead>
@@ -197,7 +197,7 @@ const OneStarInSight = () => (
     {/*-- Page 3 */}
     <article id="article--OneStarInSightIII" className="article article--fullWidth">
         <h3 className="liberh3">III</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p><em><strong>The Order of the S.S.</strong></em> is composed of those who have crossed the Abyss; the implications of this expression may be studied in <em>Liber 418</em>, the 14th, 13th, 12th, 11th, 10th and 9th &AElig;thyrs in particular.</p>
             <p>All members of the Order are in full possession of the Formulae of Attainment, both mystical or inwardly-directed and Magical or outwardly-directed. They have full experience of attainment in both these paths.</p>
             <p>They are all, however, bound by the original and fundamental Oath of the Order, to devote their energy to assisting the Progress of their Inferiors in the Order. Those who accept the rewards of their emancipation for themselves are no longer within the Order.</p>
@@ -209,7 +209,7 @@ const OneStarInSight = () => (
     </article>
     <article id="article--OneStarInSightIV" className="article article--fullWidth">
         <h3  className="liberh3">IV</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>The Grade of Ipsissimus is not to be described fully; but its opening is indicated in <em>Liber I vel Magi</em>.</p>
             <p>There is also an account in a certain secret document to be published when propriety permits. Here it is only said this: The Ipsissimus is wholly free from all limitations soever, existing in the nature of all things without discriminations of quantity or quality between them. He has identified Being and not-Being and Becoming, action and non-action and tendency to action, with all other such triplicities, not distinguishing between them in respect of any conditions, or between any one thing and any other thing as to whether it is with or without conditions.</p>
             <p>He is sworn to accept this Grade in the presence of a witness, and to express its nature in word and deed, but to withdraw Himself at once within the veils of his natural manifestation as a man, and to keep silence during his human life as to the fact of his attainment, even to the other members of the Order.</p>
@@ -219,7 +219,7 @@ const OneStarInSight = () => (
     </article>
     <article id="article--OneStarInSightV" className="article article--fullWidth">
         <h3  className="liberh3">V</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
         <p>The Grade of Magus is described in <em>Liber I vel Magi</em>, and there are accounts of its character in <em>Liber 418</em> in the Higher Aethyrs.</p>
         <p>There is also a full and precise description of the attainment of this Grade in the <em>Magical Record of the Beast 666</em>.</p>
         <p>The essential characteristic of the Grade is that its possessor utters a Creative Magical Word, which transforms the planet on which he lives by the installation of new officers to preside over its initiation. This can take place only at an &quot;Equinox of the Gods&quot; at the end of an &quot;Aeon&quot;; that is, when the secret formula which expresses the Law of its action becomes outworn and useless to its further development.</p>
@@ -232,7 +232,7 @@ const OneStarInSight = () => (
     </article>
     <article id="article--OneStarInSightVI" className="article article--fullWidth">
         <h3  className="liberh3">VI</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
         <p>The Grade of Master of the Temple is described in <em>Liber 418</em> as above indicated. There are full accounts in the Magical Diaries of the Beast 666, who was cast forth into the Heaven of Jupiter, and of Omnia in Uno, Unus in Omnibus, who was cast forth into the sphere of the Elements.</p>
         <p>The essential Attainment is the perfect annihilation of that personality which limits and oppresses his true self.</p>
         <p>The Magister Templi is pre-eminently the Master of Mysticism, that is, His Understanding is entirely free from internal contradiction or external obscurity; His word is to comprehend the existing Universe in accordance with His own Mind. He is the Master of the Law of Sorrow &#40;Dukkha&#41;.</p>
@@ -242,13 +242,13 @@ const OneStarInSight = () => (
      {/*-- Page 4 */}
      <article id="article--OneStarInSightVII"  className="article article--fullWidth">
         <h3 className="liberh3">VII</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
         <p><em><strong>The Order of the R.C.</strong></em><strong> </strong>The Grade of the Babe of the Abyss is not a Grade in the proper sense, being rather a passage between the two Orders. Its characteristics are wholly negative, as it is attained by the resolve of the Adeptus Exemptus to surrender all that he has and is for ever. It is an annihilation of all the bonds that compose the self or constitute the Cosmos, a resolution of all complexities into their elements, and these thereby cease to manifest, since things are only knowable in respect of their relation to, and reaction on, other things.</p>
         </section>
     </article>
     <article  id="article--OneStarInSightVIII"  className="article article--fullWidth">
         <h3 className="liberh3">VIII</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>The Grade of Adeptus Exemptus confers authority to govern the two lower Orders of R.C. and G.D.</p>
             <p>The Adept must prepare and publish a thesis setting forth His knowledge of the Universe, and his proposals for its welfare and progress. He will thus be known as the leader of a school of thought.</p>
             <p>(Eliphas Levi&apos;s <em>Clef des Grands Mysteres</em>, the works of Swedenborg, von Eckartshausen, Robert Fludd, Paracelsus, Newton, Bolyai, Hinton, Berkeley, Loyola, etc., etc., are examples of such essays.)</p>
@@ -256,13 +256,13 @@ const OneStarInSight = () => (
             <p>To attain the Grade of Magister Templi, he must perform two tasks; the emancipation from thought by putting each idea against its opposite, and refusing to prefer either; and the consecration of himself as a pure vehicle for the influence of the order to which he aspires.</p>
             <p>He must then decide upon the critical adventure of our Order; the absolute abandonment of himself and his attainments. He cannot remain indefinitely an Exempt Adept; he is pushed onward by the irresistible momentum that he has generated.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>Should he fail, by will or weakness, to make his self-annihilation absolute, he is none the less thrust forth into the Abyss; but instead of being received and reconstructed in the Third Order, as a Babe in the womb of our Lady BABALON, under the Night of Pan, to grow up to be Himself wholly and truly as He was not previously, he remains in the Abyss, secreting his elements round his Ego as if isolated from the Universe, and becomes what is called a &quot;Black Brother.&quot; Such a being is gradually disintegrated from lack of nourishment and the slow but certain action of the attraction of the rest of the Universe, despite his now desperate efforts to insulate and protect himself, and to aggrandise himself by predatory practices. He may indeed prosper for a while, but in the end he must perish, especially when with a new &AElig;on a new word is proclaimed which he cannot and will not hear, so that he is handicapped by trying to use an obsolete method of Magick, like a man with a boomerang in a battle where everyone else has a rifle.</p>
         </section>
     </article>
     <article id="article--OneStarInSightIX"  className="article article--fullWidth">
         <h3 className="liberh3">IX</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
         <p>The Grade of Adeptus Major confers Magical Powers &#40;strictly so-called&#41; of the second rank.</p>
         <p>His work is to use these to support the authority of the Exempt Adept his superior. &#40;This is not to be understood as an obligation of personal subservience or even loyalty; but as a necessary part of his duty to assist his inferiors. For the authority of the Teaching and Governing Adept is the basis of all orderly work.&#41; </p>
         <p>To attain the Grade of Adeptus Exemptus, he must accomplish Three Tasks; the acquisition of absolute Self-Reliance, working in complete isolation, yet transmitting the word of his superior clearly, forcibly and subtly; and the comprehension and use of the Revolution of the wheel of force, under its three successive forms of Radiation, Conduction and Convection (Mercury, Sulphur, Salt; or Sattvas, Rajas, Tamas), with their corresponding natures on other planes. Thirdly, he must exert his whole power and authority to govern the Members of lower Grades with balanced vigour and initiative in such a way as to allow no dispute or complaint; he must employ to this end the formula called &quot;The Beast conjoined with the Woman&quot; which establishes a new incarnation of deity; as in the legends of Leda, Semele, Miriam, Pasiphae, and others. He must set up this ideal for the orders which he rules, so that they may possess a not too abstract rallying-point suited to their undeveloped states.</p>
@@ -270,12 +270,12 @@ const OneStarInSight = () => (
     </article>
     <article  id="article--OneStarInSightX"  className="article article--fullWidth">
         <h3 className="liberh3">X</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
         <p>The Grade of Adeptus Minor is the main theme of the instructions of the A&there4;A&there4;. It is characterised by the Attainment of the Knowledge and Conversation of the Holy Guardian Angel. &#40;See the <em>Equinox</em>, <em>The Temple of Solomon the King</em>; <em>The Vision and the Voice</em> 8th Aethyr; also <em>Liber Samekh</em>, etc. etc.&#41; This is the essential work of every man; none other ranks with it either for personal progress or for power to help one&apos;s fellows. This unachieved, man is no more than the unhappiest and blindest of animals. He is conscious of his own incomprehensible calamity, and clumsily incapable of repairing it. Achieved, he is no less than the co-heir of gods, a Lord of Light. He is conscious of his own consecrated course, and confidently ready to run it. The Adeptus Minor needs little help or guidance even from his superiors in our Order.</p>
             <p>His work is to manifest the Beauty of the Order to the world, in the way that his superiors enjoin and his genius dictates.</p>
             <p>To attain the Grade Adeptus Major, he must accomplish two tasks; the equilibration of himself, especially as to his passions, so that he has no preference for any one course of conduct over another, and the fulfilment of every action by its complement, so that whatever he does leaves him without temptation to wander from the way of his True Will.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>Secondly, he must keep silence, while he nails his body to the tree of his creative will, in the shape of that Will, leaving his head and arms to form the symbol of Light, as if to make oath that his every thought, word and deed should express the Light derived from the God with which he has identified his life, his love and his liberty - symbolised by his heart, his phallus, and his legs. It is impossible to lay down precise rules by which a man may attain to the knowledge and conversation of His Holy Guardian Angel; for that is the particular secret of each one of us; a secret not to be told or even sectionined by any other, whatever his grade. It is the Holy of Holies, whereof each man is his own High Priest, and none knoweth the Name of his brother&apos;s God, or the Rite that invokes Him.</p>
             <p>The Masters of the A&there4;A&there4; have therefore made no attempt to institute any regular ritual for this central Work of their Order, save the generalised instructions in <em>Liber 418</em> &#40;the 8th Aethyr&#41; and the detailed Canon and Rubric of the Mass actually used with success by FRATER PERDURABO in His attainment. This has been written down by Himself in <em>Liber Samekh</em>. But they have published such accounts as those in <em>The Temple of Solomon the King</em> and in <em>John St. John</em>. They have taken the only proper course; to train aspirants to this attainment in the theory and practice of the whole of Magick and Mysticism, so that each man may be expert in the handling of all known weapons, and free to choose and to use those which his own experience and instinct dictate as proper when he essays the Great Experiment.</p>
             <p>He is furthermore trained to the one habit essential to Membership of the A&there4;A&there4;; he must regard all his attainments as primarily the property of those less advanced aspirants who are confided to his charge.</p>
@@ -284,7 +284,7 @@ const OneStarInSight = () => (
 
      <article id="article--OneStarInSightSuccession" className="article article--fullWidth">
         <h3>Attainment &amp; Success&#40;ion&#41;</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>No attainment soever is officially recognised by the A&there4;A&there4; unless the immediate inferior of the person in question has been fitted by him to take his place.</p>
             <p>The rule is not rigidly applied in all cases, as it would lead to congestion, especially in the lower grades where the need is greatest, and the conditions most confused; but it is never relaxed in the Order of the R.C. or of the S.S.: save only in One Case.</p>
             <p>There is also a rule that the Members of the A&there4;A&there4; shall not know each other officially, save only each Member his superior who introduced him and his inferior whom he has himself introduced.</p>
@@ -292,7 +292,7 @@ const OneStarInSight = () => (
             <p>The Grades of the Order of the G.D. are fully described in <em>Liber 185*</em>, and there is no need to amplify what is there stated. It must however, be carefully remarked that in each of these preliminary Grades there are appointed certain tasks appropriate, and that the ample accomplishment of each and every one of these is insisted upon with the most rigorous rigidity. </p>
             <p>Members of the A&there4;A&there4; of whatever grade are not bound or expected or even encouraged to work on any stated lines, or with any special object, save as has been above set forth. There is however an absolute prohibition to accept money or other material reward, directly or indirectly, in respect of any service connected with the Order, for personal profit or advantage. The penalty is immediate expulsion, with no possibility of reinstatement on any terms soever.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>But all members must of necessity work in accordance with the facts of Nature, just as an architect must allow for the Law of Gravitation, or a sailor reckon with currents.</p>
             <p>So must all Members of the A&there4;A&there4; work by the Magical Formula of the Aeon.</p>
             <p>They must accept the <em>Book of the Law</em> as the Word and the Letter of Truth, and the sole Rule of Life.** They must acknowledge the Authority of the Beast 666 and of the Scarlet Woman as in the book it is defined, and accept Their Will&#8224; as concentrating the Will of our Whole Order. They must accept the Crowned and Conquering Child as the Lord of the Aeon, and exert themselves to establish His reign upon Earth. They must acknowledge that &quot;The word of the Law is Thelema&quot; and that &quot;Love is the law, love under will.&quot;</p>
@@ -300,7 +300,7 @@ const OneStarInSight = () => (
             <p>He must accept those orders in the <em>Book of the Law</em> that apply to himself as being necessarily in accordance with his own true will, and execute the same to the letter with all the energy, courage, and ability that he can command. This applies especially to the work of extending the Law in the world, wherein his proof is his own success, the witness of his Life to the Law, that hath given him light in his ways, and liberty to pursue them. Thus doing, he payeth his debt to the Law that hath freed him by working its will to free all men; and he proveth himself a true man in our Order by willing to bring his fellows into freedom.</p>
             <p>By thus ordering his disposition, he will fit himself in the best possible manner for the task of understanding and mastering the sectioners technical methods prescribed by the A&there4;A&there4; for Mystical and Magical attainment.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>He will thus prepare himself properly for the crisis of his career in the Order, the attainment of the Knowledge and Conversation of his Holy Guardian Angel.</p>
             <p>His Angel shall lead him anon to the summit of the Order of the R.C. and make him ready to face the unspeakable terror of the Abyss which lies between Manhood and Godhead; teach him to Know that agony, to Dare that Destiny, to Will that catastrophe, and to keep Silence for ever as he accomplishes the act of annihilation.</p>
             <p>From the Abyss comes No Man forth, but a Star startles the Earth, and our Order rejoices above that Abyss that the Beast hath begotten one more Babe in the Womb of Our Lady, His Concubine, the Scarlet Woman, BABALON.</p>
@@ -310,13 +310,13 @@ const OneStarInSight = () => (
      </article>
      <article id="article--OneStarInSightConclude" className="article article--fullWidth">
         <h3>To Conclude</h3>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>Such is a brief account, adapted as far as may be to the average aspirant to Adeptship, or Attainment, or Initiation, or Mastership, or Union with God, or Spiritual Development, or Mahatmaship, or Freedom, or Occult Knowledge, or whatever he may call his inmost need of Truth, of our Order of A&there4;A&there4;.</p>
             <p>It is designed principally to awake interest in the possibilities of human progress, and to proclaim the principles of the A&there4;A&there4;.</p>
             <p>The outline given of the several successive steps is exact; the two crises - the Angel and the Abyss - are necessary features in every career. The other tasks are not always accomplished in the order given here; one man, for example, may acquire many of the qualities peculiar to the Adeptus Major, and yet lack some of those proper to the Practicus.* But the system here given shows the correct order of events, as they are arranged in Nature; and in no case is it safe for a man to neglect to master any single detail, however dreary and distasteful it may seem. It often does so, indeed; that only insists on the necessity of dealing with it. The dislike and contempt for it bear witness to a weakness and incompleteness in the nature which disowns it; that particular gap in one&apos;s defences may admit the enemy at the very turning-point of some battle. Worse, one were shamed forever if one&apos;s inferior should happen to ask for advice and aid on that subject and one were to fail in service to him! His failure - one&apos;s own failure also! No step, however well won for oneself, till he is ready for his own advance!</p>
             <p>Every Member of the A&there4;A&there4; must be armed at all points, and expert with every weapon. The examinations in every Grade are strict and severe; no loose or vague answers are accepted. In intellectual questions, the candidate must display no less mastery of his subject than if he were entered in the &quot;final&quot; for Doctor of Science or Law at a first class University.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
         <p>In examination of physical practices, there is a standardised test. In Asana, for instance, the candidate must remain motionless for a given time, his success being gauged by poising on his head a cup filled with water to the brim; if he spill one drop, he is rejected.</p>
             <p>He is tested in &quot;the Spirit Vision&quot; or &quot;Astral Journeying&quot; by giving him a symbol unknown and unintelligible to him, and he must interpret its nature by means of a vision as exactly as if he had read its name and description in the book when it was chosen.</p>
             <p>The power to make and &quot;charge&quot; talismans is tested as if they were scientific instruments of precision, as they are.</p>
@@ -325,7 +325,7 @@ const OneStarInSight = () => (
             <p>By such methods, the A&there4;A&there4; intends to make occult science as systematic and scientific as chemistry; to rescue it from the ill repute which, thanks both to the ignorant and dishonest quacks that have prostituted its name, and to the fanatical and narrow-minded enthusiasts that have turned it into a fetish, has made it an object of aversion to those very minds whose enthusiasm and integrity make them most in need of its benefits, and most fit to obtain them.</p>
             <p>It is the one really important science, for it transcends the conditions of material existence and so is not liable to perish with the planet, and it must be studied as a science, sceptically, with the utmost energy and patience.</p>
         </section>
-        <section className="wrapper-text--columns">
+        <section className="wrapper-text wrapper-text--columns">
             <p>The A&there4;A&there4; possesses the secrets of success; it makes no secret of its knowledge, and if its secrets are not everywhere known and practised, it is because the abuses connected with the name of occult science disincline official investigators to examine the evidence at their disposal.</p>
             <p>This paper has been written not only with the object of attracting insectionidual seekers into the way of Truth, but of affirming the propriety of the methods of the A&there4;A&there4; as the basis for the next great step in the advance of human knowledge.</p>
             <p>Love is the law, love under will.</p>

@@ -158,7 +158,7 @@ export default async function Home() {
                         <ul className="list list--flex list--thumbnails u-justify--evenly">
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.png" style={{backgroundImage: 'url(/liberL_cover.png)'}} />
+                                    <Image alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.webp" style={{backgroundImage: 'url(/liberL_cover.webp)'}} />
                                 </div>
                                 <span>Liber L</span>
                                 <Link aria-label="Book of the Law" className="link link--blocker" href="aa/#article--LiberL" prefetch={true}></Link>
@@ -179,7 +179,7 @@ export default async function Home() {
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image alt="COT Campuses and Study Groups" width="62"  height="62" src="/classes.png" style={{backgroundImage: 'url(/classes.png)'}} />
+                                    <Image alt="COT Campuses and Study Groups" width="62"  height="62" src="/classes.webp" style={{backgroundImage: 'url(/classes.webp)'}} />
                                 </div>
                                 <span>Classes</span>
                                 <Link aria-label="College of Thelema Classes" className="link link--blocker" href="college/#article--locations" prefetch={true}></Link>
@@ -210,9 +210,9 @@ export default async function Home() {
             <section>
                 <h2>A Modern Mystery School</h2>
                 <article className="article article--fullWidth">
-                    <h3>A Message From the Chancellor</h3>
+                    <h3>A Message From the Vice Chancellor</h3>
                     <strong>Do what thou wilt shall be the whole of the Law.</strong>
-                    <section className="wrapper-text--columns">
+                    <section className="wrapper-text wrapper-text--columns">
                         <p>
                             Magick is transformative, a process of self-refinement that completely renews our personality toward greater alignment with universal love and will. Magick reveals that there is far more to the universe than meets the eye. It enhances our own natural human powers through proven exercises. It contributes to our understanding of who and what we are, and gives us the tools to achieve whatever purpose that discovery unveils.
                         </p>
@@ -231,7 +231,7 @@ export default async function Home() {
                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                         <li>
                             <div className="wrapper-img wrapper-img--large">
-                                <img alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '50% 0'}}/>
+                                <Image width="62" height="62" alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '50% 0'}}/>
                             </div>
                             <span className="text text--medium">
                                 Zeph Bender <br />

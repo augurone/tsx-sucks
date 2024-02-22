@@ -49,14 +49,14 @@ export default function Page() {
                     <article className="article article--fullWidth">
                         <Image alt="The AA Star" width="186" height="186" className="img-icon--xLarge" src="/aa_star.png" />
                         <strong>Do what thou wilt shall be the whole of the Law.</strong>
-                        <section className="wrapper-text--columns">
+                        <section className="wrapper-text wrapper-text--columns">
                             <h3>The One True &amp; Invisible Order</h3>
                             <p>A&there4;A&there4; is the one true and invisible Order which has operated under various names and guises throughout history to guide the spiritual evolution of humanity. The goals of the A&there4;A&there4; are those which have motivated spiritual exploration and religious inquiry throughout human history. Its methods are those of science; its aims are those of religion.</p>
                             <p>It is the Arcanum Arcanorum, and the Holy of Holies wherein the Sacred Ark rests inviolate. Every legitimate magical order, mystery school, religion, or other agency disseminating some portion of Wisdom or Light is or has been but an Outer Vehicle of this Inner Fellowship of Light. &#40;All words are sacred and all prophets true; save only that they understand a little...&#41; &#40;Liber Legis, I:56&#41;.</p>
                             <p>This is the highest and purest meaning of A&there4;A&there4;.</p>
                             <p>More commonly, however, we use the name A&there4;A&there4; to mean not only this Invisible and Eternal Order, but a particular outer structure, or terrestrial incarnation of the Interior School, which came into being, beginning in 1906 E.V., at the hands of two Adepts named Aleister Crowley and George Cecil Jones. This Order survives today through various authentic lineages which can be traced back to these two Adepts.</p>
                         </section>
-                        <section className="wrapper-text--columns">
+                        <section className="wrapper-text wrapper-text--columns">
                             <h3>Lineages of the A&there4;A&there4;</h3>
                             <p>Since the death of Aleister Crowley in 1947 there have been no universal Chiefs of the A&there4;A&there4;. Karl Germer &#40;S&there4;H&there4; Frater Saturnus, 8=3&#41;. was the senior living A&there4;A&there4; member at Crowley&apos;s death, and many turned to him for guidance; but he never took up the mantle of governance of the Order. After Germer&aposl;s death, no single person emerged visibly as a central guiding figure.</p>
                             <p>Yet the Order itself has continued, according to its original plan whereby a member of sufficient Grade may admit others to the chain.</p>
@@ -97,7 +97,7 @@ export default function Page() {
                                 </li>
                             </ul>
                         </section>
-                        <section className="wrapper-text--columns">
+                        <section className="wrapper-text wrapper-text--columns">
                             <h3>Admission as Probationer</h3>
                             <p>From its beginning, the A&there4;A&there4; philosophy supported the admission of any interested person soever into the instruction and practice of Scientific Illuminism. In other words — in the earliest years — anyone at all could write to the A&there4;A&there4; and request an interview with a Neophyte who &#40;all things proceeding agreeably to the applicant&#41; would admit the individual as a Probationer &#40;0=0 Grade&#41; forthwith.</p>
                             <p>Unfortunately, this complete &quote;open door&quote; policy resulted in a very high percentage of failures. By early 1912 it was found necessary to make a change in the admission requirements. It was thus ordered &quote;that every person wishing to become a Probationer of A&there4;A&there4; must first pass three months as a Student of the Mysteries.&quote; A specific study and testing curriculum was established for this Student period.</p>

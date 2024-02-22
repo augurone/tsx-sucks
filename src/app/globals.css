@@ -678,6 +678,10 @@ figure.card--book {
     padding-right: 0;
 }
 
+figure.card--book aside {
+    max-width: 100%;
+}
+
 figure.card--book > div {
     flex-shrink: 0;
     width: 220px;
