@@ -1,3 +1,4 @@
+import React from 'react';
 import RichText from '../rte/RichText';
 import MultiSrcImg from '../image/Image';
 import Series from './Series';
@@ -17,10 +18,10 @@ const Event = (event = {}) => {
         registrationLink,
         series
     } = event;
-    const date = new Date(dateAndTime);
-    const formattedDate = date.toLocaleDateString('en-us', { weekday: 'short', month: 'short', day: 'numeric' });
-    const formattedTime = date.toLocaleTimeString('en-us', {hour12: true, hour: '2-digit', minute:'2-digit'});
-    const notThePast = date >= Date.now() 
+    const dateTime = new Date(dateAndTime);
+    const formattedDate = dateTime.toLocaleDateString('en-us', { weekday: 'short', month: 'short', day: 'numeric' });
+    const formattedTime = dateTime.toLocaleTimeString('en-us', {hour12: true, hour: '2-digit', minute:'2-digit'});
+    const notThePast = dateTime.getTime() >= Date.now();
     const timlineString = notThePast ? `${formattedDate} @ ${formattedTime}` : 'Last Event';
 
     return (

@@ -1,4 +1,5 @@
-import { draftMode } from 'next/headers'
+import React from 'react';
+import { draftMode } from 'next/headers';
 import { getAllEvents } from './eventUtils';
 import Event from './Event';
 
@@ -35,7 +36,7 @@ export default async function Events() {
     });
     const [last, ...furtherGone] = past;
     const hero = next ? next : last;
-    const theRealPast = future.length ? past : furtherGone;
+    const theRealPast = next || future.length ? [last, ...furtherGone] : furtherGone;
 
     if (!past.length) return;
 
