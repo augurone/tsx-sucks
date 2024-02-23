@@ -44,7 +44,7 @@ export default async function Events() {
         <>
         { hero &&
         <section className="w-full overflow-hidden relative flex items-start lg:items-center justify-center h-auto min-h-screen mx-auto mt-[-150px] pt-[150px] md:pt-[185px] lg:pt-[150px] pb-8 px-8 lg:pb-24 lg:px-24 mb-16 light">
-            <Event {...hero} hero={true} />
+            <Event {...hero} herochk={true} />
         </section>
         }
         {!!(future.length) &&

@@ -1,15 +1,18 @@
+import React from 'react';
 import RichText from '../rte/RichText';
 
 const Series = ({
-        seriesName,
+        seriesName = '',
         blurb: {
             json: {
-                content: blurb
+                content: blurb = {}
             } = {}
         } = {},
-    } = {}, elevateHierarchy = false) => {
+        elevateHierarchy = false
+    } = {}) => {
 
     if (!(seriesName)) return;
+    
 
     return (
         <aside className={`col-span-5 ${elevateHierarchy ? 'p-4 bg-opacity-75 bg-white rounded-lg 2xl:col-span-2' : ''}`}>
