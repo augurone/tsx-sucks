@@ -1,3 +1,4 @@
+import React from 'react';
 import { draftMode } from 'next/headers'
 import Events from './components/events/Events';
 import Babalon from './vectors/Babalon';
