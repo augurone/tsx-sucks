@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from '../../../../node_modules/next/link';
-import LamenNav from '@/app/vectors/Lamen_Nav';
+import Link from '../../../node_modules/next/link';
+import LamenNav from '@/vectors/Lamen_Nav';
 
 const navConfig = [
     {

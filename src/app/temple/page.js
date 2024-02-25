@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../components/navitgation/nav';
-import Footer from '../components/navitgation/footer';
+import Navbar from '../../components/navitgation/nav';
+import Footer from '../../components/navitgation/footer';
 import Image from '../../../node_modules/next/image';
 
 export default function Page() {

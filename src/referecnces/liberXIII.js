@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../../node_modules/next/image';
+import Image from '../../node_modules/next/image';
 
 const LiberXIII = () => (
     <article id="article--LiberXIII" className="article article--fullWidth article--fitContent">

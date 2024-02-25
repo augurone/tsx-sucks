@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from '../../node_modules/next/image';
 import Link from '../../node_modules/next/link';
-import Socials from './components/socialLinks/Socials';
-import Footer from './components/navitgation/footer';
+import Socials from '../components/socialLinks/Socials';
+import Footer from '../components/navitgation/footer';
 
 export default async function Home() {
   return (

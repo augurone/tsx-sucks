@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from '../../../node_modules/next/image';
-import Navbar from '../components/navitgation/nav';
-import Footer from '../components/navitgation/footer';
-import AmazonLogo from '../vectors/Amazon_logo';
+import Navbar from '../../components/navitgation/nav';
+import Footer from '../../components/navitgation/footer';
+import AmazonLogo from '../../vectors/Amazon_logo';
 
 export default function Page() {
     return (

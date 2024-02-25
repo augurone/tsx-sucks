@@ -1,4 +1,4 @@
-import fetching from '../../utils/fetching';
+import fetching from '../../app/utils/fetching';
 
 // src/utils.js
 const EVENT_GRAPHQL_FIELDS = `

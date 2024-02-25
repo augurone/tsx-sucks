@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from '../../../node_modules/next/image';
-import Navbar from '../components/navitgation/nav';
-import Footer from '../components/navitgation/footer';
-import AccountOfTheOrder from '../referecnces/anAccountOfTheOrder';
-import LegacyOfJaneWolfe from '../referecnces/legacyOfJaneWolfe';
-import LiberL from '../referecnces/liberl';
-import LiberXIII from '../referecnces/liberXIII';
-import OneStarInSight from '../referecnces/oneStartInSight';
+import Navbar from '../../components/navitgation/nav';
+import Footer from '../../components/navitgation/footer';
+import AccountOfTheOrder from '../../referecnces/anAccountOfTheOrder';
+import LegacyOfJaneWolfe from '../../referecnces/legacyOfJaneWolfe';
+import LiberL from '../../referecnces/liberl';
+import LiberXIII from '../../referecnces/liberXIII';
+import OneStarInSight from '../../referecnces/oneStartInSight';
 
 export default function Page() {
     return (
