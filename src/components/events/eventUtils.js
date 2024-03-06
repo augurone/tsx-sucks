@@ -1,7 +1,13 @@
-import fetching from '../../app/utils/fetching';
+import { cdnFetching, gqlFetching } from '../../utils/fetching';
 
 // src/utils.js
 const EVENT_GRAPHQL_FIELDS = `
+  contentfulMetadata {
+    tags {
+        id
+        name
+    }
+  }
   name
   description {
     json
@@ -60,7 +66,7 @@ const extractEventEntries = ({
 
 // Retrieve the list of blog posts from Contentful
 const getAllEvents = async (isDraftMode = false) => {
-    const entries = await fetching(
+    const entries = await gqlFetching(
         `query {
           eventCollection(
             where: { name_exists: true },
@@ -82,6 +88,37 @@ const getAllEvents = async (isDraftMode = false) => {
       return extractEventEntries(entries);
 };
 
+const setContentQry = (ct = '') => {
+    if (!ct) return '';
+
+    if (ct.split(',').length <= 1) return `&content_type=${ct}`;
+
+    return `&sys.contentType.sys.id[in]=${ct}`;
+} 
+
+const flexQuery = (qry) => (qry) ? `&${qry}`: '';
+
+const generalQuery = async ({
+    contentType = 'event',
+    entityType = 'entries',
+    qry = 'metadata.tags.sys.id[in]=babalonSalon',
+    limit = '&limit=3',
+    order = '&order=-fields.dateAndTime'
+} = {}) => {
+    const base = `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/environments/master/${entityType}`;
+    const access = `access_token=${process.env.CONTENTFUL_ACCESS_TOKEN}`;
+    const contentStr = setContentQry(contentType);
+    const queryStr = flexQuery(qry); 
+    const url = `${base}?${access}${contentStr}${queryStr}${limit}${order}`;
+
+    const entries = await cdnFetching(url)
+    .then(data => data)
+    .catch((e) => console.error(e));
+
+    return entries;
+}
+
 export {
+    generalQuery,
     getAllEvents,
 };
