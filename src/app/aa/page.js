@@ -47,7 +47,7 @@ export default function Page() {
                 <section className="pb-8">
                     <h2>The A&there4;A&there4;</h2>
                     <article className="article article--fullWidth">
-                        <Image alt="The AA Star" width="186" height="186" className="img-icon--xLarge" src="/aa_star.png" />
+                        <Image loading="eagert" alt="The AA Star" width="186" height="186" className="img-icon--xLarge" src="/aa_star.png" />
                         <strong>Do what thou wilt shall be the whole of the Law.</strong>
                         <section className="wrapper-text wrapper-text--columns">
                             <h3>The One True &amp; Invisible Order</h3>
@@ -65,7 +65,7 @@ export default function Page() {
                             <ul className="list list--flex list--thumbnails u-justify--evenly u-wrap">
                                 <li>
                                     <div className="wrapper-img wrapper-img--med">
-                                        <Image alt="Aleister Crowley—The Beast" width="62" height="62" src="/profile-crowley_aliester.webp" style={{backgroundImage: 'url(/profile-crowley_aliester.webp)'}} />
+                                        <Image alt="Aleister Crowley—The Beast" width="62" height="62" src="/profile-crowley_aliester.webp" style={{backgroundImage: 'url(/profile-crowley_aliester.webp)'}} loading = 'lazy'/>
                                     </div>
                                     <span className="text text--medium">
                                         Perdurabo
@@ -73,7 +73,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                     <div className="wrapper-img wrapper-img--med">
-                                        <Image alt="Jane Wolf—Soror Estai" width="62" height="62" src="/profile-wolf_jane.webp" style={{backgroundImage: 'url(/profile-wolf_jane.webp) ', backgroundPosition: ' 0 0'}}/>
+                                        <Image alt="Jane Wolf—Soror Estai" width="62" height="62" src="/profile-wolf_jane.webp" style={{backgroundImage: 'url(/profile-wolf_jane.webp) ', backgroundPosition: ' 0 0'}} loading = 'lazy'/>
                                     </div>
                                     <span className="text text--medium">
                                         Estai
@@ -81,7 +81,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                     <div className="wrapper-img wrapper-img--med">
-                                        <Image alt="Phyllis Secklern (Soror Meral)" width="62" height="62" src="/profile-seckler_phyllis.webp" style={{backgroundImage: 'url(/profile-seckler_phyllis.webp'}} />
+                                        <Image alt="Phyllis Secklern (Soror Meral)" width="62" height="62" src="/profile-seckler_phyllis.webp" style={{backgroundImage: 'url(/profile-seckler_phyllis.webp'}} loading = 'lazy'/>
                                     </div>
                                     <span className="text text--medium">
                                        Meral
@@ -89,7 +89,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                     <div className="wrapper-img wrapper-img--med">
-                                        <Image alt="James A. Eshleman—Prolocutor General" width="62" height="62" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} />
+                                        <Image alt="James A. Eshleman—Prolocutor General" width="62" height="62" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} loading = 'lazy'/>
                                     </div>
                                     <span className="text text--medium">
                                         Heru Aur
@@ -105,7 +105,7 @@ export default function Page() {
                             <p>Many years ago, this same approach was adopted by the Soror Estai lineage. While each applicant is required to pass through a formal Student period, many avenues are accepted for accomplishing this. &#40;For clarity, we should mention that beginning with Probationer, the administration of the A&there4;A&there4; Grades is strictly by the criteria established by Aleister Crowley and George Cecil Jones. It is only in the Student, or preparatory, stage that such broad variation is practiced.&#41;</p>
                             <p>Any sincere aspirant seeking to affiliate with the A&there4;A&there4; as a Probationer may write: <a href="mailto:cancellarius@arcanum-arcanorum.org">Cancellarius, A&there4;A&there4;</a></p>
                         </section>
-                        <Image alt="The Seal of the AA" width="186" height="186" className="img-icon--xLarge" src="/seal_of_aa.webp" />
+                        <Image alt="The Seal of the AA" width="186" height="186" className="img-icon--xLarge" src="/seal_of_aa.webp" loading = 'lazy' />
                         <strong>Love is the law, love under will.</strong>
                     </article>
                     <AccountOfTheOrder />

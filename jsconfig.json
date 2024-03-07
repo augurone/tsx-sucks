@@ -5,6 +5,7 @@
     "checkJs": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "moduleResolution": "node" ,
   }
 }

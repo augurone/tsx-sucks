@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar from '../../components/navitgation/nav';
-import Footer from '../../components/navitgation/footer';
+import Navbar from '@/components/navitgation/nav';
+import Footer from '@/components/navitgation/footer';
 import Image from '../../../node_modules/next/image';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Page() {
     return (
@@ -12,9 +13,9 @@ export default function Page() {
                         <div className="wrapper--sticky">
                             <h2>On This Page:</h2>
                             <ul className="list">
-                                <li><a href="#page--top">Temple of Thelema</a></li>
-                                <li><a href="#article--invite">Initiation, Magick, & Mysticism</a></li>
-                                <li><a href="#article--temples">Temples &amp; Membership</a></li>
+                                <li><a href="#page--top" target="_self">Temple of Thelema</a></li>
+                                <li><a href="#article--invite" target="_self">Initiation, Magick, & Mysticism</a></li>
+                                <li><a href="#article--temples" target="_self">Temples &amp; Membership</a></li>
                             </ul>
                         </div>
                     </aside>
@@ -46,7 +47,7 @@ export default function Page() {
                             <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium">
                                 <li>
                                     <div className="wrapper-img wrapper-img--med">
-                                        <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
+                                        <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} loading = 'lazy'/>
                                     </div>
                                     <span className="text text--medium">
                                         Ayesha Adamo <br />
@@ -170,7 +171,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="James A. Eshleman—Prolocutor General" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} />
+                                                <Image height="62" width="62" alt="James A. Eshleman—Prolocutor General" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 James A. Eshleman <br/>
@@ -179,7 +180,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: ' 0 0'}} />
+                                                <Image height="62" width="62" alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: ' 0 0'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Zeph Bender <br />
@@ -190,7 +191,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
+                                                <Image loading="lazy" height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Ayesha Adamo <br />
@@ -199,7 +200,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Chad Augur—Grand Cancellarius" src="/profile-augur_chad.webp" style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: ' 156%'}} />
+                                                <Image loading="lazy" height="62" width="62" alt="Chad Augur—Grand Cancellarius" src="/profile-augur_chad.webp" style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: ' 156%'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Chad Augur <br />
@@ -208,7 +209,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Juan Ramirez—Grand Imperator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} />
+                                                <Image height="62" width="62" alt="Juan Ramirez—Grand Imperator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Juan Ramirez <br />
@@ -221,7 +222,7 @@ export default function Page() {
                                     <h4>Contact Information</h4>
                                     <section className="wrapper--cta">
                                         <h5>Find Us On:</h5>
-                                        <a href="https://www.facebook.com/templeofthelema" target="_blank" title="Temple of Thelema on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                        <a href="https://www.facebook.com/templeofthelema" target="_blank" title="Temple of Thelema on Facebook"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fab', 'facebook-f']} /></a>
                                     </section>
                                 </section>
                             </li>
@@ -231,26 +232,26 @@ export default function Page() {
                                     <h4>Officers</h4>
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                         <li>
-                                        <div className="wrapper-img wrapper-img--med">
-                                            <Image height="62" width="62" alt="Zeph Bender—Praemonstrator" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: ' 0 0'}} />
-                                        </div>
-                                        <span className="text text--medium">
-                                            Zeph Bender <br />
-                                            &#x1F714;
-                                        </span>
+                                            <div className="wrapper-img wrapper-img--med">
+                                                <Image height="62" width="62" alt="Gabriel Osuna—Praemonstrator" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
+                                            </div>
+                                            <span className="text text--medium">
+                                                Gabriel Osuna <br />
+                                                &#x1F714;
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <div className="wrapper-img wrapper-img--med">
+                                                <Image height="62" width="62" alt="Hannah Bender—Cancelarius" src="/profile-bender_hannah.webp" style={{backgroundImage: 'url(/profile-bender_hannah.webp)', backgroundPosition: '50% 20%', backgroundSize: '100%'}} loading = 'lazy' />
+                                            </div>
+                                            <span className="text text--medium">
+                                                Hannah Bender<br />
+                                                &#x263f;
+                                            </span>
                                         </li>
                                         <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image height="62" width="62" alt="Gabriel Osuna—Cancelarius" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} />
-                                        </div>
-                                        <span className="text text--medium">
-                                            Gabriel Osuna <br />
-                                            &#x263f;
-                                        </span>
-                                        </li>
-                                        <li>
-                                        <div className="wrapper-img wrapper-img--med">
-                                            <Image height="62" width="62" alt="Kimberly Manibusan—Imperator" src="/profile-manibusan_kimberly.webp" style={{backgroundImage: 'url(/profile-manibusan_kimberly.webp)', backgroundPosition: '0 0'}} />
+                                            <Image height="62" width="62" alt="Kimberly Manibusan—Imperator" src="/profile-manibusan_kimberly.webp" style={{backgroundImage: 'url(/profile-manibusan_kimberly.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                         </div>
                                         <span className="text text--medium">
                                             Kimberly Manibusan <br />
@@ -264,23 +265,23 @@ export default function Page() {
                                     <address className="text text--medium">
                                         PO BOX 1433<br />
                                         Hawthorne, CA 90251<br />
-                                        <a href="mailto:harpocrates@thelema.org">harpocrates@thelema.org</a><br />
+                                        <a href="mailto:harpocrates@thelema.org" target="_self">harpocrates@thelema.org</a><br />
                                     </address>
                                     <section className="wrapper--cta">
                                         <h5>Find Us On:</h5>
-                                        <a href="https://www.meetup.com/venice-thelema-study-group/" target="_blank" title="College of Thelema Harpocrates Study Group on Meetup"><i className="fa fa-meetup"> </i></a>
-                                        <a href="https://www.facebook.com/groups/thelemaharpocrates/events" target="_blank" title="College of Thelema Harpocrates Study Group on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                        <a className="inline float-left" href="https://www.meetup.com/venice-thelema-study-group/" target="_blank" title="College of Thelema Harpocrates Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a>
+                                        <a className="inline float-left" href="https://www.facebook.com/groups/thelemaharpocrates/events" target="_blank" title="College of Thelema Harpocrates Study Group on Facebook"> <FontAwesomeIcon icon={['fab', 'facebook-f']} /></a> <br />
                                     </section>
                                     <section className="wrapper--cta">
                                         <h5>Download an Application:</h5>
-                                        <a className="text text--medium" href="../files/application_TOT-harpocrates.pdf"><i className="fa fa-file-arrow-down"></i> PDF -- 11kb</a>
+                                        <a className="text text--medium" href="../files/application_TOT-harpocrates.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down',]} />&nbsp;PDF -- 11kb</a>
                                     </section>
                                 </section>
                                 <section>
                                     <h4>Events</h4>
                                     <section className="wrapper--event card--event">
                                         <div className="wrapper-img wrapper-img--rect wrapper--cta">
-                                            <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_ROC_fbbanner.webp"  style={{backgroundImage: 'url(/event_ROC_fbbanner.webp)', backgroundPosition: '0 0'}}/>
+                                            <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_ROC_fbbanner.webp"  style={{backgroundImage: 'url(/event_ROC_fbbanner.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                             <a className="link link--blocker" href="https://www.facebook.com/events/830638938310050" target="_blank"></a>
                                         </div>
                                         <h5>Rite of the Child - July 23rd, V<sup>9</sup></h5>
@@ -297,16 +298,16 @@ export default function Page() {
                                         <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Andrew Ferren—Dean" src="/profile-ferren_andrew.jpg" style={{backgroundImage: 'url(/profile-ferren_andrew.jpg)', backgroundPosition: '0 0'}} />
+                                                        <Image height="62" width="62" alt="Gabriel Osuna—Dean" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
-                                                        Andrew Ferren <br />
+                                                        Gabriel Osuna <br />
                                                         &#x1F714;
                                                     </span>
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" src="/profile-kali_aleph.webp" style={{backgroundImage: 'url(/profile-kali_aleph.webp)', backgroundPosition: '0 0'}} />
+                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" src="/profile-kali_aleph.webp" style={{backgroundImage: 'url(/profile-kali_aleph.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                                     </div>
                                                     <span className="text text--medium">
                                                         Aleph Kali <br />
@@ -315,37 +316,37 @@ export default function Page() {
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Billie Austin—Bursar" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} />
+                                                        <Image height="62" width="62" alt="Billie Austin—Bursar" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
                                                         Billie Austin <br />
                                                         &#x1F70D;
                                                     </span>
                                                 </li>
-                                            </ul>
+                                        </ul>
                                     </section>
                                     <section>
                                         <h4>Resources</h4>
                                         <address className="text text--medium">
                                             195 41st St PO BOX 11194<br />
                                             Oakland, CA 94611-9991<br />
-                                            <a href="mailto:burninghearts@thelema.org">burninghearts@thelema.org</a><br />
+                                            <a href="mailto:burninghearts@thelema.org" target="_self">burninghearts@thelema.org</a><br />
                                         </address>
                                         <section className="wrapper--cta">
                                             <h5>Find Us On:</h5>
-                                            <a href="https://www.meetup.com/college-of-thelma-agape-study-group/" target="_blank" title="College of Thelema Burning Hearts Study Group on Meetup"><i className="fa fa-meetup"> </i></a>
-                                            <a href="https://www.facebook.com/burninghearts93" target="_blank" title="College of Thelema Burning Hearts Study Group on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                            <a className="inline float-left" href="https://www.meetup.com/college-of-thelma-agape-study-group/" target="_blank" title="College of Thelema Burning Hearts Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a>
+                                            <a className="inline float-left" href="https://www.facebook.com/burninghearts93" target="_blank" title="College of Thelema Burning Hearts Study Group on Facebook"> <FontAwesomeIcon icon={['fab', 'facebook-f']} /></a><br />
                                         </section>
                                         <section className="wrapper--cta">
                                             <h5>Download an Application:</h5>
-                                            <a className="text text--medium" href="../files/application_TOT-harpocrates.pdf"><i className="fa fa-file-arrow-down"></i> PDF -- 11kb</a>
+                                            <a className="text text--medium" href="../files/application_TOT-harpocrates.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down']} />&nbsp;PDF -- 11kb</a>
                                         </section>
                                     </section>
                                     <section>
                                         <h4>Events</h4>
                                         <section className="wrapper--event card--event">
                                             <div className="wrapper-img wrapper-img--rect">
-                                                <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}}/>
+                                                <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                                 <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
                                             </div>
                                             <h5>Sidereal Astrology Lab: The Zodiac - July 20, V<sup>9</sup></h5>
@@ -364,7 +365,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Juan Ramirez—Praemonstrator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)', backgroundPosition: '0 0'}} />
+                                                <Image height="62" width="62" alt="Juan Ramirez—Praemonstrator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Juan Ramirez <br />
@@ -373,16 +374,16 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Eric Blitz—Cancelarius" src="/profile-blitz_eric.jpg" style={{backgroundImage: 'url(/profile-blitz_eric.jpg)', backgroundPosition: '0 0'}} />
+                                                <Image height="62" width="62" alt="Lana Popovic—Cancelarius" src="/profile-popovic_lana.webp" style={{backgroundImage: 'url(/profile-popovic_lana.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
-                                                Eric Blitz <br />
+                                                Lana Popovic <br />
                                                 &#x263f;
                                             </span>
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Tamara Wyndham—Imperator" src="/profile-wyndham_tamara.webp" style={{backgroundImage: 'url(/profile-wyndham_tamara.webp)', backgroundPosition: '0 0'}} />
+                                                <Image height="62" width="62" alt="Tamara Wyndham—Imperator" src="/profile-wyndham_tamara.webp" style={{backgroundImage: 'url(/profile-wyndham_tamara.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Tamara Wyndham<br />
@@ -396,23 +397,23 @@ export default function Page() {
                                     <address className="text text--medium">
                                         PO Box 156<br />
                                         New York, NY 10185<br />
-                                        <a href="mailto:aiwass@thelema.org">aiwass@thelema.org</a><br />
+                                        <a href="mailto:aiwass@thelema.org" target="_self">aiwass@thelema.org</a><br />
                                     </address>
                                     <section className="wrapper--cta">
                                         <h5>Find Us On:</h5>
-                                        <a href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup"><i className="fa fa-meetup"> </i></a>
-                                        <a href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                        <a className="inline float-left" href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a> 
+                                        <a className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook"> <FontAwesomeIcon icon={['fab', 'facebook-f']} /></a><br />
                                     </section>
                                     <section className="wrapper--cta">
                                         <h5>Download an Application:</h5>
-                                        <a className="text text--medium" href="../files/application_TOT-aiwass.pdf"><i className="fa fa-file-arrow-down"></i> PDF -- 57kb</a>
+                                        <a className="text text--medium" href="../files/application_TOT-aiwass.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down']} />&nbsp;PDF -- 57kb</a>
                                     </section>
                                 </section>
                                 <section>
                                     <h4>Events</h4>
                                     <section className="wrapper--event card--event">
                                         <div className="wrapper-img wrapper-img--rect">
-                                            <Image height="156" width="276" alt="At WitchFest 7-16 V.8" src="/event_Aiwass-witchfest.webp"  style={{backgroundImage: 'url(/event_Aiwass-witchfest.webp)', backgroundPosition: '0 0'}}/>
+                                            <Image height="156" width="276" alt="At WitchFest 7-16 V.8" src="/event_Aiwass-witchfest.webp"  style={{backgroundImage: 'url(/event_Aiwass-witchfest.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                             <a className="link link--blocker" href="https://www.facebook.com/events/948030722588306" target="_blank"></a>
                                         </div>
                                         <h5>Aiwass @ Witchfest - July 16, V<sup>9</sup></h5>
@@ -420,8 +421,8 @@ export default function Page() {
                                     <section className="wrapper--event wrapper--cta">
                                         <h5>Regular Public Meetings:</h5>
                                         <p className="text text--medium">
-                                            <a href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup"><i className="fa fa-meetup"> </i></a>
-                                            <a href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                            <a className="inline float-left" href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a>
+                                            <a className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook"> <FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>
                                         </p>
                                     </section>
                                 </section>
@@ -433,7 +434,7 @@ export default function Page() {
                                             P. O. Box 81535<br />
                                             1057 Steeles Ave West<br />
                                             North York ON M2R 2S0<br />
-                                            <a href="mailto:hathor@thelema.org">hathor@thelema.org</a>
+                                            <a href="mailto:hathor@thelema.org" target="_self">hathor@thelema.org</a>
                                         </address>
                                     </section>
                                 </section>

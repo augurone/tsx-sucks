@@ -1,3 +1,4 @@
+import React from 'react';
 import Facebook from '../../vectors/Facebook';
 import Instagram from '../../vectors/Instagram';
 import Youtube from '../../vectors/Youtube'

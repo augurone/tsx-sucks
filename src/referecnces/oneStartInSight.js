@@ -9,7 +9,7 @@ const OneStarInSight = () => (
             <em> sub figura CDLXXXIX<br />
             A&there4;A&there4; Publication in Class B</em>
         </hgroup>
-        <div>
+        <div className="flex flex-col">
             <p>
                 Thy feet in mire, thine head in murk,<br />
                 &nbsp;&nbsp;O man, how piteous thy plight,<br />
@@ -65,7 +65,7 @@ const OneStarInSight = () => (
                 Behold within, and not above,<br />
                 &nbsp;&nbsp;One star in sight!
             </p>
-            <Image className="self-center py-8" alt="A&there4;A&there4; star" height="82"  width="85" src="/aa_star.png" />
+            <Image alt="A&there4;A&there4; star" height="85"  width="85" src="/aa_star.png" />
         </div>
         <section>
             <h2 className="liberh2">A glimpse of the structure and system of the Great White Brotherhood A&there4;A&there4;*</h2>

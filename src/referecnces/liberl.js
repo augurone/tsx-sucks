@@ -330,8 +330,8 @@ const LiberL = () => (
             <p className="text-center">Those who discuss the contents of this Book are to be shunned by all, as centres of pestilence.</p>
             <p className="text-center">All questions of the Law are to be decided only by appeal to my writings, each for himself.</p>
             <p className="text-center">There is no law beyond Do what thou wilt.</p>
-            <p className="text-center pt-8">Love is the law, love under will.</p>
-            <div className="w-full flex flex-col justify-center py-8">
+            <p className="text-center py-8">Love is the law, love under will.</p>
+            <div className="w-full flex flex-col justify-center pb-8">
                 <p className="text-center">The priest of the princes,</p>
                 <p className="text-center"><strong>Ankh-f-n-khonsu</strong></p> 
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../../../node_modules/next/image';
 import Navbar from '../../components/navitgation/nav';
 import Footer from '../../components/navitgation/footer';
+import { FontAwesomeIcon } from "../../../node_modules/@fortawesome/react-fontawesome";
 
 export default function Page() {
     return (
@@ -12,9 +13,9 @@ export default function Page() {
                 <div className="wrapper--sticky">
                     <h2>On This Page:</h2>
                     <ul className="list">
-                        <li><a href="#page--top">College of Thelema</a></li>
-                        <li><a href="#article--locations">Classes & Study Groups</a></li>
-                        <li><a href="#article--donate">Donations and Fundraising</a></li>
+                        <li><a href="#page--top" target="_self">College of Thelema</a></li>
+                        <li><a href="#article--locations" target="_self">Classes & Study Groups</a></li>
+                        <li><a href="#article--donate" target="_self">Donations and Fundraising</a></li>
                     </ul>
                 </div>
             </aside>
@@ -26,7 +27,7 @@ export default function Page() {
                         <h3>“Every man and every woman is a star” Liber Legis, I v.3</h3>
                         <div>
                             <span className="wrapper-img wrapper-img--large">
-                                <Image alt="Phyllis Seckler (Soror Meral)" width="93" height="93" src="/profile-seckler_phyllis.webp" style={{backgroundImage: 'url(/profile-seckler_phyllis.webp)'}} />
+                                <Image loading="lazy" alt="Phyllis Seckler (Soror Meral)" width="93" height="93" src="/profile-seckler_phyllis.webp" style={{backgroundImage: 'url(/profile-seckler_phyllis.webp)'}} />
                             </span>
                             <p>
                                 <strong>Founded in service to the A&there4;A&there4;</strong> in the early 1970&apos;s CE by Soror Meral, the College of Thelema seeks to guide the student to an understanding of the Law of Thelema. Most especially, this means a deeper understanding of oneself and of one&apos;s True Will.
@@ -71,7 +72,7 @@ export default function Page() {
                             If necessary, you may be requested to provide further information. If appropriate, you will be contacted for arranging a personal interview with a member of the faculty.
                         </p>
                         <p>
-                            General questions on the College of Thelema may be sent via e-mail to <a href="emailto:admissions@thelema.org">admissions@thelema.org</a>.
+                            General questions on the College of Thelema may be sent via e-mail to <a href="emailto:admissions@thelema.org" target="_self">admissions@thelema.org</a>.
                         </p>
                     </section>
                     <strong>Love is the law, love under will.</strong>
@@ -86,7 +87,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                        <div className="wrapper-img wrapper-img--med">
-                                           <Image alt="Zeph Bender— Chancellor" width="62" height="62" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '0 0'}} />
+                                           <Image alt="Zeph Bender— Chancellor" width="62" height="62" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                        </div>
                                        <span className="text text--medium">
                                            Zeph Bender <br />
@@ -100,12 +101,12 @@ export default function Page() {
                                 <address className="text text--medium">
                                     PO BOX 1433<br />
                                     Hawthorne, CA 90251<br />
-                                    <a href="mailto:harpocrates@thelema.org">harpocrates@thelema.org</a><br />
+                                    <a href="mailto:harpocrates@thelema.org" target="_self">harpocrates@thelema.org</a><br />
                                 </address>
                                 <section className="wrapper--cta">
                                     <h5>Find Us On:</h5>
-                                    <a href="https://www.meetup.com/venice-thelema-study-group/" target="_blank" title="College of Thelema Harpocrates Study Group on Meetup"><i className="fa fa-meetup"> </i></a>
-                                    <a href="https://www.facebook.com/groups/thelemaharpocrates/events" target="_blank" title="College of Thelema Harpocrates Study Group on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                    <a className="inline float-left" href="https://www.meetup.com/venice-thelema-study-group/" target="_blank" title="College of Thelema Harpocrates Study Group on Meetup"><FontAwesomeIcon style={{'float': 'left'}} icon={['fab', 'meetup']}/></a>
+                                    <a className="inline float-left" href="https://www.facebook.com/groups/thelemaharpocrates/events" target="_blank"title="College of Thelema Harpocrates Study Group on Facebook"><FontAwesomeIcon style={{'float': 'left'}} icon={['fab', 'facebook-f']} /></a>
                                 </section>
                             </section>
                             <section>
@@ -113,7 +114,7 @@ export default function Page() {
                                 <p className="text text--medium">Every Other Thursday starting September 1, V<sup>9</sup></p>
                                 <section className="wrapper--event card--event">
                                     <div className="wrapper-img wrapper-img--rect">
-                                        <Image alt="Becoming Human" width="276" height="156" src="/event_Harpocrates_BecomingHuman.webp" style={{backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)', backgroundPosition: '50% 50%'}}/>
+                                        <Image alt="Becoming Human" width="276" height="156" src="/event_Harpocrates_BecomingHuman.webp" style={{backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)', backgroundPosition: '50% 50%'}} loading = 'lazy'/>
                                         <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
                                     </div>
                                     <h5>Becoming Human - starting September 1, V<sup>9</sup></h5>
@@ -127,7 +128,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Juan Ramirez—Treasurer" width="62" height="62" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} />
+                                            <Image alt="Juan Ramirez—Treasurer" width="62" height="62" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} loading = 'lazy'/>
                                         </div>
                                         <span className="text text--medium">
                                             Juan Ramirez <br />
@@ -136,7 +137,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Ayesha Adamo—Dean" width="62" height="62" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
+                                            <Image alt="Ayesha Adamo—Dean" width="62" height="62" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} loading = 'lazy' />
                                         </div>
                                         <span className="text text--medium">
                                             Ayesha Adamo <br />
@@ -150,12 +151,12 @@ export default function Page() {
                                 <address className="text text--medium">
                         			PO Box 156<br />
                         			New York, NY 10185<br />
-                        			<a href="mailto:aiwass@thelema.org">aiwass@thelema.org</a><br />
+                        			<a href="mailto:aiwass@thelema.org" target="_self">aiwass@thelema.org</a><br />
                                 </address>
                                 <section className="wrapper--cta">
                                     <h5>Find Us On:</h5>
-                                    <a href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup"><i className="fa fa-meetup"> </i></a>
-                                    <a href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                    <a className="inline float-left" href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon style={{'float': 'left'}}  icon={['fab', 'meetup']}/></a>
+                                    <a  className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank"title="College of Thelema Aiwass Study Group on Facebook"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fab', 'facebook-f']} /></a>
                                 </section>
                             </section>
                             <section>
@@ -170,7 +171,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Andrew Ferren—Dean" width="62" height="62" src="/profile-ferren_andrew.jpg"style={{backgroundImage: 'url(/profile-ferren_andrew.jpg)', backgroundPosition: '0 0'}} />
+                                            <Image loading="lazy" alt="Andrew Ferren—Dean" width="62" height="62" src="/profile-ferren_andrew.jpg"style={{backgroundImage: 'url(/profile-ferren_andrew.jpg)', backgroundPosition: '0 0'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Andrew Ferren
@@ -178,7 +179,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Chad Augur—Grand Cancellarius" width="62" height="62" src="/profile-augur_chad.webp"style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: '156%'}} />
+                                            <Image alt="Chad Augur—Grand Cancellarius" width="62" height="62" src="/profile-augur_chad.webp"style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: '156%'}} loading = 'lazy'/>
                                         </div>
                                         <span className="text text--medium">
                                             Chad Augur <br />
@@ -187,7 +188,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Billie Austin—Bursar" width="62" height="62" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} />
+                                            <Image alt="Billie Austin—Bursar" width="62" height="62" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                         </div>
                                         <span className="text text--medium">
                                             Billie Austin
@@ -200,12 +201,12 @@ export default function Page() {
                                 <address className="text text--medium">
                                     195 41st St PO BOX 11194<br />
                                     Oakland, CA 94611-9991<br />
-                                    <a href="mailto:burninghearts@thelema.org">burninghearts@thelema.org</a><br />
+                                    <a href="mailto:burninghearts@thelema.org" target="_self">burninghearts@thelema.org</a><br />
                                 </address>
                                 <section className="wrapper--cta">
                                     <h5>Find Us On:</h5>
-                                    <a href="https://www.meetup.com/college-of-thelma-agape-study-group/" target="_blank" title="College of Thelema Burning Hearts Study Group on Meetup"><i className="fa fa-meetup"> </i></a>
-                                    <a href="https://www.facebook.com/burninghearts93" target="_blank" title="College of Thelema Burning Hearts Study Group on Facebook"><i className="fa fa-facebook-f"> </i></a>
+                                    <a className="inline float-left" href="https://www.meetup.com/college-of-thelma-agape-study-group/" target="_blank" title="College of Thelema Burning Hearts Study Group on Meetup">  <FontAwesomeIcon style={{'float': 'left'}} icon={['fab', 'meetup']}/></a>
+                                    <a  className="inline float-left" href="https://www.facebook.com/burninghearts93" target="_blank"title="College of Thelema Burning Hearts Study Group on Facebook"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fab', 'facebook-f']} /></a>
                                 </section>
                             </section>
                             <section>
@@ -213,7 +214,7 @@ export default function Page() {
                                 <p className="text text--medium">3rd Wednesdays Monthly, next topic:</p>
                                 <section className="wrapper--event card--event">
                                     <div className="wrapper-img wrapper-img--rect">
-                                        <Image alt="Rite of the Child 7-23 V.8" width="276" height="156" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}}/>
+                                        <Image alt="Rite of the Child 7-23 V.8" width="276" height="156" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                         <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
                                     </div>
                                     <h5>Sidereal Astrology Lab: The Zodiac - July 20, V<sup>9</sup></h5>
