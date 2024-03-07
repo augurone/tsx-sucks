@@ -63,7 +63,14 @@ const getAllEvents = async (isDraftMode = false) => {
     const entries = await fetching(
         `query {
           eventCollection(
-            where: { name_exists: true },
+            where: {
+                name_exists: true,
+                contentfulMetadata:{
+                    tags : {
+                        id_contains_some: "babalonSalon"
+                    }
+                }
+            },
             limit: 100,
             skip: 0
             order: dateAndTime_DESC,
@@ -77,7 +84,7 @@ const getAllEvents = async (isDraftMode = false) => {
         isDraftMode
       );
 
-      // console.log(extractEventEntries(entries));
+    //   console.log(extractEventEntries(entries));
 
       return extractEventEntries(entries);
 };
