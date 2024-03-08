@@ -1,4 +1,4 @@
-import { cdnFetching, gqlFetching } from '../../utils/fetching';
+import { cdnFetching } from '../../utils/fetching';
 
 // src/utils.js
 const setContentQry = (ct = '') => {
@@ -26,11 +26,13 @@ const generalQuery = async ({
 
     console.log(url);
 
-    const entries = await cdnFetching(url)
-    .then(data => data)
-    .catch((e) => console.error(e));
+    try {
+        const response = await cdnFetching(url)
 
-    return entries;
+        return await response.json();
+    } catch(e) {
+        console.error(e)
+    }
 }
 
 export {
