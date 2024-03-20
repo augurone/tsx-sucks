@@ -21,7 +21,7 @@ const navConfig = [
         name: 'Publications'
     },
     {
-        href: '',
+        href: '/forum',
         name: 'Forum'
     }
 ]
