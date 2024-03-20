@@ -6,11 +6,11 @@ const EventCollection = async ({
     contentType = 'event',
     qry = '',
     limit = '',
-    order = ''
+    order = '',
+    title = '',
 } = {}) => {
     const {
         includes: {
-            Entry = [],
             Asset = []
         } = {},
         items = [],
@@ -23,10 +23,9 @@ const EventCollection = async ({
         limit,
         order
     });
-    
-    return (
+    const Gutz = () => (
         <>
-        {items.map(({
+            {items.map(({
             fields: {
                 coverImage: {
                     sys: {
@@ -59,8 +58,19 @@ const EventCollection = async ({
                     registrationLink={registrationLink} />
             );
         })}
-        </>
+        </>  
     );
+
+    if (title) {
+        return (
+            <section className=' grid grid-cols-auto-fill-3up gap-8'>
+                <h4 className="article--fullWidth"><strong>{title}</strong></h4>
+                <Gutz />
+            </section>
+            );
+    }
+
+    return (<Gutz />);
 };
 
 export default EventCollection;

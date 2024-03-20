@@ -13,7 +13,7 @@ const Event = ({
     const date = new Date(dateAndTime);
     const formattedDate = date.toLocaleDateString('en-us', { weekday: 'short', month: 'short', day: 'numeric' });
     const formattedTime = date.toLocaleTimeString('en-us', {hour12: true, hour: '2-digit', minute:'2-digit'});
-
+    
     return (
         <figure className="wrapper--event card--event flex flex-col items-stretch mb-o">
             <div className="wrapper-img wrapper-img--rect">
@@ -30,6 +30,7 @@ const Event = ({
                 <div>{name}</div>
                 <div className="mt-auto">{`${formattedDate} ${formattedTime}`}</div>
             </figcaption>
+            {registrationLink && <a className="link link--blocker" href="{registrationLink}" target="_blank"></a>}
         </figure>
     );
 };

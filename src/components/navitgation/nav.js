@@ -28,7 +28,7 @@ const navConfig = [
 
 const Navbar = ({disableRoute = ''}) => {
     return (
-    <header className="background--solar h-fit w-full">
+    <header className="background--solar h-fit w-full span-all">
         <h1 className="u-offscreen">College of Thelema: Thelemic Education</h1>
         <input className="absolute invisible" id="toggleMobileMenu" name="toggleMobileMenu" type="checkbox" value="0" />
         <label className="absolute right-0 top-0 pt-4 md:invisible w-[32px] h-[32px] z-20" htmlFor="toggleMobileMenu">

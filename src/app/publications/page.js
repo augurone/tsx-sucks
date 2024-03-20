@@ -13,7 +13,7 @@ export default function Page() {
             <main>
                 <aside>
                     <div className="wrapper--sticky">
-                        <h2>On This Page:</h2>
+                        <h2 className="u-overflow--mobileList">On This Page:</h2>
                         <ul className="list">
                             <li><a href="#page--top" target="_self">Books</a></li>
                             <li><a href="#article--periodicals" target="_self">Periodicals for Download</a></li>

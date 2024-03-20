@@ -15,7 +15,7 @@ export default function Page() {
             <main>
                 <aside>
                     <div className="wrapper--sticky">
-                        <h2>On This Page:</h2>
+                        <h2 className="u-overflow--mobileList">On This Page:</h2>
                         <ul className="list">
                             <li><a href="#page--top">The A&there4;A&there4;</a></li>
                             <li><a href="#article--AccountOfTheOrder">An Account Of The Order</a></li>
@@ -47,7 +47,7 @@ export default function Page() {
                 <section className="pb-8">
                     <h2>The A&there4;A&there4;</h2>
                     <article className="article article--fullWidth">
-                        <Image loading="eagert" alt="The AA Star" width="186" height="186" className="img-icon--xLarge" src="/aa_star.png" />
+                        <Image loading="eager" alt="The AA Star" width="186" height="186" className="img-icon--xLarge" src="/aa_star.png" />
                         <strong>Do what thou wilt shall be the whole of the Law.</strong>
                         <section className="wrapper-text wrapper-text--columns">
                             <h3>The One True &amp; Invisible Order</h3>

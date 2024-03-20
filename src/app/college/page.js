@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../../../node_modules/next/image';
 import Navbar from '../../components/navitgation/nav';
 import Footer from '../../components/navitgation/footer';
+import EventCollection from '@/components/events/EventCollection';
 import { FontAwesomeIcon } from "../../../node_modules/@fortawesome/react-fontawesome";
 
 export default function Page() {
@@ -11,7 +12,7 @@ export default function Page() {
         <main>
             <aside>
                 <div className="wrapper--sticky">
-                    <h2>On This Page:</h2>
+                    <h2 className="u-overflow--mobileList">On This Page:</h2>
                     <ul className="list">
                         <li><a href="#page--top" target="_self">College of Thelema</a></li>
                         <li><a href="#article--locations" target="_self">Classes & Study Groups</a></li>
@@ -112,13 +113,10 @@ export default function Page() {
                             <section>
                                 <h4>Classes: </h4>
                                 <p className="text text--medium">Every Other Thursday starting September 1, V<sup>9</sup></p>
-                                <section className="wrapper--event card--event">
-                                    <div className="wrapper-img wrapper-img--rect">
-                                        <Image alt="Becoming Human" width="276" height="156" src="/event_Harpocrates_BecomingHuman.webp" style={{backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)', backgroundPosition: '50% 50%'}} loading = 'lazy'/>
-                                        <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
-                                    </div>
-                                    <h5>Becoming Human - starting September 1, V<sup>9</sup></h5>
-                                </section>
+                                <EventCollection 
+                                    qry="metadata.tags.sys.id[in]=losAngeles"
+                                    limit= "&limit=1"
+                                    order= "&order=-fields.dateAndTime" />
                             </section>
                         </li>
                         <li className="card--large">
@@ -162,6 +160,10 @@ export default function Page() {
                             <section>
                                 <h4>Classes: </h4>
                                 <p className="text text--medium">To Be Announced</p>
+                                <EventCollection 
+                                    qry="metadata.tags.sys.id[in]=babalonSalon"
+                                    limit= "&limit=1"
+                                    order= "&order=-fields.dateAndTime" />
                             </section>
                         </li>
                         <li className="card--large">
@@ -212,13 +214,10 @@ export default function Page() {
                             <section>
                                 <h4>Study Groups: </h4>
                                 <p className="text text--medium">3rd Wednesdays Monthly, next topic:</p>
-                                <section className="wrapper--event card--event">
-                                    <div className="wrapper-img wrapper-img--rect">
-                                        <Image alt="Rite of the Child 7-23 V.8" width="276" height="156" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
-                                        <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
-                                    </div>
-                                    <h5>Sidereal Astrology Lab: The Zodiac - July 20, V<sup>9</sup></h5>
-                                </section>
+                                <EventCollection 
+                                    qry="metadata.tags.sys.id[in]=babalonSalon"
+                                    limit= "&limit=1"
+                                    order= "&order=-fields.dateAndTime"/>
                             </section>
                         </li>
                     </ul>

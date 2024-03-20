@@ -324,7 +324,7 @@ const LiberL = () => (
     <article id="article--LiberLComment" className="article article--fullWidth pb-8">
         <h3>The Comment</h3>
         <section className="pb-8">
-            <p className="text-center pb-8">Do what thou wilt shall be the whole of the Law.</p>
+            <p className="pb-8 text-center">Do what thou wilt shall be the whole of the Law.</p>
             <p className="text-center"> The study of this Book is forbidden.  It is wise to destroy this copy after the first reading.</p>
             <p className="text-center">Whosoever disregards this does so at his own risk and peril.  These are most dire.</p>
             <p className="text-center">Those who discuss the contents of this Book are to be shunned by all, as centres of pestilence.</p>

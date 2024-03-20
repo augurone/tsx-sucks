@@ -82,7 +82,7 @@ const Footer = () => (
                             <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                         </a>
                     </li>
-                    <li>Temple of Thelema<sup>&reg;</sup> | College of Thelema<sup>&reg;</sup>, a California Non-Profit Religious organization. © 2022, All Rights Reserved</li>
+                    <li>Temple of Thelema<sup>&reg;</sup> | College of Thelema<sup>&reg;</sup>, a California Non-Profit Religious organization. © {new Date().getFullYear()}, All Rights Reserved</li>
                 </ul>
             </section>
     </footer>

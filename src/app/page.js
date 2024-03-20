@@ -5,12 +5,8 @@ import Socials from '../components/socialLinks/Socials';
 import Navbar from '@/components/navitgation/nav';
 import Footer from '@/components/navitgation/footer';
 import EventCollection from '@/components/events/EventCollection';
-import { getAllEvents, generalQuery } from '@/components/events/eventUtils';
 
 export default async function Home() {
-    const [event = {}] = await getAllEvents();
-
-
     return (
         <body className='index theme--Warmer overflow-x-hidden'>
             <header className="background--solar">
@@ -202,19 +198,75 @@ export default async function Home() {
                 </ul>
                 <a aria-label="A Modern Mystery School" className="mark link" href="#page--top" >A Modern Mystery School</a>
             </header>
-            <main id="page--top">
+            <main id="page--top" className="relative">
                 <aside>
                     <div className="wrapper--sticky">
+                        <h2 className="md:hidden u-overflow--mobileList">A Modern Mystery School</h2>
+                        <ul className="list flex md:hidden">
+                            <li>
+                                <Link className="px-3" href="/aa"  target="_self" prefetch={true}>A∴A∴</Link>
+                            </li>
+                            <li>
+                                <Link className="px-3" href="/college"  target="_self" prefetch={true}>College</Link>
+                            </li>
+                            <li>
+                                <Link className="px-3" href="/temple"  target="_self" prefetch={true}>Temple</Link>
+                            </li>
+                            <li>
+                                <Link className="px-3" href="/publications"  target="_self" prefetch={true}>Publications</Link>
+                            </li>
+                            <li>
+                                <Link className="px-3" href="/"  target="_self" prefetch={true}>Forum</Link>
+                            </li>
+                        </ul>
                         <h2>On This Page:</h2>
                         <ul className="list">
-                            <li><a href="#page--top" target="_self">A Modern Mystery School</a></li>
-                            <li><a href="#" target="_self">What&apos;s New</a></li>
+                            <li><a href="#page--top" target="_self">Thelemic Studies &amp; Initiation</a></li>
+                            <li><a href="#article--news" target="_self">What&apos;s New</a></li>
                             <li><a href="#article--events" target="_self">Events</a></li>
+                        </ul>
+                        <h2 className="hidden md:block">Quick Links:</h2>
+                        <ul className="list list--flex list--thumbnails flex-wrap">
+                            <li>
+                                <div className="wrapper-img wrapper-img--med">
+                                    <Image loading="lazy" alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
+                                </div>
+                                <span>Liber L</span>
+                                <Link aria-label="Book of the Law" className="link link--blocker" href="aa/#article--LiberL" prefetch={true} ></Link>
+                            </li>
+                            <li>
+                                <div className="wrapper-img wrapper-img--med">
+                                    <Image loading="lazy" alt="A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
+                                </div>
+                                <span>A&there4;A&there4;</span>
+                                <Link aria-label="The A&there4;A&there4" className="link link--blocker" href="aa/" prefetch={true}></Link>
+                            </li>
+                            <li>
+                                <div className="wrapper-img wrapper-img--med wrapper-img--square">
+                                    <Image loading="lazy" alt="Apply For Membership" width="62" height="62" src="/ennealeph.png" style={{ backgroundImage: 'url(/ennealeph.png)', backgroundSize: '131%' }} />
+                                </div>
+                                <span>Join TOT</span>
+                                <Link aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples" prefetch={true}></Link>
+                            </li>
+                            <li>
+                                <div className="wrapper-img wrapper-img--med">
+                                    <Image loading="lazy" alt="COT Campuses and Study Groups" width="62" height="62" src="/classes.webp" style={{ backgroundImage: 'url(/classes.webp)' }} />
+                                </div>
+                                <span>Classes</span>
+                                <Link aria-label="College of Thelema Classes" className="link link--blocker" href="college/#article--locations" prefetch={true}></Link>
+                            </li>
+                            <li>
+                                <div className="wrapper-img wrapper-img--med">
+                                    <Image loading="lazy" alt="Tax Exempt Donations" width="62" height="62" src="/charity.webp" style={{ backgroundImage: 'url(/charity.webp)' }} />
+                                </div>
+                                <span>Donate</span>
+                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="college/#article--donate" ></Link>
+                            </li>
                         </ul>
                     </div>
                 </aside>
                 <section>
-                    <h2>Thelemic Studies and Initiation</h2>
+                    <h2>Thelemic Studies &amp; Initiation</h2>
                     <article className="article article--fullWidth">
                         <h3>A Message From the Vice Chancellor</h3>
                         <strong>Do what thou wilt shall be the whole of the Law.</strong>
@@ -247,16 +299,44 @@ export default async function Home() {
                             </li>
                         </ul>
                     </article>
-                    <article  id="article--events" className="article article--fullWidth">
-                        <h3>Classes, Study Groups, Events</h3>
-                        
-                        <section className=' grid grid-cols-auto-fill-3up gap-8'>
-                            <h4 className="article--fullWidth"><strong>Babalon Salon: Online Events for Women</strong></h4>
-                            <EventCollection 
-                                qry = 'metadata.tags.sys.id[in]=babalonSalon'
-                                limit = '&limit=3'
-                                order = '&order=-fields.dateAndTime' />
+                    <article className="article  article--fullWidth">
+                        <h3 id="article--news">What&apos;s New?!</h3>
+                        <strong>The Relaunch of the Website And Forum, &amp; More!</strong>
+                        <section className="wrapper-text wrapper-text--columns">
+                            <strong>Website Refresh</strong>
+                            <p>The last time this site was substantially updated was in 2004. Twenty years hence, it was about time. Nearly all the content from the old site has moved here, minus a Liber 185, outdated information, and broken links. This site is built on a modern architecture, is designed to work across all devices, and will have regularly updated content. In the near future, we will be adding new functionality to support the promulgation of the Law. This has been a long time coming, and we hope that you will enjoy what we provide.</p>
+                            <strong>Heruraha.net Lives! Sort of&#x2026;</strong>
+                            <p>The first post on Heruraha.net was on the 4th of June 2005 at 16:14, and the last post was on the 7th of Oct 2020 at 13:11. Heruraha.net served our community for 15 years, and there was a trove of valuable information we were delighted to restore. Somewhere in there, the forum software became outdated and riddled with security issues, leading the former web host to shut it down. About two years ago, we were able to get access to the database and administration of our web properties. Alongside busy lives, we migrated the data over to <a href="/forum">this new platform</a>. For the time being it will be a read-only forum for the public while we figure out how to best moderate and maintain the quality of content posted there. The choice was made to integrate this resource directly into thelema.org in a move towards becoming a single destination for Thelemic Education. </p>
+                            <strong>Realitvely Recent Past</strong>
+                            <p>At Spring Equinox 2022, James A. Eshelman officially assumed the position of Prolocutor General of the Temple of Thelema and appointed Zeph Bender Prolocutor over all existing temples. This demarcates a significant evolution in the Order&apos;s history in that Zeph is the first non-founder and product of the system to take up the office of Prolocutor. Our system is demanding—attaining to adepthood is a true test of the individual in the divine fabric, and moving through the tests and beyond are the success spoken of in the great texts of our philosophy. We honor Phyllis, Anna Kria, and Jim—without them, we would not be where we are today. And we are excited for this new era in our evolution.</p>
                         </section>
+                    </article>
+                    <article className="article article--fullWidth">
+                        <h3 id="article--events">Classes, Study Groups, Events</h3>
+                        {/* 
+                            Need to figure you the Promise:<Element />
+                            It works for what I need it for right now. 
+                         */}
+                        <EventCollection 
+                            qry="metadata.tags.sys.id[in]=babalonSalon"
+                            limit= "&limit=3"
+                            order= "&order=-fields.dateAndTime"
+                            title= "Babalon Salon: Events for Women"/>
+                        <EventCollection 
+                            qry="metadata.tags.sys.id[in]=losAngeles"
+                            limit= "&limit=3"
+                            order= "&order=-fields.dateAndTime"
+                            title= "COT: Los Angeles Campus &amp; Harpocrates Temple" />
+                        <EventCollection 
+                            qry="metadata.tags.sys.id[in]=babalonSalon"
+                            limit= "&limit=3"
+                            order= "&order=-fields.dateAndTime"
+                            title= "Babalon Salon: Events for Women"/>
+                        <EventCollection 
+                            qry="metadata.tags.sys.id[in]=babalonSalon"
+                            limit= "&limit=3"
+                            order= "&order=-fields.dateAndTime"
+                            title= "Babalon Salon: Events for Women"/>
                     </article>
                 </section>
             </main>

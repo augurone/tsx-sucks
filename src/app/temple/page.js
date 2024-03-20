@@ -3,6 +3,7 @@ import Navbar from '@/components/navitgation/nav';
 import Footer from '@/components/navitgation/footer';
 import Image from '../../../node_modules/next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import EventCollection from '@/components/events/EventCollection';
 
 export default function Page() {
     return (
@@ -11,7 +12,7 @@ export default function Page() {
                 <main>
                     <aside>
                         <div className="wrapper--sticky">
-                            <h2>On This Page:</h2>
+                            <h2 className="u-overflow--mobileList">On This Page:</h2>
                             <ul className="list">
                                 <li><a href="#page--top" target="_self">Temple of Thelema</a></li>
                                 <li><a href="#article--invite" target="_self">Initiation, Magick, & Mysticism</a></li>
@@ -279,13 +280,10 @@ export default function Page() {
                                 </section>
                                 <section>
                                     <h4>Events</h4>
-                                    <section className="wrapper--event card--event">
-                                        <div className="wrapper-img wrapper-img--rect wrapper--cta">
-                                            <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_ROC_fbbanner.webp"  style={{backgroundImage: 'url(/event_ROC_fbbanner.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
-                                            <a className="link link--blocker" href="https://www.facebook.com/events/830638938310050" target="_blank"></a>
-                                        </div>
-                                        <h5>Rite of the Child - July 23rd, V<sup>9</sup></h5>
-                                    </section>
+                                    <EventCollection 
+                                        qry="metadata.tags.sys.id[in]=losAngeles"
+                                        limit= "&limit=1"
+                                        order= "&order=-fields.dateAndTime"/>
                                     <section className="wrapper--event wrapper--cta">
                                         <h5>Regular Classes:</h5>
                                         <p className="text text--medium">In Person classes resume September 1, V<sup>9</sup></p>
@@ -344,13 +342,10 @@ export default function Page() {
                                     </section>
                                     <section>
                                         <h4>Events</h4>
-                                        <section className="wrapper--event card--event">
-                                            <div className="wrapper-img wrapper-img--rect">
-                                                <Image height="156" width="276" alt="Rite of the Child 7-23 V.8" src="/event_AstroLab-zodiac.webp"  style={{backgroundImage: 'url(/event_AstroLab-zodiac.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
-                                                <a className="link link--blocker" href="https://www.facebook.com/events/2828500067452979" target="_blank"></a>
-                                            </div>
-                                            <h5>Sidereal Astrology Lab: The Zodiac - July 20, V<sup>9</sup></h5>
-                                        </section>
+                                        <EventCollection 
+                                            qry="metadata.tags.sys.id[in]=babalonSalon"
+                                            limit= "&limit=1"
+                                            order= "&order=-fields.dateAndTime" />
                                         <section className="wrapper--event wrapper--cta">
                                             <h5>Regular Public Meetings:</h5>
                                             <p className="text text--medium">3rd Wednesdays Monthly</p>
@@ -411,13 +406,10 @@ export default function Page() {
                                 </section>
                                 <section>
                                     <h4>Events</h4>
-                                    <section className="wrapper--event card--event">
-                                        <div className="wrapper-img wrapper-img--rect">
-                                            <Image height="156" width="276" alt="At WitchFest 7-16 V.8" src="/event_Aiwass-witchfest.webp"  style={{backgroundImage: 'url(/event_Aiwass-witchfest.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
-                                            <a className="link link--blocker" href="https://www.facebook.com/events/948030722588306" target="_blank"></a>
-                                        </div>
-                                        <h5>Aiwass @ Witchfest - July 16, V<sup>9</sup></h5>
-                                    </section>
+                                    <EventCollection 
+                                        qry="metadata.tags.sys.id[in]=babalonSalon"
+                                        limit= "&limit=1"
+                                        order= "&order=-fields.dateAndTime" />
                                     <section className="wrapper--event wrapper--cta">
                                         <h5>Regular Public Meetings:</h5>
                                         <p className="text text--medium">

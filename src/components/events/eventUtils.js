@@ -24,12 +24,8 @@ const generalQuery = async ({
     const queryStr = flexQuery(qry); 
     const url = `${base}?${access}${contentStr}${queryStr}${limit}${order}`;
 
-    console.log(url);
-
     try {
-        const response = await cdnFetching(url)
-
-        return await response.json();
+        return await cdnFetching(url);
     } catch(e) {
         console.error(e)
     }
