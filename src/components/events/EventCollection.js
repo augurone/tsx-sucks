@@ -37,6 +37,7 @@ const EventCollection = async ({
                 registrationLink = ''
             } = {}
         } = {}, i) => {
+            console.log(name, coverImgId);
             const {
                 fields: {
                     file: {
@@ -46,7 +47,7 @@ const EventCollection = async ({
                         } = {},
                         url: imgSrc = '',
                     } = {}
-                    }
+                } = {}
             } = Asset.find(({ sys: { id }}) => id === coverImgId) || {};
 
             return (
