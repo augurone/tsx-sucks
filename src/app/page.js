@@ -333,10 +333,10 @@ export default async function Home() {
                             order= "&order=-fields.dateAndTime"
                             title= "Babalon Salon: Events for Women"/>
                         <EventCollection 
-                            qry="metadata.tags.sys.id[in]=babalonSalon"
+                            qry="metadata.tags.sys.id[in]=bayArea"
                             limit= "&limit=3"
                             order= "&order=-fields.dateAndTime"
-                            title= "Babalon Salon: Events for Women"/>
+                            title= "COT: Bay Area Study Group"/>
                     </article>
                 </section>
             </main>
