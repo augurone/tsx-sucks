@@ -215,9 +215,9 @@ export default function Page() {
                                 <h4>Study Groups: </h4>
                                 <p className="text text--medium">3rd Wednesdays Monthly, next topic:</p>
                                 <EventCollection 
-                                    qry="metadata.tags.sys.id[in]=babalonSalon"
+                                    qry="metadata.tags.sys.id[in]=bayArea&skip=1"
                                     limit= "&limit=1"
-                                    order= "&order=-fields.dateAndTime"/>
+                                    order= "&order=-fields.dateAndTime" />
                             </section>
                         </li>
                     </ul>
