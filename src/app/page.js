@@ -328,15 +328,15 @@ export default async function Home() {
                             order= "&order=-fields.dateAndTime"
                             title= "COT: Los Angeles Campus &amp; Harpocrates Temple" />
                         <EventCollection 
-                            qry="metadata.tags.sys.id[in]=babalonSalon"
+                            qry="metadata.tags.sys.id[in]=newYork"
                             limit= "&limit=3"
                             order= "&order=-fields.dateAndTime"
-                            title= "Babalon Salon: Events for Women"/>
+                            title= "COT: NYC Campus &ampp; Aiwass Temple"/>
                         <EventCollection 
                             qry="metadata.tags.sys.id[in]=bayArea"
                             limit= "&limit=3"
                             order= "&order=-fields.dateAndTime"
-                            title= "COT: Bay Area Study Group"/>
+                            title= "COT: Bay Area Study Group &amp; Burning Hearts Pronaos"/>
                     </article>
                 </section>
             </main>

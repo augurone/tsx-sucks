@@ -37,7 +37,6 @@ const EventCollection = async ({
                 registrationLink = ''
             } = {}
         } = {}, i) => {
-            console.log(name, coverImgId);
             const {
                 fields: {
                     file: {

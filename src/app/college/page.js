@@ -161,7 +161,7 @@ export default function Page() {
                                 <h4>Classes: </h4>
                                 <p className="text text--medium">To Be Announced</p>
                                 <EventCollection 
-                                    qry="metadata.tags.sys.id[in]=babalonSalon"
+                                    qry="metadata.tags.sys.id[in]=newYork"
                                     limit= "&limit=1"
                                     order= "&order=-fields.dateAndTime" />
                             </section>
