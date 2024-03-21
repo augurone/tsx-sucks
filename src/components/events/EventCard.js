@@ -30,7 +30,7 @@ const Event = ({
                 <div>{name}</div>
                 <div className="mt-auto">{`${formattedDate} ${formattedTime}`}</div>
             </figcaption>
-            {registrationLink && <a className="link link--blocker" href="{registrationLink}" target="_blank"></a>}
+            {registrationLink && <a className="link link--blocker" href="{registrationLink}" target="_blank" title="{name}"></a>}
         </figure>
     );
 };
