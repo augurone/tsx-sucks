@@ -1274,8 +1274,8 @@ body.index > header ul.info {
 }
 
 body.index > header .info .list--thumbnails {
-    grid-column-gap: var(--base-increment);
-    grid-row-gap: var(--base-increment);
+    grid-column-gap: calc(0.5 * var(--base-increment));
+    grid-row-gap: calc(0.25 * var(--base-increment));
     padding: 1rem 0 0;
 }
 

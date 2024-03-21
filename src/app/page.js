@@ -152,6 +152,7 @@ export default async function Home() {
                             <span className="lockup lockup-2 text text-subTitle">College of Thelema</span>
                             <span className="text">Founded in Service to the A&there4;A&there4;</span>
                         </div>
+                        <Link aria-label="A Modern Mystery School" className="link link--blocker" href="#page--top" prefetch={false} ></Link>
                     </div>
                 </article>
                 <ul className="list list--flex info">
