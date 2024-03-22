@@ -312,14 +312,16 @@ export default async function Home() {
                             <strong>Realitvely Recent Past</strong>
                             <p>At Spring Equinox 2022, James A. Eshelman officially assumed the position of Prolocutor General of the Temple of Thelema and appointed Zeph Bender Prolocutor over all existing temples. This demarcates a significant evolution in the Order&apos;s history in that Zeph is the first non-founder and product of the system to take up the office of Prolocutor. Our system is demanding—attaining to adepthood is a true test of the individual in the divine fabric, and moving through the tests and beyond are the success spoken of in the great texts of our philosophy. We honor Phyllis, Anna Kria, and Jim—without them, we would not be where we are today. And we are excited for this new era in our evolution.</p>
                         </section>
+                    </article>
+                    <article className="article article--fullWidth">
+                        <h3 id="article--holyseason">The Thelemic Holy Season</h3>
                         <section className="wrapper-text wrapper-text--columns">
-                            <h2 id="article--holyseason">The Thelemic Holy Season</h2>
                             <p>Each of the twenty-two days of the Thelemic Holy Season -- from March 20 through April 10 -- is attributed by us to one of the twenty-two letters of the Hebrew alphabet. It is recommended that each aspirant, on each of these days, prominently display the corresponding Tarot Trump, and conduct such other meditation, ritual, or other recognition of the principle as he or she may see fit. In the tabulation below are also given recommended readings from the Sacred Writings for each day of the holy season.</p>
                             <p>On the night before the Vernal Equinox, closing the old year (usually March 19), it is recommended that the aspirant read <em>The Prologue of the Unborn</em> from <strong>Liber VII</strong> and meditate on the release of the concluding cycle.</p>
                             <p>On March 20, the <em>Invocation of Horus</em> &#40;<em>The Supreme Ritual</em>&#41; may be performed to celebrate the anniversary of the Equinox of the Gods. The following readings &#40;most, but not all, of which are from Class A Documents, the so-called &quot;Holy Books of Thelema&quot;&#41; are then recommended for each of the 22 days.</p>
                         </section>
+                        <h4 className="w-full text-center"><strong>The Daily Images and Readings</strong></h4><br />
                         <section className="wrapper-text wrapper-text--columns">
-                            <h3>The Daily Images and Readings</h3>
                             <ul>
                                 <li>March 19: <em>Liber VII</em>, &quot;Prologue of the Unborn&quot;</li>
                                 <li>March 20: <strong>TAV, The Universe</strong>: Liber VII, Cap. 2 &#40;morning&#41;; <br />Liber LXV, Cap. 1 &#40;evening&#41;</li>
