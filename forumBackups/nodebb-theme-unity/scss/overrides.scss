@@ -1,0 +1,399 @@
+// only overrides to bs5 variables here
+
+// below are the default values from harmony theme overrides.scss file
+// feel free to change these for your custom theme
+
+// Harmony colours
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #0d6efd !default;
+$red:     #dc3545 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$cyan:    #0dcaf0 !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+
+$body-color: $gray-800 !default;
+$body-bg: $white !default;
+$body-tertiary-bg: $gray-200 !default;
+$text-muted: $gray-600 !default;
+$border-color: $gray-200 !default;
+$link-color: shade-color($blue, 20%) !default;
+
+$btn-ghost-hover-color: mix($light, $dark, 90%);
+$btn-ghost-active-color: lighten($btn-ghost-hover-color, 5%);
+$btn-ghost-hover-color-dark: mix($dark, $light, 90%);
+$btn-ghost-active-color-dark: lighten($btn-ghost-hover-color-dark, 5%);
+
+:root {
+    --btn-ghost-hover-color: #{$btn-ghost-hover-color};
+    --btn-ghost-active-color: #{$btn-ghost-active-color};
+}
+
+[data-bs-theme = "dark"] {
+    --btn-ghost-hover-color: #{$btn-ghost-hover-color-dark};
+    --btn-ghost-active-color: #{$btn-ghost-active-color-dark};
+}
+
+// no caret on dropdown-toggle
+$enable-caret: false;
+
+// disable smooth scroll, this makes window.scrollTo(0,0) in ajaxify.js take x milliseconds
+$enable-smooth-scroll: false;
+
+$enable-shadows: true;
+
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+// Custom fonts
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-secondary: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-weight-semibold: 500 !default;
+$small-font-size: 0.875rem !default;
+
+$breadcrumb-divider: quote("→");
+$breadcrumb-divider-color: $gray-500 !default;
+$breadcrumb-active-color: $body-color !default;
+$breadcrumb-item-padding-x: 12px !default;
+
+.form-control::placeholder,
+.bootstrap-tagsinput::placeholder {
+    color: $gray-500 !important;
+}
+
+:root {
+    --rgb-Core-citrine: 240, 237, 5;
+    --rgb-Core-goldenrod: 228, 189, 26;
+    --rgb-Core-reddest: 194, 0, 10;
+    --color-Core-citrine: rgba(var(--rgb-Core-citrine), 1);
+    --color-Core-goldenrod: rgba(var(--rgb-Core-goldenrod), 1);
+    --color-Core-goldenrod-transparent: rgba(var(--rgb-Core-goldenrod), 0.56);
+    --color-Core-reddest: rgba(var(--rgb-Core-reddest), 1);
+    --base-increment: 31px;
+    --base-increment-raw: 31;
+    --layout-body-padding-top: calc(6 * var(--base-increment));
+    --layout-container-max-width: calc(42 * var(--base-increment));
+    --base-line-height: var(--base-increment);
+    --base-rem: 16px;
+    --footer-image-background: url("/pearlsbk.webp");
+    --marquee-image-background: url("/header_img.png");
+    --type-blockquote-graphics-quotes: "“" "”";
+    --type-font-family-body: "Helvetica Neue", "Helvetica", sans-serif;
+    --type-font-family-display: mencken-std, Georgia, serif;
+    --rgb-Warmer-background: 250, 240, 240;
+    --rgb-Warmer-grey-light: 236, 231, 235;
+    --rgb-Warmer-grey-medium: 104, 100, 99;
+    --rgb-Warmer-grey-text: 51, 51, 51;
+    --color-background-dark: rgba(var(--rgb-Warmer-grey-medium), 1);
+    --color-background-dark-transparent: rgba(var(--rgb-Warmer-grey-medium), 0.81);
+    --color-background-dark-transparent-more: rgba(var(--rgb-Warmer-grey-medium), 0.23);
+    --color-background-default: rgba(var(--rgb-Warmer-background), 1);
+    --color-background-light: rgb(var(--rgb-Warmer-grey-light));
+    --color-background-light-transparent: rgba(var(--rgb-Warmer-grey-light), 0.39);
+    --color-effects-goldenrod-transparent-less: rgba(var(--rgb-Core-goldenrod), 0.131);
+    --color-effects-goldenrod-transparent-most: rgba(var(--rgb-Core-goldenrod), 0.1);
+    --color-text-default: rgba(var(--rgb-Warmer-grey-text), 1);
+    --type-blockquote-color-background: var(--color-background-light);
+    --type-blockquote-graphics-color: var(--color-background-dark);
+    --background-effect-default:
+        radial-gradient(
+            circle at center top,
+            rgba(255, 255, 255, 1) 0,
+            rgba(255, 255, 255, 0) 22%
+        ),
+        repeating-conic-gradient(
+            from calc(0.25turn) at calc(50vw) calc(3em),
+            var(--color-effects-goldenrod-transparent-less) 0deg,
+            var(--color-effects-goldenrod-transparent-less) 4deg,
+            rgba(var(--rgb-Warmer-background), 1),
+            0deg,
+            rgba(var(--rgb-Warmer-background), 1) 8deg
+        ),
+        linear-gradient(to top, rgba(var(--rgb-Warmer-background), 0.56) 0%, rgba(var(--rgb-Warmer-background), 1) 35%);
+    --background-effect-index:
+        radial-gradient(
+            circle at center top,
+            rgba(255, 255, 255, 1) 0,
+            rgba(255, 255, 255, 0) 22%
+        ),
+        repeating-conic-gradient(
+            from calc(0.25turn) at calc(50vw) calc(3em),
+            var(--color-effects-goldenrod-transparent-most) 0deg,
+            var(--color-effects-goldenrod-transparent-most) 4deg,
+            rgba(255, 255, 255, 0) 0deg,
+            rgba(255, 255, 255, 0) 8deg
+        );
+}
+
+.u-offscreen {
+    position: absolute;
+    left: calc(-279 * var(--base-increment));
+}
+
+header.background--solar {
+    position: relative;
+    top: 0;
+    z-index: 3;
+    background: radial-gradient(circle at center top, #fff 0, rgba(255, 255, 255, 0) 22%), repeating-conic-gradient(from 90deg at 50vw 3em, rgba(228, 189, 26, 0.13) 0deg, rgba(228, 189, 26, 0.13) 4deg, #fff5e1, 0deg, #fff5e1 8deg), linear-gradient(to top, rgba(255, 245, 225, 0.56) 0, #fff5e1 35%);
+    background-origin: padding-box;
+    background-position: 0 0;
+}
+
+header.background--solar > .h1,
+header.background--solar > h1,
+header.background--solar > nav .h2,
+header.background--solar > nav h2 {
+    position: absolute;
+    left: -8649px;
+}
+
+header.background--solar > nav {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: visible;
+    padding: 62px 31px 31px;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+    align-content: center;
+    grid-column-gap: 1rem;
+    grid-row-gap: 31px;
+    justify-content: flex-end;
+}
+
+header.background--solar label {
+    padding-top: 31px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    display: none;
+    z-index: 666;
+}
+
+header .link.link--img {
+    height: auto;
+    left: 31px;
+    position: absolute;
+    top: 1rem;
+    width: 93px;
+}
+
+header.background--solar nav,
+header.background--solar nav ul.list--flex {
+    align-items: center;
+    align-content: center;
+    grid-column-gap: 1rem;
+    grid-row-gap: 31px;
+    justify-content: flex-end;
+    display: flex;
+    flex: 1 1 auto;
+    justify-items: flex-start;
+    list-style: none;
+    max-width: 100%;
+}
+
+header.background--solar nav,
+header.background--solar nav ul.list--flex > li {
+    flex: 0 1 auto;
+    text-align: right;
+    white-space: nowrap;
+}
+
+header.background--solar + div.layout-container {
+    padding-top: 62px;
+}
+
+nav ul.list--flex > li > a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+svg.brand .cls-14,
+svg.brand .cls-3,
+svg.brand .cls-7 {
+    fill: none;
+}
+
+svg.brand .cls-1 {
+    fill: var(--color-background-default);
+}
+
+svg.brand .cls-1,
+svg.brand .cls-10,
+svg.brand .cls-11,
+svg.brand .cls-12,
+svg.brand .cls-13,
+svg.brand .cls-14,
+svg.brand .cls-15,
+svg.brand .cls-16,
+svg.brand .cls-17,
+svg.brand .cls-2,
+svg.brand .cls-3,
+svg.brand .cls-6,
+svg.brand .cls-7,
+svg.brand .cls-8,
+svg.brand .cls-9 {
+    stroke: var(--color-background-dark);
+}
+
+svg.brand .cls-1,
+svg.brand .cls-17,
+svg.brand .cls-2,
+svg.brand .cls-3 {
+    stroke-width: 4.37px;
+}
+
+svg.brand .cls-13,
+svg.brand .cls-15,
+svg.brand .cls-16,
+svg.brand .cls-2,
+svg.brand .cls-5,
+svg.brand .cls-8,
+svg.brand .cls-9 {
+    fill: var(--color-background-default);
+}
+
+svg.brand .cls-10,
+svg.brand .cls-11,
+svg.brand .cls-12,
+svg.brand .cls-17,
+svg.brand .cls-4,
+svg.brand .cls-6 {
+    fill: var(--color-background-dark);
+}
+
+svg.brand .cls-6 {
+    stroke-width: 0.87px;
+}
+
+svg.brand .cls-7 {
+    stroke-width: 3.46px;
+}
+
+.cls-8,
+svg.brand .cls-10 {
+    stroke-width: 2.62px;
+}
+
+svg.brand .cls-9 {
+    stroke-width: 2.52px;
+}
+
+svg.brand .cls-11 {
+    stroke-width: 0.87px;
+}
+
+svg.brand .cls-12 {
+    stroke-width: 0.26px;
+}
+
+svg.brand .cls-13 {
+    stroke-width: 3.41px;
+}
+
+.cls-15,
+svg.brand .cls-14 {
+    stroke-width: 3.44px;
+}
+
+svg.brand .cls-16 {
+    stroke-width: 3.86px;
+}
+
+@media screen and (max-width: 768px) {
+    body.index > header {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    header nav {
+        padding: 0;
+    }
+
+    header.background--solar label {
+        display: block;
+    }
+
+    header.background--solar label:hover {
+        cursor: pointer;
+    }
+
+    header.background--solar input:checked + label svg,
+    header.background--solar label:hover svg {
+        color: var(--color-background-dark-transparent);
+    }
+
+    header.background--solar nav ul.list--flex {
+        align-items: flex-end;
+        font-size: 12px;
+        flex-direction: column;
+        justify-content: flex-start;
+        visibility: hidden;
+        max-height: 0;
+        opacity: 0;
+        transition: opacity 0.35s ease-out, max-height 0.1s ease-out;
+        top: 36px;
+        z-index: 22;
+    }
+
+    header.background--solar nav ul.list--flex .px-2 {
+        padding: 0;
+    }
+
+    header.background--solar input:checked ~ nav > ul {
+        visibility: visible;
+        margin: calc(1.5 * var(--base-increment)) 0 0;
+        max-height: 666px;
+        opacity: 1;
+        transition: opacity 0.35s ease-in, max-height 0.1s ease-in;
+    }
+
+    body.index > header ul.list.info {
+        position: relative;
+        flex: 0 1 auto;
+        padding: calc(0.5 * var(--base-increment)) 0 0;
+    }
+
+    body.index > header .info ul.list--thumbnails {
+        grid-column-gap: calc(0.5 * var(--base-increment));
+        grid-row-gap: calc(0.5 * var(--base-increment));
+        justify-content: space-evenly;
+        justify-items: flex-start;
+        flex-wrap: none;
+    }
+
+    body.index > header .info ul.list--thumbnails li {
+        flex: 1 1 auto;
+        padding: 0;
+    }
+
+    body.index > header .wrapper-img {
+        height: calc(1.625 * var(--base-increment));
+        width: calc(1.625 * var(--base-increment));
+    }
+}
