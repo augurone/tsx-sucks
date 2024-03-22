@@ -224,6 +224,7 @@ export default async function Home() {
                         <ul className="list">
                             <li><a href="#page--top" target="_self">Thelemic Studies &amp; Initiation</a></li>
                             <li><a href="#article--news" target="_self">What&apos;s New</a></li>
+                            <li><a href="#article--holyseason">The Thelemic Holy Season</a></li>
                             <li><a href="#article--events" target="_self">Events</a></li>
                         </ul>
                         <h2 className="hidden md:block">Quick Links:</h2>
@@ -310,6 +311,40 @@ export default async function Home() {
                             <p>The first post on Heruraha.net was on the 4th of June 2005 at 16:14, and the last post was on the 7th of Oct 2020 at 13:11. Heruraha.net served our community for 15 years, and there was a trove of valuable information we were delighted to restore. Somewhere in there, the forum software became outdated and riddled with security issues, leading the former web host to shut it down. About two years ago, we were able to get access to the database and administration of our web properties. Alongside busy lives, we migrated the data over to <a href="/forum">this new platform</a>. For the time being it will be a read-only forum for the public while we figure out how to best moderate and maintain the quality of content posted there. The choice was made to integrate this resource directly into thelema.org in a move towards becoming a single destination for Thelemic Education. </p>
                             <strong>Realitvely Recent Past</strong>
                             <p>At Spring Equinox 2022, James A. Eshelman officially assumed the position of Prolocutor General of the Temple of Thelema and appointed Zeph Bender Prolocutor over all existing temples. This demarcates a significant evolution in the Order&apos;s history in that Zeph is the first non-founder and product of the system to take up the office of Prolocutor. Our system is demanding—attaining to adepthood is a true test of the individual in the divine fabric, and moving through the tests and beyond are the success spoken of in the great texts of our philosophy. We honor Phyllis, Anna Kria, and Jim—without them, we would not be where we are today. And we are excited for this new era in our evolution.</p>
+                        </section>
+                        <section className="wrapper-text wrapper-text--columns">
+                            <h2 id="article--holyseason">The Thelemic Holy Season</h2>
+                            <p>Each of the twenty-two days of the Thelemic Holy Season -- from March 20 through April 10 -- is attributed by us to one of the twenty-two letters of the Hebrew alphabet. It is recommended that each aspirant, on each of these days, prominently display the corresponding Tarot Trump, and conduct such other meditation, ritual, or other recognition of the principle as he or she may see fit. In the tabulation below are also given recommended readings from the Sacred Writings for each day of the holy season.</p>
+                            <p>On the night before the Vernal Equinox, closing the old year (usually March 19), it is recommended that the aspirant read <em>The Prologue of the Unborn</em> from <strong>Liber VII</strong> and meditate on the release of the concluding cycle.</p>
+                            <p>On March 20, the <em>Invocation of Horus</em> &#40;<em>The Supreme Ritual</em>&#41; may be performed to celebrate the anniversary of the Equinox of the Gods. The following readings &#40;most, but not all, of which are from Class A Documents, the so-called &quot;Holy Books of Thelema&quot;&#41; are then recommended for each of the 22 days.</p>
+                        </section>
+                        <section className="wrapper-text wrapper-text--columns">
+                            <h3>The Daily Images and Readings</h3>
+                            <ul>
+                                <li>March 19: <em>Liber VII</em>, &quot;Prologue of the Unborn&quot;</li>
+                                <li>March 20: <strong>TAV, The Universe</strong>: Liber VII, Cap. 2 &#40;morning&#41;; <br />Liber LXV, Cap. 1 &#40;evening&#41;</li>
+                                <li>March 21: <strong>SHIN, The Aeon</strong>: Liber LXV, Cap. 4</li>
+                                <li>March 22: <strong>RESH, The Sun</strong>: Liber VII, Cap. 4</li>
+                                <li>March 23: <strong>QOPH, The Moon</strong>: Liber VII, Cap. 6</li>
+                                <li>March 24: <strong>TZADDI, The Emperor</strong>: Liber Tzaddi</li>
+                                <li>March 25: <strong>PEH, The Tower</strong>: Liber VII, Cap. 1</li>
+                                <li>March 26: <strong>A&apos;AYIN, The Devil</strong>: Liber A&apos;ash</li>
+                                <li>March 27: <strong>SAMEKH, Art</strong>: Liber ARARITA, Cap. 7</li>
+                                <li>March 28: <strong>NUN, Death</strong>: Liber Arcanorum</li>
+                                <li>March 29: <strong>MEM, The Hanged Man</strong>: Liber LXV, Cap. 3</li>
+                                <li>March 30: <strong>LAMED, Adjustment</strong>: Liber Librae</li>
+                                <li>March 31: <strong>KAPH, Fortune</strong>: Liber VII, Cap. 3</li>
+                                <li>April 1: <strong>YOD, The Hermit</strong>: Liber VII, Cap. 5</li>
+                                <li>April 2: <strong>TETH, Lust</strong>: Liber Stellae Rubeae</li>
+                                <li>April 3: <strong>CHETH, The Chariot</strong>: Liber Cheth</li>
+                                <li>April 4: <strong>ZAYIN, The Lovers</strong>: Liber LXV, Cap. 2</li>
+                                <li>April 5: <strong>VAV, The Hierophant</strong>: Liber LXV, Cap. 5</li>
+                                <li>April 6: <strong>HEH, The Star</strong>: Liber ARARITA, Cap. 6 <br />&#40;additional suggestion: An Account of A&there4;A&there4;&#41;</li>
+                                <li>April 7: <strong>DALETH, The Empress</strong>: Liber VII, Cap. 7</li>
+                                <li>April 8: <strong>GIMEL, The Priestess:</strong> Liber Legis, Cap. I &#40;Nuit&#41;</li>
+                                <li>April 9: <strong>BETH, The Magus</strong>: Liber Legis,Cap. II &#40;Hadit&#41; <br />&#40;additional suggestion: Liber Magi&#41;</li>
+                                <li>April 10: <strong>ALEPH, The Fool</strong>: Liber Legis, Cap. III &#40;Heru-Ra-Ha&#41; <br />&#40;additional suggestison: Silence&#41;</li>
+                            </ul>
                         </section>
                     </article>
                     <article className="article article--fullWidth">
