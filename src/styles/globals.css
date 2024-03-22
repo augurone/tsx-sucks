@@ -1150,6 +1150,12 @@ article.article {
         width: 100%;
     }
 
+    .card--event {
+        align-self: center;
+        justify-self: center;
+        flex: 1 1 auto;
+    }
+
     .grid-cols-auto-fill-3up {
         display: block;
     }
