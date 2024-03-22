@@ -217,7 +217,7 @@ export default async function Home() {
                                 <Link className="px-3" href="/publications"  target="_self" prefetch={true}>Publications</Link>
                             </li>
                             <li>
-                                <Link className="px-3" href="/"  target="_self" prefetch={true}>Forum</Link>
+                                <Link className="px-3" href="/forum"  target="_self" prefetch={true}>Forum</Link>
                             </li>
                         </ul>
                         <h2>On This Page:</h2>
