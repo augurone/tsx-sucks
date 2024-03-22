@@ -63,8 +63,8 @@ const EventCollection = async ({
 
     if (title) {
         return (
-            <section className=' grid grid-cols-auto-fill-3up gap-8'>
-                <h4 className="article--fullWidth"><strong>{title}</strong></h4>
+            <section className="flex flex-wrap align-item-start col-span-all w-full gap-8">
+                <h4 className="article--fullWidth w-full"><strong>{title}</strong></h4>
                 <Gutz />
             </section>
             );

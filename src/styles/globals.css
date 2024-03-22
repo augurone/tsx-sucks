@@ -681,6 +681,9 @@ figure.card--book section {
     border-radius: 4px;
     overflow: hidden;
     padding: 0;
+    width: 286px;
+    max-width: 100%;
+    flex: 0 1 auto;
 }
 
 .card--event h5:last-child {
