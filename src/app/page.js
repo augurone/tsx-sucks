@@ -220,7 +220,7 @@ export default async function Home() {
                                 <Link className="px-3" href="/forum"  target="_self" prefetch={true}>Forum</Link>
                             </li>
                         </ul>
-                        <h2>On This Page:</h2>
+                        <h2 className="u-overflow--mobileList">On This Page:</h2>
                         <ul className="list">
                             <li><a href="#page--top" target="_self">Thelemic Studies &amp; Initiation</a></li>
                             <li><a href="#article--news" target="_self">What&apos;s New</a></li>
