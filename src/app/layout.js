@@ -6,7 +6,7 @@ initFontAwesome();
 
 export const metadata = {
     title: 'College & Temple of Thelema',
-    description: 'A Modern Mystery School',
+    description: 'A Modern Mystery School: Since the 1970\'s College of Thelema has been the Standard Bearer on Magick, Qabalah, Occutlism, Western Myteries in the Thelemic tradition. Since 1989 the Temple of Thelema has providedcd  initiation into the western mysteries, and has produced many Thelemic Adpets who are prominent in their own right',
     metadataBase: new URL('https://thelema.org'),
     alternates: {
       canonical: '/'
