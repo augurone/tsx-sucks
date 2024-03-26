@@ -392,7 +392,7 @@ export default async function Home() {
                 </section>
             </main>
             <Footer />
-            <script id="jsonld" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd)}}></script>
+            <script id="jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd)}} ></script>
         </body>
     );
 }
