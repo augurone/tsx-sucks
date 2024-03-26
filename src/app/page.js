@@ -369,7 +369,7 @@ export default async function Home() {
                             qry="metadata.tags.sys.id[in]=newYork"
                             limit= "&limit=3"
                             order= "&order=-fields.dateAndTime"
-                            title= "COT: NYC Campus &ampp; Aiwass Temple"/>
+                            title= "COT: NYC Campus &amp; Aiwass Temple"/>
                         <EventCollection 
                             qry="metadata.tags.sys.id[in]=bayArea"
                             limit= "&limit=3"
