@@ -25,7 +25,20 @@ export const metadata = {
         other: [
         ]
     }
-}
+};
+
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "College and Temple of Thelema",
+    "alternateName": "Temple of Thelema",
+    "url": "https://thelema.org",
+    "logo": "https://thelema.org/jsonld.png",
+    "sameAs": [
+      "https://www.facebook.com/templeofthelema",
+      "https://www.instagram.com/explore/locations/432000883/temple-of-thelema/"
+    ]
+  };
 
 export default function RootLayout({ children }) {
     return (
@@ -33,6 +46,7 @@ export default function RootLayout({ children }) {
             <head>
                 <link rel="preload" href="https://use.typekit.net/fsb4dcv.css" as="style" />
                 <link rel="stylesheet" href="https://use.typekit.net/fsb4dcv.css" as="style" />
+                <script id="jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd)}} ></script>
             </head>
             {children}
         </html>

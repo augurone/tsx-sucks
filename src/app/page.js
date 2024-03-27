@@ -7,26 +7,6 @@ import Footer from '@/components/navitgation/footer';
 import EventCollection from '@/components/events/EventCollection';
 
 export default async function Home() {
-    const jsonLd = {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/alternateName": "Temple of Thelema",
-        "http://schema.org/logo": {
-          "@id": "https://thelema.org/jsonld.png"
-        },
-        "http://schema.org/name": "College and Temple of Thelema",
-        "http://schema.org/sameAs": [
-          {
-            "@id": "https://www.facebook.com/templeofthelema"
-          },
-          {
-            "@id": "https://www.instagram.com/explore/locations/432000883/temple-of-thelema/"
-          }
-        ],
-        "http://schema.org/url": {
-          "@id": "https://thelema.org"
-        }
-      };
-
     return (
         <body className='index theme--Warmer overflow-x-hidden'>
             <header className="background--solar">
@@ -399,7 +379,6 @@ export default async function Home() {
                 </section>
             </main>
             <Footer />
-            <script id="jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd)}} ></script>
         </body>
     );
 }
