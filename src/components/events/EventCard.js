@@ -20,7 +20,7 @@ const Event = ({
                 <img 
                     alt={`${name} — ${formattedDate} ${formattedTime}`} 
                     src={`${imgSrc}?fm=webp&w=286`} 
-                    style={{ backgroundImage: `url(${imgSrc})`, backgroundPosition: '50% 0' }} 
+                    style={{ backgroundImage: `url(${imgSrc}?fm=webp&w=286)`, backgroundPosition: '50% 0' }} 
                     width={width} 
                     height={height} 
                     fetchPriority="high"
