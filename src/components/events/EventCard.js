@@ -19,7 +19,7 @@ const Event = ({
             <div className="wrapper-img wrapper-img--rect">
                 <img 
                     alt={`${name} — ${formattedDate} ${formattedTime}`} 
-                    src={`${immSrc}?fm=webp&w=286`} 
+                    src={`${imgSrc}?fm=webp&w=286`} 
                     style={{ backgroundImage: `url(${imgSrc})`, backgroundPosition: '50% 0' }} 
                     width={width} 
                     height={height} 
