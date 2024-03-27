@@ -23,10 +23,6 @@ export const metadata = {
     },
     icons: {
         other: [
-            {
-                rel: 'prefetch',
-                url: 'https://use.typekit.net/fsb4dcv.css'
-            }
         ]
     }
 }
@@ -34,6 +30,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                <link rel="preload" href="https://use.typekit.net/fsb4dcv.css" as="style" />
+                <link rel="stylesheet" href="https://use.typekit.net/fsb4dcv.css" as="style" />
+            </head>
             {children}
         </html>
     )
