@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Event = ({
     coverImage: {
@@ -17,12 +18,12 @@ const Event = ({
     return (
         <figure className="wrapper--event card--event flex flex-col items-stretch mb-o">
             <div className="wrapper-img wrapper-img--rect">
-                <img 
+                <Image 
                     alt={`${name} — ${formattedDate} ${formattedTime}`} 
                     src={`${imgSrc}?fm=webp&w=286`} 
                     style={{ backgroundImage: `url(${imgSrc}?fm=webp&w=286)`, backgroundPosition: '50% 0' }} 
-                    width={width} 
-                    height={height} 
+                    width={parseInt(width, 10)} 
+                    height={parseInt(height, 10)} 
                     fetchPriority="high"
                     loading="lazy" />
             </div>
