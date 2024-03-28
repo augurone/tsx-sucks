@@ -44,6 +44,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
+                <link rel="preconnect" href="https://use.typekit.net" as="style" />
                 <link rel="preload" href="https://use.typekit.net/fsb4dcv.css" as="style" />
                 <link rel="stylesheet" href="https://use.typekit.net/fsb4dcv.css" as="style" />
                 <script id="jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd)}} ></script>
