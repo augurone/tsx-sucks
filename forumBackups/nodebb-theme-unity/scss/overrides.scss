@@ -99,7 +99,7 @@ $breadcrumb-item-padding-x: 12px !default;
     --type-blockquote-graphics-quotes: "“" "”";
     --type-font-family-body: "Helvetica Neue", "Helvetica", sans-serif;
     --type-font-family-display: mencken-std, Georgia, serif;
-    --rgb-Warmer-background: 250, 240, 240;
+    --rgb-Warmer-background: 247, 240, 240;
     --rgb-Warmer-grey-light: 236, 231, 235;
     --rgb-Warmer-grey-medium: 104, 100, 99;
     --rgb-Warmer-grey-text: 51, 51, 51;
@@ -147,6 +147,10 @@ $breadcrumb-item-padding-x: 12px !default;
 .u-offscreen {
     position: absolute;
     left: calc(-279 * var(--base-increment));
+}
+
+body.theme-unity {
+    background-color: var(--color-background-default);
 }
 
 header.background--solar {
