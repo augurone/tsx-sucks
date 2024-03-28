@@ -17,7 +17,7 @@ export const metadata = {
         description: 'A Modern Mystery School',
         images: [
             {
-                url: 'https://images.ctfassets.net/4krpru5jrq5t/zRP7mNPpFbOgOuRfzfiaK/56423e0935e7ddf16d09fa9bc5e8acbf/babalon_18x24.jpg?fm=webp&w=640',
+                url: 'https://thelema.org/jsonld.jpg',
             },
         ],
     },
