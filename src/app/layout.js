@@ -1,4 +1,5 @@
 import React from 'react';
+import { GoogleAnalytics } from '@next/third-parties/google'
 import initFontAwesome from '../utils/initFontAwesome';
 import '../styles/globals.css';
 
@@ -20,10 +21,8 @@ export const metadata = {
                 url: 'https://thelema.org/jsonld.jpg',
             },
         ],
-    },
-    icons: {
-        other: [
-        ]
+        type: 'website',
+        url: "https://thelema.org"
     }
 };
 
@@ -50,6 +49,7 @@ export default function RootLayout({ children }) {
                 <script id="jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd)}} ></script>
             </head>
             {children}
+            <GoogleAnalytics gaId="G-4G9ST366HD"/>
         </html>
     )
 }
