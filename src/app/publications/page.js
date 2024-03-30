@@ -6,6 +6,16 @@ import Footer from '../../components/navitgation/footer';
 import AmazonLogo from '../../vectors/Amazon_logo';
 import AbesBooksLogo from '@/vectors/AbesBooksLogo';
 
+export const metadata = {
+    title: 'College of Thelema: Publications',
+    description: 'Beginning with In the Continuum, College Of Thelema has a rich history of publishing high quality Thelemic writings spanning 50years.',
+    keywords: 'A∴A∴, Soror Meral, Phyllis Seckler, In the Continuum, The Mystical and Magical System of the A∴A∴, 776.5, Visions & Voices, Pearls Of Wisdom, Black Pearl, Liber VII',
+    metadataBase: new URL('https://thelema.org/publications'),
+    alternates: {
+      canonical: '/publications'
+    }
+};
+
 export default function Page() {
     return (
         <body id="page--top" className='theme--Warmer'>

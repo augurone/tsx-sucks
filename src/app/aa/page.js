@@ -8,6 +8,16 @@ import LiberL from '../../referecnces/liberl';
 import LiberXIII from '../../referecnces/liberXIII';
 import OneStarInSight from '../../referecnces/oneStartInSight';
 
+export const metadata = {
+    title: 'College and Temple of Thelema founded in service to A∴A∴',
+    description: 'Directly from Perdurabo (Crowley), to Estai (Wolfe), to Meral (Seckler), to Heru Aur (Eshleman) all recognized adepts by their superiors, the A∴A∴ lives on.',
+    keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, Liber al vel Legis, One Start in Site, Lineages A∴A∴',
+    metadataBase: new URL('https://thelema.org/aa'),
+    alternates: {
+      canonical: '/aa'
+    }
+};
+
 export default function Page() {
     return (
         <body id="page--top"  className='theme--Warmer'>
