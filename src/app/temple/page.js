@@ -275,7 +275,7 @@ export default function Page() {
                                     </section>
                                     <section className="wrapper--cta">
                                         <h5>Download an Application:</h5>
-                                        <a className="text text--medium" href="../files/application_TOT-harpocrates.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down',]} />&nbsp;PDF -- 11kb</a>
+                                        <a className="text text--medium" href="/downloads/application_TOT-harpocrates.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down',]} />&nbsp;PDF -- 11kb</a>
                                     </section>
                                 </section>
                                 <section>
@@ -337,7 +337,7 @@ export default function Page() {
                                         </section>
                                         <section className="wrapper--cta">
                                             <h5>Download an Application:</h5>
-                                            <a className="text text--medium" href="../files/application_TOT-harpocrates.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down']} />&nbsp;PDF -- 11kb</a>
+                                            <a className="text text--medium" href="/downloads/application_TOT-harpocrates.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down']} />&nbsp;PDF -- 11kb</a>
                                         </section>
                                     </section>
                                     <section>
@@ -401,7 +401,7 @@ export default function Page() {
                                     </section>
                                     <section className="wrapper--cta">
                                         <h5>Download an Application:</h5>
-                                        <a className="text text--medium" href="../files/application_TOT-aiwass.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down']} />&nbsp;PDF -- 57kb</a>
+                                        <a className="text text--medium" href="/downloads/application_TOT-aiwass.pdf"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fas', 'file-arrow-down']} />&nbsp;PDF -- 57kb</a>
                                     </section>
                                 </section>
                                 <section>
