@@ -6,7 +6,7 @@ let transporter = nodemailer.createTransport({
     secure: true, // true for 465, false for other ports
     auth: {
         user: 'no-reply@thelema.org',
-        pass: 'Arr0w220', // Use the actual password
+        pass: '', // Use the actual password
     },
 });
 
