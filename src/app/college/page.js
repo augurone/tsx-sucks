@@ -183,7 +183,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image loading="lazy" alt="Andrew Ferren—Dean" width="62" height="62" src="/profile-ferren_andrew.jpg"style={{backgroundImage: 'url(/profile-ferren_andrew.jpg)', backgroundPosition: '0 0'}} />
+                                            <Image loading="lazy" alt="Andrew Ferren—Dean" width="62" height="62" src="/profile-ferren_andrew.webp"style={{backgroundImage: 'url(/profile-ferren_andrew.webp)', backgroundPosition: '0 0'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Andrew Ferren
