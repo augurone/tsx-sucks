@@ -105,6 +105,14 @@ export default function Page() {
                                            VIce Chancellor, College of Thelema
                                        </span>
                                     </li>
+                                    <li>
+                                        <div className="wrapper-img wrapper-img--med">
+                                            <Image height="62" width="62" alt="Gabriel Osuna—Dean" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
+                                        </div>
+                                        <span className="text text--medium">
+                                            Gabriel Osuna
+                                        </span>
+                                    </li>
                                 </ul>
                             </section>
                             <section>
