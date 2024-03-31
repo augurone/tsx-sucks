@@ -102,7 +102,7 @@ export default function Page() {
                                        </div>
                                        <span className="text text--medium">
                                            Zeph Bender <br />
-                                           VIce Chancellor, College of Thelema
+                                           Vice Chancellor, College of Thelema
                                        </span>
                                     </li>
                                     <li>
