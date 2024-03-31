@@ -57,7 +57,7 @@ export default function Page() {
                         <section>
                             <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium">
                                 <li>
-                                    <div className="wrapper-img wrapper-img--med">
+                                    <div className="wrapper-img wrapper-img--large">
                                         <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} loading = 'lazy'/>
                                     </div>
                                     <span className="text text--medium">
