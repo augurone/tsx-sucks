@@ -10,9 +10,6 @@ export const metadata = {
     description: 'Founded in 1989 by Phyllis Seckler, Anna-Kria King, and James A. Eshelman, Temple of Thelema is an innovative organiztion with the mission of raising adepts.',
     keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, James A. Eshelman,, Initiaion, Cipher Manuscript, LA, NYC, Bay Area',
     metadataBase: new URL('https://thelema.org/tmeple'),
-    alternates: {
-      canonical: '/temple'
-    }
 };
 
 export default function Page() {
