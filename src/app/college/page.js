@@ -9,9 +9,8 @@ export const metadata = {
     title: 'College of Thelema: The Standard in Thelemic Education',
     description: 'Soror Meral founded College of Thelema in the late 1970\'s to properly preparee indivuduals for entry into the A∴A∴',
     keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, In the Continuum, LA, NYC, Bay Area',
-    metadataBase: new URL('https://thelema.org/college'),
     alternates: {
-      canonical: '/'
+      canonical: '/college'
     }
 };
 
