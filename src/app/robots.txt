@@ -1,5 +1,11 @@
 User-Agent: *
 Allow: /
 Disallow: /private/
+Disallow: /users/*
+Disallow: /uid/*
+Disallow: /admin/*
+Disallow: /*?*
+
 
 Sitemap: https://thelema.org/sitemap.xml
+Sitemap: https://thelema.org/forum/sitemap.xml

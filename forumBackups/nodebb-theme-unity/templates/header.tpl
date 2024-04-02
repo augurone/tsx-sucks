@@ -251,10 +251,10 @@
                 </svg>
             </a>
             <ul class="list list--flex flex-col md:flex-row w-full justify-end z-20">
-                <li><a class="px-2" target="_self" href="/aa/">A∴A∴</a></li>
-                <li><a class="px-2" target="_self" href="/college/">College of Thelema</a></li>
-                <li><a class="px-2" target="_self" href="/temple/">Temple of Thelema</a></li>
-                <li><a class="px-2" target="_self" href="/publications/">Publications</a></li>
+                <li><a class="px-2" target="_self" href="/aa">A∴A∴</a></li>
+                <li><a class="px-2" target="_self" href="/college">College of Thelema</a></li>
+                <li><a class="px-2" target="_self" href="/temple">Temple of Thelema</a></li>
+                <li><a class="px-2" target="_self" href="/publications">Publications</a></li>
                 <li><span class="px-2">Forum</span></li>
             </ul>
         </nav>
