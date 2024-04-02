@@ -5,7 +5,7 @@ Disallow: /users/*
 Disallow: /uid/*
 Disallow: /admin/*
 Disallow: /forum/*?*
-
+Disallow: /forum/compose*
 
 Sitemap: https://thelema.org/sitemap.xml
 Sitemap: https://thelema.org/forum/sitemap.xml
