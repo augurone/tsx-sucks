@@ -189,10 +189,10 @@ export default async function Home() {
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Tax Exempt Donations" width="62" height="62" src="/charity.webp" style={{ backgroundImage: 'url(/charity.webp)' }} />
+                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/heruraha.webp" style={{ backgroundImage: 'url(/heruraha.webp)' }} />
                                 </div>
-                                <span>Donate</span>
-                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="college/#article--donate" ></Link>
+                                <span>Forums</span>
+                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" ></Link>
                             </li>
                         </ul>
                     </li>
@@ -263,6 +263,13 @@ export default async function Home() {
                                 </div>
                                 <span>Donate</span>
                                 <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="college/#article--donate" ></Link>
+                            </li>
+                            <li>
+                                <div className="wrapper-img wrapper-img--med">
+                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/heruraha.webp" style={{ backgroundImage: 'url(/heruraha.webp)' }} />
+                                </div>
+                                <span>Forums</span>
+                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" ></Link>
                             </li>
                         </ul>
                     </div>
