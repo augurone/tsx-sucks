@@ -14,13 +14,30 @@ export const metadata = {
     keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, Liber al vel Legis, One Start in Site, Lineages A∴A∴',
     alternates: {
       canonical: '/aa'
+    },
+    openGraph: {
+        title: 'College and Temple of Thelema founded in service to A∴A∴',
+        description: 'Directly from Perdurabo (Crowley), to Estai (Wolfe), to Meral (Seckler), to Heru Aur (Eshleman) all recognized adepts by their superiors, the A∴A∴ lives on.',
+        images: [
+            {
+                url: 'https://thelema.org/jsonld.jpg',
+            },
+        ],
+        type: 'website',
+        url: "https://thelema.org/aa"
+    },
+    twitterCard: {
+        cardType: 'summary_large_image',
+        title: 'College and Temple of Thelema founded in service to A∴A∴',
+        description: 'Directly from Perdurabo (Crowley), to Estai (Wolfe), to Meral (Seckler), to Heru Aur (Eshleman) all recognized adepts by their superiors, the A∴A∴ lives on.',
+        image: 'https://thelema.org/jsonld.jpg',
     }
 };
 
 export default function Page() {
     return (
         <body id="page--top"  className='theme--Warmer'>
-            <Navbar disableRoute='aa/' />
+            <Navbar disableRoute='/aa' />
             <main>
                 <aside>
                     <div className="wrapper--sticky">

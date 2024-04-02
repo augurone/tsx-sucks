@@ -5,19 +5,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const navConfig = [
     {
-        href: 'aa/',
+        href: '/aa',
         name: 'A∴A∴'
     },
     {
-        href: 'college/',
+        href: '/college',
         name: 'College of Thelema'
     },
     {
-        href: 'temple/',
+        href: '/temple',
         name: 'Temple of Thelema'
     },
     {
-        href: 'publications/',
+        href: '/publications',
         name: 'Publications'
     },
     {

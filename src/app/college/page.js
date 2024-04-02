@@ -11,13 +11,30 @@ export const metadata = {
     keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, In the Continuum, LA, NYC, Bay Area',
     alternates: {
       canonical: '/college'
+    },
+    openGraph: {
+        title: 'College of Thelema: The Standard in Thelemic Education',
+        description: 'Soror Meral founded College of Thelema in the late 1970\'s to properly preparee indivuduals for entry into the A∴A∴',
+        images: [
+            {
+                url: 'https://thelema.org/jsonld.jpg',
+            },
+        ],
+        type: 'website',
+        url: "https://thelema.org/college"
+    },
+    twitterCard: {
+        cardType: 'summary_large_image',
+        title: 'College of Thelema: The Standard in Thelemic Education',
+        description: 'Soror Meral founded College of Thelema in the late 1970\'s to properly preparee indivuduals for entry into the A∴A∴',
+        image: 'https://thelema.org/jsonld.jpg',
     }
 };
 
 export default function Page() {
     return (
     <body id="page--top" className='theme--Warmer'>
-        <Navbar disableRoute='college/' />
+        <Navbar disableRoute='/college' />
         <main>
             <aside>
                 <div className="wrapper--sticky">
@@ -170,7 +187,7 @@ export default function Page() {
                                 </address>
                                 <section className="wrapper--cta">
                                     <h5>Find Us On:</h5>
-                                    <a className="inline float-left" href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon style={{'float': 'left'}}  icon={['fab', 'meetup']}/></a>
+                                    <a className="inline float-left" href="https://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon style={{'float': 'left'}}  icon={['fab', 'meetup']}/></a>
                                     <a  className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank"title="College of Thelema Aiwass Study Group on Facebook"> <FontAwesomeIcon style={{'float': 'left'}} icon={['fab', 'facebook-f']} /></a>
                                 </section>
                             </section>

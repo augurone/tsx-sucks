@@ -23,6 +23,12 @@ export const metadata = {
         ],
         type: 'website',
         url: "https://thelema.org"
+    },
+    twitterCard: {
+        cardType: 'summary_large_image',
+        title: 'College & Temple of Thelema',
+        description: 'A Modern Mystery School',
+        image: 'https://thelema.org/jsonld.jpg',
     }
 };
 

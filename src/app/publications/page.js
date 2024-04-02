@@ -12,13 +12,30 @@ export const metadata = {
     keywords: 'A∴A∴, Soror Meral, Phyllis Seckler, In the Continuum, The Mystical and Magical System of the A∴A∴, 776.5, Visions & Voices, Pearls Of Wisdom, Black Pearl, Liber VII',
     alternates: {
       canonical: '/publications'
+    },
+    openGraph: {
+        title: 'College of Thelema: Publications',
+        description: 'Beginning with In the Continuum, College Of Thelema has a rich history of publishing high quality Thelemic writings spanning 50years.',
+        images: [
+            {
+                url: 'https://thelema.org/jsonld.jpg',
+            },
+        ],
+        type: 'website',
+        url: "https://thelema.org/publications"
+    },
+    twitterCard: {
+        cardType: 'summary_large_image',
+        title: 'College of Thelema: Publications',
+        description: 'Beginning with In the Continuum, College Of Thelema has a rich history of publishing high quality Thelemic writings spanning 50years.',
+        image: 'https://thelema.org/jsonld.jpg',
     }
 };
 
 export default function Page() {
     return (
         <body id="page--top" className='theme--Warmer'>
-            <Navbar disableRoute="publications/" />
+            <Navbar disableRoute="/publications" />
             <main>
                 <aside>
                     <div className="wrapper--sticky">
@@ -147,11 +164,11 @@ export default function Page() {
                                     </hgroup>
                                     <br />
                                     <strong><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> Download ITC</strong> <br />
-                                    <a title="Download ITC Volume I" href="http://www.limitlesslight.org/ITCarchive/ITCvol1.zip" target="_blank"><strong>Volume I:</strong> (1973-1977)</a><br />
-                                    <a title="Download ITC Volume II" href="http://www.limitlesslight.org/ITCarchive/ITCvol2.zip" target="_blank"><strong>Volume II:</strong> (1978-1981)</a><br />
-                                    <a title="Download ITC Volume III" href="http://www.limitlesslight.org/ITCarchive/ITCvol3.zip" target="_blank"><strong>Volume III:</strong> (1982-1986)</a><br />
-                                    <a title="Download ITC Volume IV" href="http://www.limitlesslight.org/ITCarchive/ITCvol4.zip" target="_blank"><strong>Volume IV:</strong> (1987-1991)</a><br />
-                                    <a title="Download ITC Volume V" href="http://www.limitlesslight.org/ITCarchive/ITCvol5.zip" target="_blank"><strong>Volume V:</strong> (1991-1995)</a>
+                                    <a title="Download ITC Volume I" href="https://www.limitlesslight.org/ITCarchive/ITCvol1.zip" target="_blank"><strong>Volume I:</strong> (1973-1977)</a><br />
+                                    <a title="Download ITC Volume II" href="https://www.limitlesslight.org/ITCarchive/ITCvol2.zip" target="_blank"><strong>Volume II:</strong> (1978-1981)</a><br />
+                                    <a title="Download ITC Volume III" href="https://www.limitlesslight.org/ITCarchive/ITCvol3.zip" target="_blank"><strong>Volume III:</strong> (1982-1986)</a><br />
+                                    <a title="Download ITC Volume IV" href="https://www.limitlesslight.org/ITCarchive/ITCvol4.zip" target="_blank"><strong>Volume IV:</strong> (1987-1991)</a><br />
+                                    <a title="Download ITC Volume V" href="https://www.limitlesslight.org/ITCarchive/ITCvol5.zip" target="_blank"><strong>Volume V:</strong> (1991-1995)</a>
                                 </aside>
                             </div>
                             <figcaption className="wrapper-text">
@@ -180,9 +197,9 @@ export default function Page() {
                                     </hgroup>
                                     <br />
                                     <strong><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> Download Black Pearl</strong> <br />
-                                    <a title="Download Black Pearl Issues 1-4" href="http://www.limitlesslight.org/BParchive/bp_volI_i-iv.zip" target="_blank">Issues 1-4</a><br />
-                                    <a title="Download Black Pearl Issues 5-9" href="http://www.limitlesslight.org/BParchive/bp_volI_v-ix.zip" target="_blank">Issues 5-9</a><br />
-                                    <a title="Download Black Pearl Issues 10-11" href="http://www.limitlesslight.org/BParchive/bp_volI_x-volII_i.zip" target="_blank">Issues 10-11</a>
+                                    <a title="Download Black Pearl Issues 1-4" href="https://www.limitlesslight.org/BParchive/bp_volI_i-iv.zip" target="_blank">Issues 1-4</a><br />
+                                    <a title="Download Black Pearl Issues 5-9" href="https://www.limitlesslight.org/BParchive/bp_volI_v-ix.zip" target="_blank">Issues 5-9</a><br />
+                                    <a title="Download Black Pearl Issues 10-11" href="https://www.limitlesslight.org/BParchive/bp_volI_x-volII_i.zip" target="_blank">Issues 10-11</a>
                                 </aside>
                             </div>
                             <figcaption className="wrapper-text">

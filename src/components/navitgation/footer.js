@@ -50,7 +50,7 @@ const Footer = () => (
                 			<a href="mailto:&#097;&#105;&#119;&#097;&#115;&#115;&#064;&#116;&#104;&#101;&#108;&#101;&#109;&#097;&#046;&#111;&#114;&#103;" target="_self">&#097;&#105;&#119;&#097;&#115;&#115;&#064;&#116;&#104;&#101;&#108;&#101;&#109;&#097;&#046;&#111;&#114;&#103;</a>
                             <br />
                             <br />
-                            <a className="inline float-left" href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">
+                            <a className="inline float-left" href="https://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">
                                 <FontAwesomeIcon icon={['fab', 'meetup']}/>
                             </a>
                             <a className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook">

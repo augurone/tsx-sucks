@@ -11,13 +11,30 @@ export const metadata = {
     keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, James A. Eshelman,, Initiaion, Cipher Manuscript, LA, NYC, Bay Area',
     alternates: {
       canonical: '/temple'
+    },
+    openGraph: {
+        title: 'Temple of Thelema: Initiation for the New Aeon',
+        description: 'Founded in 1989 by Phyllis Seckler, Anna-Kria King, and James A. Eshelman, Temple of Thelema is an innovative organiztion with the mission of raising adepts.',
+        images: [
+            {
+                url: 'https://thelema.org/jsonld.jpg',
+            },
+        ],
+        type: 'website',
+        url: "https://thelema.org/temple"
+    },
+    twitterCard: {
+        cardType: 'summary_large_image',
+        title: 'Temple of Thelema: Initiation for the New Aeon',
+        description: 'Founded in 1989 by Phyllis Seckler, Anna-Kria King, and James A. Eshelman, Temple of Thelema is an innovative organiztion with the mission of raising adepts.',
+        image: 'https://thelema.org/jsonld.jpg',
     }
 };
 
 export default function Page() {
     return (
         <body id="page--top" className='theme--Warmer'>
-            <Navbar disableRoute="temple/" />
+            <Navbar disableRoute="/temple" />
                 <main>
                     <aside>
                         <div className="wrapper--sticky">
@@ -405,7 +422,7 @@ export default function Page() {
                                     </address>
                                     <section className="wrapper--cta">
                                         <h5>Find Us On:</h5>
-                                        <a className="inline float-left" href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a> 
+                                        <a className="inline float-left" href="https://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a> 
                                         <a className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook"> <FontAwesomeIcon icon={['fab', 'facebook-f']} /></a><br />
                                     </section>
                                     <section className="wrapper--cta">
@@ -422,7 +439,7 @@ export default function Page() {
                                     <section className="wrapper--event wrapper--cta">
                                         <h5>Regular Public Meetings:</h5>
                                         <p className="text text--medium">
-                                            <a className="inline float-left" href="http://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a>
+                                            <a className="inline float-left" href="https://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">  <FontAwesomeIcon icon={['fab', 'meetup']}/></a>
                                             <a className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook"> <FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>
                                         </p>
                                     </section>
