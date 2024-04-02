@@ -189,7 +189,7 @@ export default async function Home() {
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(event_Harpocrates_BecomingHuman.webp)' }} />
+                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)' }} />
                                 </div>
                                 <span>Forums</span>
                                 <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" prefetch={true}></Link>
@@ -266,7 +266,7 @@ export default async function Home() {
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(event_Harpocrates_BecomingHuman.webp)' }} />
+                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)' }} />
                                 </div>
                                 <span>Forums</span>
                                 <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" ></Link>
