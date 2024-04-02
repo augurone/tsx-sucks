@@ -164,35 +164,35 @@ export default async function Home() {
                                     <Image loading="lazy" alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
-                                <Link aria-label="Book of the Law" className="link link--blocker" href="aa/#article--LiberL" prefetch={true} ></Link>
+                                <a aria-label="Book of the Law" className="link link--blocker" href="/aa#article--LiberL" ></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
                                 </div>
                                 <span>A&there4;A&there4;</span>
-                                <Link aria-label="The A&there4;A&there4" className="link link--blocker" href="aa/" prefetch={true}></Link>
+                                <a aria-label="The A&there4;A&there4" className="link link--blocker" href="/aa"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med wrapper-img--square">
                                     <Image loading="lazy" alt="Apply For Membership" width="62" height="62" src="/ennealeph.png" style={{ backgroundImage: 'url(/ennealeph.png)', backgroundSize: '131%' }} />
                                 </div>
                                 <span>Join TOT</span>
-                                <Link aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples" prefetch={true}></Link>
+                                <a aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="COT Campuses and Study Groups" width="62" height="62" src="/classes.webp" style={{ backgroundImage: 'url(/classes.webp)' }} />
                                 </div>
                                 <span>Classes</span>
-                                <Link aria-label="College of Thelema Classes" className="link link--blocker" href="college/#article--locations" prefetch={true}></Link>
+                                <a aria-label="College of Thelema Classes" className="link link--blocker" href="/college#article--locations"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/heruraha.webp" style={{ backgroundImage: 'url(/heruraha.webp)' }} />
                                 </div>
                                 <span>Forums</span>
-                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" ></Link>
+                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" prefetch={true}></Link>
                             </li>
                         </ul>
                     </li>
@@ -234,35 +234,35 @@ export default async function Home() {
                                     <Image loading="lazy" alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
-                                <Link aria-label="Book of the Law" className="link link--blocker" href="aa/#article--LiberL" prefetch={true} ></Link>
+                                <a aria-label="Book of the Law" className="link link--blocker" href="/aa#article--LiberL"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
                                 </div>
                                 <span>A&there4;A&there4;</span>
-                                <Link aria-label="The A&there4;A&there4" className="link link--blocker" href="aa/" prefetch={true}></Link>
+                                <Link aria-label="The A&there4;A&there4" className="link link--blocker" href="/aa" prefetch={true}></Link>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med wrapper-img--square">
                                     <Image loading="lazy" alt="Apply For Membership" width="62" height="62" src="/ennealeph.png" style={{ backgroundImage: 'url(/ennealeph.png)', backgroundSize: '131%' }} />
                                 </div>
                                 <span>Join TOT</span>
-                                <Link aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples" prefetch={true}></Link>
+                                <a aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="COT Campuses and Study Groups" width="62" height="62" src="/classes.webp" style={{ backgroundImage: 'url(/classes.webp)' }} />
                                 </div>
                                 <span>Classes</span>
-                                <Link aria-label="College of Thelema Classes" className="link link--blocker" href="college/#article--locations" prefetch={true}></Link>
+                                <a aria-label="College of Thelema Classes" className="link link--blocker" href="/college#article--locations" ></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="Tax Exempt Donations" width="62" height="62" src="/charity.webp" style={{ backgroundImage: 'url(/charity.webp)' }} />
                                 </div>
                                 <span>Donate</span>
-                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="college/#article--donate" ></Link>
+                                <a aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/college#article--donate" ></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">

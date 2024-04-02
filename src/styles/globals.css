@@ -847,11 +847,11 @@ main section .wrapper--fullWidth {
     content: "";
     display: block;
     height: 100%;
-    max-width: 100%;
     object-fit: scale-down;
     object-position: 200% 200%;
     overflow: hidden;
     padding-left: 100%;
+    width: auto;
 }
 
 .wrapper-img--rect {
