@@ -4,7 +4,7 @@ Disallow: /private/
 Disallow: /users/*
 Disallow: /uid/*
 Disallow: /admin/*
-Disallow: /*?*
+Disallow: /forum/*?*
 
 
 Sitemap: https://thelema.org/sitemap.xml

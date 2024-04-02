@@ -49,6 +49,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
+                <meta name="sitecheckerpro-site-verification" content="cbfde6cf576fc8f9b51319e89e0f0ece" />
                 <link rel="preconnect" href="https://use.typekit.net" as="style" />
                 <link rel="preload" href="https://use.typekit.net/fsb4dcv.css" as="style" />
                 <link rel="stylesheet" href="https://use.typekit.net/fsb4dcv.css" as="style" />
