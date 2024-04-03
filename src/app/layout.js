@@ -28,7 +28,10 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'College & Temple of Thelema',
         description: 'A Modern Mystery School',
-        image: 'https://thelema.org/jsonld.jpg',
+        images: {
+            url: 'https://thelema.org/jsonld.jpg',
+            alt: 'thelema.org',
+        }
     }
 };
 

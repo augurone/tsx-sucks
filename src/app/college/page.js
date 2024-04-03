@@ -27,7 +27,10 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'College of Thelema: The Standard in Thelemic Education',
         description: 'Soror Meral founded College of Thelema in the late 1970\'s to properly preparee indivuduals for entry into the A∴A∴',
-        image: 'https://thelema.org/jsonld.jpg',
+        images: {
+            url: 'https://thelema.org/jsonld.jpg',
+            alt: 'thelema.org',
+        }
     }
 };
 

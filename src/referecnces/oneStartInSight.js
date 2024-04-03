@@ -84,11 +84,10 @@ const OneStarInSight = () => (
         <section className="wrapper-text wrapper-text--columns">
             <p>The order consists of eleven grades or degrees, and is numbered as follows: these compose three groups, the Orders of the S.S., of the R.C., and of the G.D., respectively.</p>
             <table>
+                <caption><em><strong>The Order of the S.S.</strong></em></caption>
                 <thead>
                     <tr>
-                        <th colSpan={3}>
-                            <em><strong>The Order of the S.S.</strong></em> 
-                        </th>
+                        <th colSpan={3}>Grades</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -110,12 +109,13 @@ const OneStarInSight = () => (
                 </tbody>
             </table>
             <table>
+                <caption>
+                    <em><strong>The Order of the R.C.</strong></em><br />
+                        &#40;Babe of the Abyss - the link&#41; 
+                </caption>
                 <thead>
                     <tr>
-                        <th colSpan={3}>
-                            <em><strong>The Order of the R.C.</strong></em><br />
-                            &#40;Babe of the Abyss - the link&#41; 
-                        </th>
+                        <th colSpan={3}>Grades</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -137,12 +137,13 @@ const OneStarInSight = () => (
                 </tbody>
             </table>
             <table>
+            <caption>
+                    <em><strong>The Order of the G.D.</strong></em><br />
+                    &#40;Dominus Liminis - the link&#41; 
+                </caption>
                 <thead>
                     <tr>
-                        <th colSpan={3}>
-                            <em><strong>The Order of the G.D.</strong></em><br />
-                            &#40;Dominus Liminis - the link&#41; 
-                        </th>
+                        <th colSpan={3}>Grades</th>
                     </tr>
                 </thead>
                 <tbody>
