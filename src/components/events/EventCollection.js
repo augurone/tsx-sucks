@@ -41,8 +41,8 @@ const EventCollection = async ({
                 fields: {
                     file: {
                         details : {
-                            height = '',
-                            width = '',
+                            height = 161,
+                            width = 286,
                         } = {},
                         url: imgSrc = '',
                     } = {}
