@@ -77,7 +77,7 @@ export default function Page() {
                             <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium">
                                 <li>
                                     <div className="wrapper-img wrapper-img--large">
-                                        <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} loading = 'lazy'/>
+                                        <Image height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" title="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} loading = 'lazy'/>
                                     </div>
                                     <span className="text text--medium">
                                         Ayesha Adamo <br />
@@ -201,7 +201,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="James A. Eshleman—Prolocutor General" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="James A. Eshleman—Prolocutor General" title="James A. Eshleman—Prolocutor General" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 James A. Eshleman <br/>
@@ -210,7 +210,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: ' 0 0'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Zeph Bender—Prolocutor" title="Zeph Bender—Prolocutor" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: ' 0 0'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Zeph Bender <br />
@@ -221,7 +221,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image loading="lazy" height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
+                                                <Image loading="lazy" height="62" width="62" alt="Ayesha Adamo—Grand Praemonstrator" title="Ayesha Adamo—Grand Praemonstrator" src="/profile-adamo_ayesha.webp" style={{backgroundImage: 'url(/profile-adamo_ayesha.webp)'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Ayesha Adamo <br />
@@ -230,7 +230,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image loading="lazy" height="62" width="62" alt="Chad Augur—Grand Cancellarius" src="/profile-augur_chad.webp" style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: ' 156%'}} />
+                                                <Image loading="lazy" height="62" width="62" alt="Chad Augur—Grand Cancellarius" title="Chad Augur—Grand Cancellarius" src="/profile-augur_chad.webp" style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: ' 156%'}} />
                                             </div>
                                             <span className="text text--medium">
                                                 Chad Augur <br />
@@ -239,7 +239,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Juan Ramirez—Grand Imperator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Juan Ramirez—Grand Imperator" title="Juan Ramirez—Grand Imperator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Juan Ramirez <br />
@@ -263,7 +263,7 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Gabriel Osuna—Praemonstrator" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Gabriel Osuna—Praemonstrator" title="Gabriel Osuna—Praemonstrator" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Gabriel Osuna <br />
@@ -272,7 +272,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Hannah Bender—Cancelarius" src="/profile-bender_hannah.webp" style={{backgroundImage: 'url(/profile-bender_hannah.webp)', backgroundPosition: '50% 20%', backgroundSize: '100%'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Hannah Bender—Cancelarius" tilte="Hannah Bender—Cancelarius" src="/profile-bender_hannah.webp" style={{backgroundImage: 'url(/profile-bender_hannah.webp)', backgroundPosition: '50% 20%', backgroundSize: '100%'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Hannah Bender<br />
@@ -281,7 +281,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image height="62" width="62" alt="Kimberly Manibusan—Imperator" src="/profile-manibusan_kimberly.webp" style={{backgroundImage: 'url(/profile-manibusan_kimberly.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
+                                            <Image height="62" width="62" alt="Kimberly Manibusan—Imperator" title="Kimberly Manibusan—Imperator" src="/profile-manibusan_kimberly.webp" style={{backgroundImage: 'url(/profile-manibusan_kimberly.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                         </div>
                                         <span className="text text--medium">
                                             Kimberly Manibusan <br />
@@ -325,7 +325,7 @@ export default function Page() {
                                         <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Gabriel Osuna—Dean" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
+                                                        <Image height="62" width="62" alt="Gabriel Osuna—Dean" title="Gabriel Osuna—Dean" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
                                                         Gabriel Osuna <br />
@@ -334,7 +334,7 @@ export default function Page() {
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" src="/profile-kali_aleph.webp" style={{backgroundImage: 'url(/profile-kali_aleph.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
+                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" titlet="Aleph Kali—Scribe" src="/profile-kali_aleph.webp" style={{backgroundImage: 'url(/profile-kali_aleph.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                                     </div>
                                                     <span className="text text--medium">
                                                         Aleph Kali <br />
@@ -343,7 +343,7 @@ export default function Page() {
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Billie Austin—Bursar" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
+                                                        <Image height="62" width="62" alt="Billie Austin—Bursar" title="Billie Austin—Bursar" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
                                                         Billie Austin <br />
