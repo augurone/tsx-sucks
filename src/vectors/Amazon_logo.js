@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AmazonLogo = () => (
-    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" x="0px" y="0px"
+    <svg version="1.1" xmlns="https://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="0 0 1204.6 363" enableBackground="new 0 0 1204.6 363"  width="93" >
 <path fillRule="evenodd" clipRule="evenodd" fill="#FF9900" d="M747.1,283.7c-70,51.6-171.5,79.1-258.8,79.1
 	c-122.5,0-232.8-45.3-316.2-120.7c-6.6-5.9-0.7-14,7.2-9.4c90,52.4,201.3,83.9,316.3,83.9c77.5,0,162.9-16,241.3-49.3

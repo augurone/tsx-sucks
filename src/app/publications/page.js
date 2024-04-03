@@ -49,7 +49,7 @@ export default function Page() {
                 </aside>
                 <section>
                     <h2>College of Thelema: Publications</h2>
-                    <article id="page--top" className="article article--fullWidth">
+                    <article className="article article--fullWidth">
                         <h3>Books</h3>
                         <figure className="card--book flex flex-col md:flex-row items-start gap-8 w-full py-8">
                             <div className="flex flex-col items-start w-full md:w-[220px]">
@@ -172,7 +172,7 @@ export default function Page() {
                                 </aside>
                             </div>
                             <figcaption className="wrapper-text">
-                                <p>IN THE CONTINUUM is a Thelemic periodical, published by <a href="../college/" target="_self">College of Thelema®</a> from 1976 through 1995. It features writings by Aleister Crowley that are difficult
+                                <p>IN THE CONTINUUM is a Thelemic periodical, published by <a href="../college" target="_self">College of Thelema®</a> from 1976 through 1995. It features writings by Aleister Crowley that are difficult
                                     &#40;or even impossible&#41; to find in print, or which are basic studies in the understanding of Thelemic
                                     principles expressed in <a href="/aa/#article--LiberL" target="_self"><em>Liber L. vel Legis</em></a>.</p>
                                 <p>For over thirty years it has been the leader and standard against which all other Thelemic
