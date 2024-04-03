@@ -34,7 +34,7 @@
             </label>
             <nav class="sticky w-full flex"><a class="link link--img z-30" href="/">
                 <h2 class="u-offscreen">College of Thelema and Temple of Thelema</h2>
-                <svg aria-hidden="true" class="brand" data-name="Layer 1" viewBox="0 0 344.88 622.56" xmlns="http://www.w3.org/2000/svg">
+                <svg aria-hidden="true" class="brand" data-name="Layer 1" viewBox="0 0 344.88 622.56" xmlns="https://www.w3.org/2000/svg">
                     <path class="cls-1" d="M4.62,310.51c-7.3-185.62,133-280.68,166.53-305.57C206.45,30.86,347.81,143.54,340,309.49c-2,103.44-47.53,216.2-168.85,308.11C56.35,524.71,9.42,432.11,4.62,310.51Z">
                     </path>
                     <line class="cls-2" x1="205.22" x2="176.6" y1="569.68" y2="198.69"></line>
