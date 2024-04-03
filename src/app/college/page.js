@@ -99,7 +99,7 @@ export default function Page() {
                             If necessary, you may be requested to provide further information. If appropriate, you will be contacted for arranging a personal interview with a member of the faculty.
                         </p>
                         <p>
-                            General questions on the College of Thelema may be sent via e-mail to <a href="emailto:admissions@thelema.org" target="_self">admissions@thelema.org</a>.
+                            General questions on the College of Thelema may be sent via e-mail to <a href="mailto:admissions@thelema.org" target="_self">admissions@thelema.org</a>.
                         </p>
                     </section>
                     <strong>Love is the law, love under will.</strong>
