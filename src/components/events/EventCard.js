@@ -24,6 +24,7 @@ const Event = ({
                     width={width} 
                     height={height} 
                     fetchPriority="high"
+                    title={name}
                     loading="lazy" />
             </div>
             <figcaption className="flex flex-col items-stretch shrink grow basis-full h-full">
