@@ -164,28 +164,28 @@ export default async function Home() {
                                     <Image loading="lazy" alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
-                                <a aria-label="Book of the Law" className="link link--blocker" href="/aa#article--LiberL" ></a>
+                                <a aria-label="Book of the Law" className="link link--blocker" href="/aa#article--LiberL" title="Liber al vel Legis"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
                                 </div>
                                 <span>A&there4;A&there4;</span>
-                                <a aria-label="The A&there4;A&there4" className="link link--blocker" href="/aa"></a>
+                                <a aria-label="The A&there4;A&there4" className="link link--blocker" href="/aa" title="The A∴A∴"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med wrapper-img--square">
                                     <Image loading="lazy" alt="Apply For Membership" width="62" height="62" src="/ennealeph.png" style={{ backgroundImage: 'url(/ennealeph.png)', backgroundSize: '131%' }} />
                                 </div>
                                 <span>Join TOT</span>
-                                <a aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples"></a>
+                                <a aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples" title="Join Temple of Thelema"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="COT Campuses and Study Groups" width="62" height="62" src="/classes.webp" style={{ backgroundImage: 'url(/classes.webp)' }} />
                                 </div>
                                 <span>Classes</span>
-                                <a aria-label="College of Thelema Classes" className="link link--blocker" href="/college#article--locations"></a>
+                                <a aria-label="College of Thelema Classes" className="link link--blocker" href="/college#article--locations" title="College of Thelema Locations and Classes"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
@@ -222,10 +222,10 @@ export default async function Home() {
                         </ul>
                         <h2 className="u-overflow--mobileList">On This Page:</h2>
                         <ul className="list">
-                            <li><a href="#page--top" target="_self">Thelemic Studies &amp; Initiation</a></li>
-                            <li><a href="#article--news" target="_self">What&apos;s New</a></li>
-                            <li><a href="#article--holyseason">The Thelemic Holy Season</a></li>
-                            <li><a href="#article--events" target="_self">Events</a></li>
+                            <li><a href="#page--top" target="_self" title="Thelemic Studies * Initiation">Thelemic Studies &amp; Initiation</a></li>
+                            <li><a href="#article--news" target="_self" title="What's Happening">What&apos;s New</a></li>
+                            <li><a href="#article--holyseason" title="The Thelemic Holy Season, established by James A. Eshelman">The Thelemic Holy Season</a></li>
+                            <li><a href="#article--events" target="_self" title="Goings on">Events</a></li>
                         </ul>
                         <h2 className="hidden md:block">Quick Links:</h2>
                         <ul className="list list--flex list--thumbnails flex-wrap">
@@ -248,28 +248,28 @@ export default async function Home() {
                                     <Image loading="lazy" alt="Apply For Membership" width="62" height="62" src="/ennealeph.png" style={{ backgroundImage: 'url(/ennealeph.png)', backgroundSize: '131%' }} />
                                 </div>
                                 <span>Join TOT</span>
-                                <a aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples"></a>
+                                <a aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples" title="Joing Temple of Thelema"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="COT Campuses and Study Groups" width="62" height="62" src="/classes.webp" style={{ backgroundImage: 'url(/classes.webp)' }} />
                                 </div>
                                 <span>Classes</span>
-                                <a aria-label="College of Thelema Classes" className="link link--blocker" href="/college#article--locations" ></a>
+                                <a aria-label="College of Thelema Classes" className="link link--blocker" href="/college#article--locations" title="College of Thelema Locations & Classes"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="Tax Exempt Donations" width="62" height="62" src="/charity.webp" style={{ backgroundImage: 'url(/charity.webp)' }} />
                                 </div>
                                 <span>Donate</span>
-                                <a aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/college#article--donate" ></a>
+                                <a aria-label="Share the wealth, support our work" className="link link--blocker" href="/college#article--donate" title="Support the Great Work"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
                                     <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)' }} />
                                 </div>
                                 <span>Forums</span>
-                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" ></Link>
+                                <Link aria-label="Heruraha Resurrected" className="link link--blocker" href="/forum" title="Heruraha Resurrected"></Link>
                             </li>
                         </ul>
                     </div>
@@ -315,7 +315,7 @@ export default async function Home() {
                             <strong>Website Refresh</strong>
                             <p>The last time this site was substantially updated was in 2004. Twenty years hence, it was about time. Nearly all the content from the old site has moved here, minus a Liber 185, outdated information, and broken links. This site is built on a modern architecture, is designed to work across all devices, and will have regularly updated content. In the near future, we will be adding new functionality to support the promulgation of the Law. This has been a long time coming, and we hope that you will enjoy what we provide.</p>
                             <strong>Heruraha.net Lives! Sort of&#x2026;</strong>
-                            <p>The first post on Heruraha.net was on the 4th of June 2005 at 16:14, and the last post was on the 7th of Oct 2020 at 13:11. Heruraha.net served our community for 15 years, and there was a trove of valuable information we were delighted to restore. Somewhere in there, the forum software became outdated and riddled with security issues, leading the former web host to shut it down. About two years ago, we were able to get access to the database and administration of our web properties. Alongside busy lives, we migrated the data over to <a href="/forum">this new platform</a>. For the time being it will be a read-only forum for the public while we figure out how to best moderate and maintain the quality of content posted there. The choice was made to integrate this resource directly into thelema.org in a move towards becoming a single destination for Thelemic Education. </p>
+                            <p>The first post on Heruraha.net was on the 4th of June 2005 at 16:14, and the last post was on the 7th of Oct 2020 at 13:11. Heruraha.net served our community for 15 years, and there was a trove of valuable information we were delighted to restore. Somewhere in there, the forum software became outdated and riddled with security issues, leading the former web host to shut it down. About two years ago, we were able to get access to the database and administration of our web properties. Alongside busy lives, we migrated the data over to <a href="/forum" title="Heruraha Reborn">this new platform</a>. For the time being it will be a read-only forum for the public while we figure out how to best moderate and maintain the quality of content posted there. The choice was made to integrate this resource directly into thelema.org in a move towards becoming a single destination for Thelemic Education. </p>
                             <strong>Relatively Recent Past</strong>
                             <p>At Spring Equinox 2022, James A. Eshelman officially assumed the position of Prolocutor General of the Temple of Thelema and appointed Zeph Bender Prolocutor over all existing temples. This demarcates a significant evolution in the Order&apos;s history in that Zeph is the first non-founder and product of the system to take up the office of Prolocutor. Our system is demanding—attaining to adepthood is a true test of the individual in the divine fabric, and moving through the tests and beyond are the success spoken of in the great texts of our philosophy. We honor Phyllis, Anna Kria, and Jim—without them, we would not be where we are today. And we are excited for this new era in our evolution.</p>
                         </section>
