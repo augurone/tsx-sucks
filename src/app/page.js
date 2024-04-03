@@ -12,7 +12,7 @@ export default async function Home() {
             <header className="background--solar">
                 <h1 className="u-offscreen">Thelemic Education and Initiation</h1>
                 <article>
-                    <h2 className="u-offscreen">A Modern Mystery School</h2>
+                    <h2 className="u-offscreen">Intiation &amp; Study in the Western Mysteries</h2>
                     <div className="display--lockup">
                         <svg aria-hidden="true" className="brand" data-name="Layer 1" viewBox="0 0 344.88 622.56" xmlns="https://www.w3.org/2000/svg">
                             <path className="cls-1" d="M4.62,310.51c-7.3-185.62,133-280.68,166.53-305.57C206.45,30.86,347.81,143.54,340,309.49c-2,103.44-47.53,216.2-168.85,308.11C56.35,524.71,9.42,432.11,4.62,310.51Z" />
