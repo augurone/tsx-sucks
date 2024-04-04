@@ -26,8 +26,8 @@ const Footer = () => (
                             <a href="mailto:harpocrates@thelema.org" target="_self">harpocrates@thelema.org</a>
                             <br />
                             <br />
-                            <a className="inline float-left" href="https://www.meetup.com/venice-thelema-study-group/" target="_blank" title="College of Thelema Harpocrates Study Group on Meetup"></a>
-                            <a className="inline float-left" href="https://www.facebook.com/groups/thelemaharpocrates/events" target="_blank" title="College of Thelema Harpocrates Study Group on Facebook">
+                            <a aria-label="College of Thelema Harpocrates Study Group on Meetup" className="inline float-left" href="https://www.meetup.com/venice-thelema-study-group/" target="_blank" title="College of Thelema Harpocrates Study Group on Meetup"></a>
+                            <a aria-label="College of Thelema Harpocrates Study Group on Facebook" className="inline float-left" href="https://www.facebook.com/groups/thelemaharpocrates/events" target="_blank" title="College of Thelema Harpocrates Study Group on Facebook">
                                 <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                             </a>
                        </address>
@@ -47,13 +47,13 @@ const Footer = () => (
                 			PO Box 156<br />
                 			New York, NY 10185<br />
                             <br />
-                			<a href="mailto:&#097;&#105;&#119;&#097;&#115;&#115;&#064;&#116;&#104;&#101;&#108;&#101;&#109;&#097;&#046;&#111;&#114;&#103;" target="_self">&#097;&#105;&#119;&#097;&#115;&#115;&#064;&#116;&#104;&#101;&#108;&#101;&#109;&#097;&#046;&#111;&#114;&#103;</a>
+                			<a aria-label="email Aiwass" href="mailto:&#097;&#105;&#119;&#097;&#115;&#115;&#064;&#116;&#104;&#101;&#108;&#101;&#109;&#097;&#046;&#111;&#114;&#103;" target="_self">&#097;&#105;&#119;&#097;&#115;&#115;&#064;&#116;&#104;&#101;&#108;&#101;&#109;&#097;&#046;&#111;&#114;&#103;</a>
                             <br />
                             <br />
-                            <a className="inline float-left" href="https://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">
+                            <a aria-label="College of Thelema Aiwass Study Group on Meetup" className="inline float-left" href="https://www.meetup.com/Aiwass-Study-Group/" target="_blank" title="College of Thelema Aiwass Study Group on Meetup">
                                 <FontAwesomeIcon icon={['fab', 'meetup']}/>
                             </a>
-                            <a className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook">
+                            <a aria-label="College of Thelema Aiwass Study Group on Facebook" className="inline float-left" href="https://www.facebook.com/groups/245645772187267" target="_blank" title="College of Thelema Aiwass Study Group on Facebook">
                                 <FontAwesomeIcon icon={['fab', 'facebook-f']} />    
                             </a>
                         </address>
@@ -67,10 +67,10 @@ const Footer = () => (
                 			<a href="mailto:&#x62;&#x75;&#x72;&#x6e;&#x69;&#x6e;&#x67;&#x68;&#x65;&#x61;&#x72;&#x74;&#x73;&#x40;&#x74;&#x68;&#x65;&#x6c;&#x65;&#x6d;&#x61;&#x2e;&#x6f;&#x72;&#x67;" target="_self">&#x62;&#x75;&#x72;&#x6e;&#x69;&#x6e;&#x67;&#x68;&#x65;&#x61;&#x72;&#x74;&#x73;&#x40;&#x74;&#x68;&#x65;&#x6c;&#x65;&#x6d;&#x61;&#x2e;&#x6f;&#x72;&#x67;</a>
                             <br />
                             <br />
-                            <a className="inline float-left" href="https://www.meetup.com/college-of-thelma-agape-study-group/" target="_blank" title="College of Thelema Burning Hearts Study Group on Meetup">
+                            <a aria-label="College of Thelema Burning Hearts Study Group on Meetup" className="inline float-left" href="https://www.meetup.com/college-of-thelma-agape-study-group/" target="_blank" title="College of Thelema Burning Hearts Study Group on Meetup">
                                 <FontAwesomeIcon icon={['fab', 'meetup']} />
                             </a>
-                            <a  className="inline float-left" href="https://www.facebook.com/burninghearts93" target="_blank" title="College of Thelema Burning Hearts Study Group on Facebook">
+                            <a  aria-label="College of Thelema Burning Hearts Study Group on Facebook" className="inline float-left" href="https://www.facebook.com/burninghearts93" target="_blank" title="College of Thelema Burning Hearts Study Group on Facebook">
                                 <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                             </a>
                         </address>
@@ -78,7 +78,7 @@ const Footer = () => (
             	</ul>
                 <ul className="list list--flex info">
                     <li>
-                        <a className="inline float-left" href="https://www.facebook.com/templeofthelema" target="_blank" title="Temple of Thelema on Facebook">
+                        <a aria-label="Temple of Thelema on Facebook" className="inline float-left" href="https://www.facebook.com/templeofthelema" target="_blank" title="Temple of Thelema on Facebook">
                             <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                         </a>
                     </li>

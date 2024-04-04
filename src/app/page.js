@@ -192,7 +192,7 @@ export default async function Home() {
                                     <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)' }} />
                                 </div>
                                 <span>Forums</span>
-                                <Link aria-label="Share the wealth, suppor our work" className="link link--blocker" href="/forum" prefetch={true}></Link>
+                                <Link aria-label="Heruraha Resurrected" className="link link--blocker" href="/forum" prefetch={true}></Link>
                             </li>
                         </ul>
                     </li>
