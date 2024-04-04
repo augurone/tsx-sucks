@@ -111,7 +111,7 @@ export default function Page() {
                     <h2>Classes &amp; Study groups</h2>
                     <ul className="list list--container">
                         <li className="card--large">
-                            <h3>Los Angeles Campus</h3>
+                            <h3>College of Thelema: Los Angeles</h3>
                             <section>
                                 <h4>Teacher:</h4>
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
@@ -157,7 +157,7 @@ export default function Page() {
                             </section>
                         </li>
                         <li className="card--large">
-                            <h3>NYC Campus</h3>
+                            <h3>College of Thelema: NYC</h3>
                             <section>
                                 <h4>Led By:</h4>
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
@@ -204,7 +204,7 @@ export default function Page() {
                             </section>
                         </li>
                         <li className="card--large">
-                            <h3>Bay Area Study Group</h3>
+                            <h3>College of Thelema: Bay Area</h3>
                             <section>
                                 <h4>Led By:</h4>
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">

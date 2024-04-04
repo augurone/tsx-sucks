@@ -371,17 +371,17 @@ export default async function Home() {
                             qry="metadata.tags.sys.id[in]=losAngeles"
                             limit= "&limit=3"
                             order= "&order=-fields.dateAndTime"
-                            title= "COT: Los Angeles Campus &amp; Harpocrates Temple" />
+                            title= "COT: Los Angeles &amp; Harpocrates Temple" />
                         <EventCollection 
                             qry="metadata.tags.sys.id[in]=newYork"
                             limit= "&limit=3"
                             order= "&order=-fields.dateAndTime"
-                            title= "COT: NYC Campus &amp; Aiwass Temple"/>
+                            title= "COT: NYC &amp; Aiwass Temple"/>
                         <EventCollection 
                             qry="metadata.tags.sys.id[in]=bayArea"
                             limit= "&limit=3"
                             order= "&order=-fields.dateAndTime"
-                            title= "COT: Bay Area Study Group &amp; Burning Hearts Pronaos"/>
+                            title= "COT: Bay Area &amp; Burning Hearts Pronaos"/>
                     </article>
                 </section>
             </main>
