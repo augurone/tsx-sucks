@@ -1575,7 +1575,3 @@ ol {
     color: var(--color-Core-reddest);
     font-weight: 500;
 }
-
-:target {
-    color: var(--color-Core-reddest);
-}
