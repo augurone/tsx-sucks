@@ -151,7 +151,7 @@ export default function Page() {
                                 <h4>Classes: </h4>
                                 <p className="text text--medium">Every Other Thursday starting September 1, V<sup>9</sup></p>
                                 <EventCollection 
-                                    qry="metadata.tags.sys.id[in]=losAngeles"
+                                    qry="metadata.tags.sys.id[in]=losAngeles&skip=1"
                                     limit= "&limit=1"
                                     order= "&order=-fields.dateAndTime" />
                             </section>
