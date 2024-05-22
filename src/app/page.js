@@ -161,7 +161,7 @@ export default async function Home() {
                         <ul className="list list--flex list--thumbnails u-justify--evenly">
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
+                                    <Image loading="lazy" alt="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
                                 <a aria-label="Book of the Law" className="link link--blocker" href="/aa#article--LiberL" title="Liber al vel Legis"></a>
@@ -231,7 +231,7 @@ export default async function Home() {
                         <ul className="list list--flex list--thumbnails flex-wrap">
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Liber L vel Legis" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
+                                    <Image loading="lazy" alt="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
                                 <a aria-label="Book of the Law" title="Liber al vel Legis" className="link link--blocker" href="/aa#article--LiberL"></a>

@@ -8,7 +8,7 @@ initFontAwesome();
 export const metadata = {
     title: 'College & Temple of Thelema',
     description: 'Since the 1970\'s, College of Thelema has been the standard of education in Thelemic Magick. Temple of Thelema offers initiation in the Western Mysteries.',
-    keywords: 'Thelema, Magick, Western Mystery Tradition, Initiation, Occult, Thelemic Order, Aleister Crowley, Phyllis Seckler, James A. Eshelman',
+    keywords: 'Thelema, Magick, Western Mystery Tradition, Initiation, Occult, Thelemic Order, Book of The Law, Liber Al vel Legis, Liber L, Aleister Crowley, Phyllis Seckler, James A. Eshelman',
     metadataBase: new URL('https://thelema.org'),
     alternates: {
       canonical: '/'
