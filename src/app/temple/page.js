@@ -201,10 +201,10 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="James A. Eshleman—Prolocutor General" title="James A. Eshleman—Prolocutor General" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="James A. Eshelman—Prolocutor General" title="James A. Eshelman—Prolocutor General" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
-                                                James A. Eshleman <br/>
+                                                James A. Eshelman <br/>
                                                 Prolocutor General
                                             </span>
                                         </li>
