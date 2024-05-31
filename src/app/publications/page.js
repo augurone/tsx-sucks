@@ -47,6 +47,7 @@ export default function Page() {
                             <li><a href="#page--top" target="_self">Books</a></li>
                             <li><a href="#article--periodicals" target="_self">Periodicals for Download</a></li>
                             <li><a href="#article--monographs" target="_self">Monographs for Download</a></li>
+                            <li><a href="#article--authors" target="_self">Our Authors</a></li>
                         </ul>
                     </div>
                 </aside>
@@ -258,6 +259,22 @@ export default function Page() {
                                 <a title="Download the COT Monograph: Sidereal Mundane Astrology" className="block self-justify-end mt-auto" href="/downloads/cot_monograph_eshleman_SMA.pdf" target="_blank"><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> <strong>pdf</strong> (9.2mb)</a>
                             </li>
                         </ul>
+                    </article>
+                    <article id="article--authors" className="article article--fullWidth">
+                        <h2>Our Authors</h2>
+                        <section className="wrapper wrapper-text wrapper-text--columns">
+                            <h3>James A. Eshelman</h3>
+                            <div>
+                                <span className="wrapper-img wrapper-img--large">
+                                    <Image loading="lazy" alt="James A. Eshleman" width="93" height="93" src="/profile-eshelman_jim.webp" style={{backgroundImage: 'url(/profile-eshelman_jim.webp)'}} />
+                                </span>
+                                <p>James A. Eshelman has been a writer and teacher of occult and metaphysical subjects for over 35 years, including astrology, magick, yoga, Qabalah, tarot, occult psychology, and related Hermetic topics.</p>
+                            </div>
+                            <p>He is currently the Chancellor of the College of Thelema, from which he earned his M.A. in Skeptical Theurgy in 1992, and serves as the Prolocutor General of Temple of Thelema, which he co-founded in 1987 with Anna-Kria King and Phyllis Seckler &#40;Soror Meral&41;. He was the editor of and a major contributor to the College&apos;s biannual journal, Black Pearl, throughout its six-year publication run from 1997 to 2002.</p>                        
+                            <p>Soror Meral admitted him to the spiritual order A&there4;A&there4; in 1979. They collaborated for nearly 25 years, and Soror Meral designated him as &quot;my successor in the Jane Wolfe branch of A&there4;A&there4;, who is to take charge of College of Thelema and Temple of Thelema upon my death,&quot; as documented in In the Continuum Volume 5 Number 10.</p>
+                            <p>Throughout his illustrious career, he has held significant leadership positions in esteemed organizations. He served as the President of the International Society for Astrological Research (ISAR), Deputy Grand Master of Ordo Templi Orientis (O.T.O.), and Grand Imperator of Fraternitas L.V.X. Occulta &#40;F.L.O.&#41;. His dedication to spiritual pursuits led him to accept ordination in the Gnostic Catholic Church &#40;Ecclesia Gnostica Catholica&#41; in 1979, where he celebrated its Mass for 11 years and was consecrated a bishop in the Vilatte succession in 1985.</p>
+                            <p>When not immersed in his studies and teachings, Jim enjoys a fulfilling personal life in Los Angeles, California. He shares his life with his wife, Marion DeSio, a multi-talented individual who is an actress, astrologer, and occultist.</p>
+                        </section>
                     </article>
                 </section>
             </main>
