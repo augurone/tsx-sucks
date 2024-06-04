@@ -310,7 +310,7 @@ export default function Page() {
                                 <section>
                                     <h4>Events</h4>
                                     <EventCollection 
-                                        qry="metadata.tags.sys.id[in]=losAngeles"
+                                        qry="metadata.tags.sys.id[in]=losAngeles&skip=2"
                                         limit= "&limit=1"
                                         order= "&order=-fields.dateAndTime"/>
                                     <section className="wrapper--event wrapper--cta">
