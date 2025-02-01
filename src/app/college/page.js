@@ -252,7 +252,7 @@ export default function Page() {
                                 <h4>Study Groups: </h4>
                                 <p className="text text--medium">3rd Wednesdays Monthly, next topic:</p>
                                 <EventCollection 
-                                    qry="metadata.tags.sys.id[in]=bayArea&skip=2"
+                                    qry="metadata.tags.sys.id[in]=bayArea"
                                     limit= "&limit=1"
                                     order= "&order=-fields.dateAndTime" />
                             </section>
