@@ -138,7 +138,6 @@ export default function Page() {
                     <LegacyOfJaneWolfe />
                     <OneStarInSight />
                     <LiberXIII />
-                    <LiberL />
                 </section>
             </main>
             <Footer />
