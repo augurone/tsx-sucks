@@ -178,7 +178,7 @@ export default function Page() {
                             <figcaption className="wrapper-text">
                                 <p>IN THE CONTINUUM is a Thelemic periodical, published by <a href="../college" target="_self">College of Thelema®</a> from 1976 through 1995. It features writings by Aleister Crowley that are difficult
                                     &#40;or even impossible&#41; to find in print, or which are basic studies in the understanding of Thelemic
-                                    principles expressed in <a href="/aa#article--LiberL" target="_self"><em>Liber L. vel Legis</em></a>.</p>
+                                    principles expressed in <a href="/aa/bookofthelaw" target="_self"><em>Liber L. vel Legis</em></a>.</p>
                                 <p>For over thirty years it has been the leader and standard against which all other Thelemic
                                     educational periodicals have been compared. This journal includes basic instructional articles of
                                     value to all students of Thelema, and helps to clarify some of the profundities of Crowley&apos;s

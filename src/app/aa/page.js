@@ -65,10 +65,7 @@ export default function Page() {
                             </li>
                             <li><a href="#article--LiberXIII">Liber XIII</a></li>
                             <li>
-                                <a aria-label="Book of the Law" href="#article--LiberL">Liber Al vel Legis</a> |
-                                <a href="#article--LiberLII"> II</a> |
-                                <a href="#article--LiberLIII"> III</a> |
-                                <a href="#article--LiberLComment"> Tunis Comment</a>
+                                <a aria-label="Book of the Law" href="aa/bookofthelaw">Liber Al vel Legis</a>
                             </li>
                         </ul>
                     </div>

@@ -164,7 +164,7 @@ export default async function Home() {
                                     <Image loading="lazy" alt="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
-                                <a aria-label="Book of the Law" className="link link--blocker" href="/aa#article--LiberL" title="Liber al vel Legis"></a>
+                                <a aria-label="Book of the Law" className="link link--blocker" href="/aa/bookofthelaw" title="Liber al vel Legis"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
@@ -234,7 +234,7 @@ export default async function Home() {
                                     <Image loading="lazy" alt="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
-                                <a aria-label="Book of the Law" title="Liber al vel Legis" className="link link--blocker" href="/aa#article--LiberL"></a>
+                                <a aria-label="Book of the Law" title="Liber al vel Legis" className="link link--blocker" href="/aa/bookofthelaw"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
