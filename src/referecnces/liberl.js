@@ -13,7 +13,7 @@ const LiberL = () => (
             </em>
         </hgroup>
         <section className="wrapper-text wrapper-text--columns">
-            <h3>Chapter I</h3>
+            <h2>Chapter I</h2>
             <ol>
                 <li>Had! The manifestation of Nuit.</li>
 	            <li>The unveiling of the company of heaven.</li>
@@ -105,7 +105,7 @@ const LiberL = () => (
         </section>
     </article>
     <article id="article--LiberLII" className="article article--fullWidth">
-        <h3>Chapter II</h3>
+        <h2>Chapter II</h2>
         <section className="wrapper-text wrapper-text--columns">
             <ol>
                 <li>Nu! the hiding of Hadit.</li>
@@ -211,7 +211,7 @@ const LiberL = () => (
         </section>
     </article>
     <article id="article--LiberLIII" className="article article--fullWidth">
-        <h3>Chapter III</h3>
+        <h2>Chapter III</h2>
         <section className="wrapper-text wrapper-text--columns">
             <ol>
                 <li>Abrahadabra; the reward of Ra Hoor Khut.</li>
@@ -322,7 +322,7 @@ const LiberL = () => (
         </section>
     </article>
     <article id="article--LiberLComment" className="article article--fullWidth pb-8">
-        <h3>The Comment</h3>
+        <h2>The Comment</h2>
         <section className="pb-8">
             <p className="pb-8 text-center">Do what thou wilt shall be the whole of the Law.</p>
             <p className="text-center"> The study of this Book is forbidden.  It is wise to destroy this copy after the first reading.</p>
