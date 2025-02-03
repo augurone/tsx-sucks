@@ -5,7 +5,7 @@ const LiberL = () => (
     <>
     <article id="article--LiberL" className="article article--fullWidth">
         <hgroup>
-            <h2>The Book Of The Law</h2>
+            <h1>The Book Of The Law</h1>
             <em>
                 Liber AL vel Legis sub figura CCXX <br />
                 as delivered by XCIII = 418 to DCLXVI<br/>
