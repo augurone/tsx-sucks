@@ -1,0 +1,45 @@
+name: Contentful Publish
+
+on:
+  push:
+    branches:
+      - main
+  repository_dispatch:
+    types: [contentful_publish]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: TSX-SUX
+
+    steps:
+      - name: Log Payload
+        run: |
+          echo "Entity ID: ${{ github.event.client_payload.entityId }}"
+          echo "Space ID: ${{ github.event.client_payload.spaceId }}"
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      - name: Run Deployment Commands
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
+            cd /home/***/thelema.org/site
+            echo "Current Directory: $(pwd)"
+            eval `ssh-agent -s`
+            ssh-add ~/.ssh/id_rsa
+            git fetch --all
+            git reset --hard origin/main
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # Load NVM
+            [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # Load NVM bash_completion
+            nvm use stable
+            echo "Current Directory: $(node -v)"
+            npm install
+            pm2 stop thelema  # Stop the app
+            sudo rm -rf .next/  # Remove cache
+            npm run build
+            pm2 restart thelema  # Restart the app
+          EOF
