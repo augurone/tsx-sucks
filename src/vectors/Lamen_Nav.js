@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LamenNav = () => (
-    <svg aria-hidden="true" className="brand" data-name="Layer 1" viewBox="0 0 344.88 622.56" xmlns="https://www.w3.org/2000/svg">
+    <svg aria-hidden="true" className="brand" data-name="Layer 1" viewBox="0 0 344.88 622.56" >
         <path className="cls-1" d="M4.62,310.51c-7.3-185.62,133-280.68,166.53-305.57C206.45,30.86,347.81,143.54,340,309.49c-2,103.44-47.53,216.2-168.85,308.11C56.35,524.71,9.42,432.11,4.62,310.51Z"/>
         <line className="cls-2" x1="205.22" x2="176.6" y1="569.68" y2="198.69"/>
         <path className="cls-3" d="M17.3,307.91c-3.63-164.37,110.34-256.85,154-287,56.2,46.88,161.33,155.58,155.25,288.84C325.06,454.48,227.12,556,171.16,599.25,71.36,514.93,19.74,419,17.3,307.91Z"/>
