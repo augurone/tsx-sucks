@@ -161,35 +161,35 @@ export default async function Home() {
                         <ul className="list list--flex list--thumbnails u-justify--evenly">
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
+                                    <Image loading="lazy" alt="Book of the Law" title="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
                                 <a aria-label="Book of the Law" className="link link--blocker" href="/aa/bookofthelaw" title="Liber al vel Legis"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
+                                    <Image loading="lazy" alt="The Order A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
                                 </div>
                                 <span>A&there4;A&there4;</span>
                                 <a aria-label="The A&there4;A&there4" className="link link--blocker" href="/aa" title="The A∴A∴"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med wrapper-img--square">
-                                    <Image loading="lazy" alt="Apply For Membership" width="62" height="62" src="/ennealeph.png" style={{ backgroundImage: 'url(/ennealeph.png)', backgroundSize: '131%' }} />
+                                    <Image loading="lazy" alt="Apply For Membership" title="Apply For Membership" width="62" height="62" src="/ennealeph.png" style={{ backgroundImage: 'url(/ennealeph.png)', backgroundSize: '131%' }} />
                                 </div>
                                 <span>Join TOT</span>
                                 <a aria-label="Memebership In Temple of Thelema" className="link link--blocker" href="./temple#article--temples" title="Join Temple of Thelema"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="COT Campuses and Study Groups" width="62" height="62" src="/classes.webp" style={{ backgroundImage: 'url(/classes.webp)' }} />
+                                    <Image loading="lazy" alt="COT Campuses and Study Groups" title="COT Campuses and Study Groups" width="62" height="62" src="/classes.webp" style={{ backgroundImage: 'url(/classes.webp)' }} />
                                 </div>
                                 <span>Classes</span>
                                 <a aria-label="College of Thelema Classes" className="link link--blocker" href="/college#article--locations" title="College of Thelema Locations and Classes"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" width="62" height="62" src="/event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)' }} />
+                                    <Image loading="lazy" alt="Our Forums: Heruraha gets new life" title="Our Forums: Heruraha gets new life" width="62" height="62" src="/event_Harpocrates_BecomingHuman.webp" style={{ backgroundImage: 'url(/event_Harpocrates_BecomingHuman.webp)' }} />
                                 </div>
                                 <span>Forums</span>
                                 <Link aria-label="Heruraha Resurrected" className="link link--blocker" href="/forum" prefetch={true}></Link>
@@ -231,14 +231,14 @@ export default async function Home() {
                         <ul className="list list--flex list--thumbnails flex-wrap">
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
+                                    <Image loading="lazy" alt="Book of the Law" title="Book of the Law" width="279" height="304" src="/liberL_cover.webp" style={{ backgroundImage: 'url(/liberL_cover.webp)' }} />
                                 </div>
                                 <span>Liber L</span>
                                 <a aria-label="Book of the Law" title="Liber al vel Legis" className="link link--blocker" href="/aa/bookofthelaw"></a>
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="A.'.A.'." title="The Order A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
+                                    <Image loading="lazy" alt="The Order A.'.A.' title="The Order A.'.A."." title="The Order A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
                                 </div>
                                 <span>A&there4;A&there4;</span>
                                 <Link aria-label="The A&there4;A&there4" className="link link--blocker" href="/aa" prefetch={true}></Link>
