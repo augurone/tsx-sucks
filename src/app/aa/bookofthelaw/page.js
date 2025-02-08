@@ -25,7 +25,7 @@ export const metadata = {
     },
     twitterCard: {
         cardType: 'summary_large_image',
-        title: ' Liber al vel Legis: The Book of the Law',
+        title: 'Liber al vel Legis: The Book of the Law',
         url: "https://thelema.org/aa/bookofthelaw",
         description: 'Liber L, the Book of the Law, or more completely Liber al vel Legis, is the central holy book of Thelema; it is a "received" text, channeled by Rose Crowley (Kelly) and recorded by Aleister Crowley April 8th, 9th, and 19th of 1904 in Cairo Egypt. It describes a cosmology of balance between the Infinite (Nuit) and the Finite (Hadit), as represented by the emerging Aeon in the Child, Ra Hoor Khuit. Do what thou wilt shall be the whole of the Law. Love is the law, love under will. Describes love as a context for will, and when properly aligned—the human divine emerges.  ',
         keywords: 'A∴A∴, Book of the Law, Liber al vel Legis, Liber L, Crowley, Rose Edith Kelly, Nuit, Hadit, Ra Hoor Khuit',
@@ -37,7 +37,7 @@ export const metadata = {
 export default function Page() {
     return (
         <body id="page--top"  className='theme--Warmer'>
-            <Navbar disableRoute='/aa' />
+            <Navbar disableRoute='/aa' h1='Liber al vel Legis: The Book of the Law' />
             <main>
                 <aside>
                     <div className="wrapper--sticky">
