@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next';
+import Image from 'next/image';
 import Navbar from '../../../components/navitgation/nav';
 import Footer from '../../../components/navitgation/footer';
 import LiberL from '../../../referecnces/liberl';
