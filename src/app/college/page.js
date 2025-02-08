@@ -35,7 +35,7 @@ export const metadata = {
 export default function Page() {
     return (
     <body id="page--top" className='theme--Warmer'>
-        <Navbar disableRoute='/college' />
+        <Navbar disableRoute='/college' h1='College of Thelema: The Standard in Thelemic Education' />
         <main>
             <aside>
                 <div className="wrapper--sticky">

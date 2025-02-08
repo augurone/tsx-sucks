@@ -8,7 +8,7 @@ import EventCollection from '@/components/events/EventCollection';
 export const metadata = {
     title: 'Temple of Thelema: Initiation for the New Aeon',
     description: 'Founded in 1989 by Phyllis Seckler, Anna-Kria King, and James A. Eshelman, Temple of Thelema is an innovative organiztion with the mission of raising adepts.',
-    keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, James A. Eshelman,, Initiaion, Cipher Manuscript, LA, NYC, Bay Area, thelema, thelemic temple, thelema website',
+    keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, James A. Eshelman,, Initiaion, Cipher Manuscript, LA, NYC, Bay Area, thelema, thelemic temple, thelema website, temple of thelema, college of thelema',
     alternates: {
       canonical: '/temple'
     },
@@ -35,7 +35,7 @@ export const metadata = {
 export default function Page() {
     return (
         <body id="page--top" className='theme--Warmer'>
-            <Navbar disableRoute="/temple" />
+            <Navbar disableRoute="/temple" h1='Temple of Thelema: Initiation for the New Aeon' />
                 <main>
                     <aside>
                         <div className="wrapper--sticky">
