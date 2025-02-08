@@ -8,7 +8,7 @@ initFontAwesome();
 export const metadata = {
     title: 'College & Temple of Thelema',
     description: 'Since the 1970\'s, College of Thelema has been the standard of education in Thelemic Magick. Temple of Thelema offers initiation in the Western Mysteries.',
-    keywords: 'Thelema, Magick, Western Mystery Tradition, Initiation, Occult, Thelemic Order, Book of The Law, Liber Al vel Legis, Liber L, Aleister Crowley, Phyllis Seckler, James A. Eshelman',
+    keywords: 'Thelema, Magick, Western Mystery Tradition, Initiation, Occult, Thelemic Order, Book of The Law, Liber Al vel Legis, Liber L, Aleister Crowley, Phyllis Seckler, James A. Eshelman, thelema, a∴a∴ website, a a order, aa order, aa crowley, a a aleister crowley, aa thelema, a∴a∴, thelemic temple, thelema website, temple of thelema, college of thelema',
     metadataBase: new URL('https://thelema.org'),
     alternates: {
       canonical: '/'
@@ -28,10 +28,9 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'College & Temple of Thelema',
         description: 'A Modern Mystery School',
-        images: {
-            url: 'https://thelema.org/jsonld.jpg',
-            alt: 'thelema.org',
-        }
+        images: ['https://thelema.org/jsonld.jpg'],
+        creator: '@fridazed'
+
     }
 };
 

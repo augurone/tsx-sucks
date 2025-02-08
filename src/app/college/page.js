@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "../../../node_modules/@fortawesome/react-fontaw
 export const metadata = {
     title: 'College of Thelema: The Standard in Thelemic Education',
     description: 'Soror Meral founded College of Thelema in the late 1970\'s to properly preparee indivuduals for entry into the A∴A∴',
-    keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, In the Continuum, LA, NYC, Bay Area',
+    keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, In the Continuum, LA, NYC, Bay Area,  thelema, thelemic temple, thelema website, temple of thelema, college of thelema',
     alternates: {
       canonical: '/college'
     },
@@ -27,10 +27,8 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'College of Thelema: The Standard in Thelemic Education',
         description: 'Soror Meral founded College of Thelema in the late 1970\'s to properly preparee indivuduals for entry into the A∴A∴',
-        images: {
-            url: 'https://thelema.org/jsonld.jpg',
-            alt: 'thelema.org',
-        }
+        images: ['https://thelema.org/jsonld.jpg'],
+        creator: '@fridazed'
     }
 };
 

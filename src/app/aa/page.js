@@ -11,7 +11,7 @@ import OneStarInSight from '../../referecnces/oneStartInSight';
 export const metadata = {
     title: 'College and Temple of Thelema founded in service to A∴A∴',
     description: 'Directly from Perdurabo (Crowley), to Estai (Wolfe), to Meral (Seckler), to Heru Aur (Eshleman) all recognized adepts by their superiors, the A∴A∴ lives on.',
-    keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, One Start in Site, Lineages A∴A∴, Book of the Law, Liber al vel Legis, Liber L',
+    keywords: 'A∴A∴, Soror Estai, Jane Wolfe, Soror Meral, Phyllis Seckler, One Start in Site, Lineages A∴A∴, Book of the Law, Liber al vel Legis, Liber L, thelema, a∴a∴ website, a a order, aa order, aa crowley, a a aleister crowley, aa thelema, one star in sight, thelemic temple, thelema website, temple of thelema, college of thelema',
     alternates: {
       canonical: '/aa'
     },
@@ -30,10 +30,8 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'College and Temple of Thelema founded in service to A∴A∴',
         description: 'Directly from Perdurabo (Crowley), to Estai (Wolfe), to Meral (Seckler), to Heru Aur (Eshleman) all recognized adepts by their superiors, the A∴A∴ lives on.',
-        images: {
-            url: 'https://thelema.org/jsonld.jpg',
-            alt: 'thelema.org',
-        }
+        images: ['https://thelema.org/jsonld.jpg'],
+        creator: '@fridazed'
     }
 };
 

@@ -14,7 +14,7 @@ export const metadata = {
     openGraph: {
         title: 'Liber al vel Legis: The Book of the Law',
         description: 'Liber L, the Book of the Law, or more completely Liber al vel Legis, is the central holy book of Thelema; it is a "received" text, channeled by Rose Crowley (Kelly) and recorded by Aleister Crowley April 8th, 9th, and 19th of 1904 in Cairo Egypt. It describes a cosmology of balance between the Infinite (Nuit) and the Finite (Hadit), as represented by the emerging Aeon in the Child, Ra Hoor Khuit. Do what thou wilt shall be the whole of the Law. Love is the law, love under will. Describes love as a context for will, and when properly aligned—the human divine emerges.  ',
-    keywords: 'A∴A∴, Book of the Law, Liber al vel Legis, Liber L, Crowley, Rose Edith Kelly, Nuit, Hadit, Ra Hoor Khuit',
+    keywords: 'A∴A∴, Book of the Law, Liber al vel Legis, Liber L, Crowley, Rose Edith Kelly, Nuit, Hadit, Ra Hoor Khuit, Crowly, Aiwass, thelema, thelemic temple, thelema website, temple of thelema, college of thelema',
         images: [
             {
                 url: 'https://thelema.org/jsonld.jpg',
@@ -28,11 +28,9 @@ export const metadata = {
         title: ' Liber al vel Legis: The Book of the Law',
         url: "https://thelema.org/aa/bookofthelaw",
         description: 'Liber L, the Book of the Law, or more completely Liber al vel Legis, is the central holy book of Thelema; it is a "received" text, channeled by Rose Crowley (Kelly) and recorded by Aleister Crowley April 8th, 9th, and 19th of 1904 in Cairo Egypt. It describes a cosmology of balance between the Infinite (Nuit) and the Finite (Hadit), as represented by the emerging Aeon in the Child, Ra Hoor Khuit. Do what thou wilt shall be the whole of the Law. Love is the law, love under will. Describes love as a context for will, and when properly aligned—the human divine emerges.  ',
-    keywords: 'A∴A∴, Book of the Law, Liber al vel Legis, Liber L, Crowley, Rose Edith Kelly, Nuit, Hadit, Ra Hoor Khuit',
-        images: {
-            url: 'https://thelema.org/jsonld.jpg',
-            alt: 'thelema.org',
-        }
+        keywords: 'A∴A∴, Book of the Law, Liber al vel Legis, Liber L, Crowley, Rose Edith Kelly, Nuit, Hadit, Ra Hoor Khuit',
+        images: ['https://thelema.org/jsonld.jpg'],
+        creator: '@fridazed'
     }
 };
 
