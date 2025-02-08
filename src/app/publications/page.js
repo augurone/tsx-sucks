@@ -28,10 +28,7 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'College of Thelema: Publications',
         description: 'Beginning with In the Continuum, College Of Thelema has a rich history of publishing high quality Thelemic writings spanning 50years.',
-        images: {
-            url: 'https://thelema.org/jsonld.jpg',
-            alt: 'thelema.org',
-        }
+        images: 'https://thelema.org/jsonld.jpg'
     }
 };
 

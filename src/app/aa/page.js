@@ -30,10 +30,7 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'College and Temple of Thelema founded in service to A∴A∴',
         description: 'Directly from Perdurabo (Crowley), to Estai (Wolfe), to Meral (Seckler), to Heru Aur (Eshleman) all recognized adepts by their superiors, the A∴A∴ lives on.',
-        images: {
-            url: 'https://thelema.org/jsonld.jpg',
-            alt: 'thelema.org',
-        }
+        images: ['https://thelema.org/jsonld.jpg']
     }
 };
 

@@ -27,10 +27,7 @@ export const metadata = {
         cardType: 'summary_large_image',
         title: 'Temple of Thelema: Initiation for the New Aeon',
         description: 'Founded in 1989 by Phyllis Seckler, Anna-Kria King, and James A. Eshelman, Temple of Thelema is an innovative organiztion with the mission of raising adepts.',
-        images: {
-            url: 'https://thelema.org/jsonld.jpg',
-            alt: 'thelema.org',
-        }
+        images: ['https://thelema.org/jsonld.jpg']
     }
 };
 
