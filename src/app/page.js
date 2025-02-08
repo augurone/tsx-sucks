@@ -238,7 +238,7 @@ export default async function Home() {
                             </li>
                             <li>
                                 <div className="wrapper-img wrapper-img--med">
-                                    <Image loading="lazy" alt="The Order A.'.A.' title="The Order A.'.A."." title="The Order A.'.A.'." width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
+                                    <Image loading="lazy" alt='The Order A&therfore;A&therfore;' title='The Order A&therfore;A&therfore;' width="62" height="62" src="/seal_of_aa.webp" style={{ backgroundImage: 'url(/seal_of_aa.webp)' }} />
                                 </div>
                                 <span>A&there4;A&there4;</span>
                                 <Link aria-label="The A&there4;A&there4" className="link link--blocker" href="/aa" prefetch={true}></Link>
