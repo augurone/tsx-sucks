@@ -1,7 +1,7 @@
 const Babalon = ({ className }) => {
 
  return (
-    <svg className={className}  xmlnsXlink="https://www.w3.org/1999/xlink" viewBox="0 0 200 200" enableBackground="new 0 0 200 200" xmlSpace="preserve">
+    <svg className={className} viewBox="0 0 200 200" enableBackground="new 0 0 200 200" xmlSpace="preserve">
     <g>
         <image overflow="visible" opacity="0.75" width="969" height="949" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8gAAAOzCAYAAABkty8AAAAACXBIWXMAAC4jAAAuIwF4pT92AAAg
     AElEQVR4nOzBAQEAAACCIP+vbkhAAAAAcK8aAAAA///swwENAAAAwqD3T20QYUMAAADuVQ0AAP//
