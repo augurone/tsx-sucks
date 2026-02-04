@@ -6,7 +6,8 @@ module.exports = {
     './src/utils/**/*.js',
   ],
   safelist: [
-    'text-center'
+    'text-center',
+    'pt-8'
   ],
   theme: {
     extend: {

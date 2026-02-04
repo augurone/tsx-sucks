@@ -67,15 +67,14 @@ const OneStarInSight = () => (
             </p>
             <Image alt="A&there4;A&there4; star" height="85"  width="85" src="/aa_star.png" />
         </div>
-        <section>
-            <h2 className="liberh2">A glimpse of the structure and system of the A&there4;A&there4;*</h2>
+        <section className="pt-8">
             <p>Do what thou wilt shall be the whole of the Law.</p>
-            <h3 className="liberh3">I</h3>
+            <h2 className="liberh2">I</h2>
             <p>The Order of the Star called S.S. is, in respect of its existence upon the Earth, an organised body of men and women distinguished among their fellows by the qualities here enumerated. They exist in their own Truth, which is both universal and unique. They move in accordance with their own Wills, which are each unique, yet coherent with the universal will.</p>
             <p>They perceive &#40;that is, understand, know, and feel&#41; in love, which is both unique and universal.</p>
         </section>
         <section>
-        <p className="liberfootnote">Footnote: <em>*&nbsp;The Name of the Order and those of its three sectionisions are not disclosed to the profane. Certain swindlers have recently stolen the initials A&there4;A&there4; in order to profit by its reputation.</em></p>
+            <p className="liberfootnote">Footnote: <em>*&nbsp;The Name of the Order and those of its three sectionisions are not disclosed to the profane. Certain swindlers have recently stolen the initials A&there4;A&there4; in order to profit by its reputation.</em></p>
         </section>
     </article>
     {/*-- Page 2 */}
