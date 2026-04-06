@@ -353,8 +353,8 @@ export default function Page() {
                                     <section>
                                         <h4>Resources</h4>
                                         <address className="text text--medium">
-                                            195 41st St PO BOX 11194<br />
-                                            Oakland, CA 94611-9991<br />
+                                            490 Lake Park Ave. PO BOX 10562<br />
+                                            Oakland, CA 94610<br />
                                             <a href="mailto:burninghearts@thelema.org" target="_self">burninghearts@thelema.org</a><br />
                                         </address>
                                         <section className="wrapper--cta">
