@@ -199,9 +199,9 @@ export default function Page() {
                                     </hgroup>
                                     <br />
                                     <strong><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> Download Black Pearl</strong> <br />
-                                    <a title="Download Black Pearl Issues 1-4" href="/downloads//BParchive/bp_volI_i-iv.zip" target="_blank">Issues 1-4</a><br />
-                                    <a title="Download Black Pearl Issues 5-9" href="/downloads//BParchive/bp_volI_v-ix.zip" target="_blank">Issues 5-9</a><br />
-                                    <a title="Download Black Pearl Issues 10-11" href="/downloads//BParchive/bp_volI_x-volII_i.zip" target="_blank">Issues 10-11</a>
+                                    <a title="Download Black Pearl Issues 1-4" href="/downloads/BParchive/bp_volI_i-iv.pdf" target="_blank">Issues 1-4</a><br />
+                                    <a title="Download Black Pearl Issues 5-9" href="/downloads/BParchive/bp_volI_v-ix.pdf" target="_blank">Issues 5-9</a><br />
+                                    <a title="Download Black Pearl Issues 10-11" href="/downloads/BParchive/bp_volI_x-volII_i.pdf" target="_blank">Issues 10-11</a>
                                 </aside>
                             </div>
                             <figcaption className="wrapper-text">
