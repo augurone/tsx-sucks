@@ -166,11 +166,11 @@ export default function Page() {
                                     </hgroup>
                                     <br />
                                     <strong><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> Download ITC</strong> <br />
-                                    <a title="Download ITC Volume I" href="https://www./downloads//ITCarchive/ITCvol1.zip" target="_blank"><strong>Volume I:</strong> (1973-1977)</a><br />
-                                    <a title="Download ITC Volume II" href="https://www./downloads//ITCarchive/ITCvol2.zip" target="_blank"><strong>Volume II:</strong> (1978-1981)</a><br />
-                                    <a title="Download ITC Volume III" href="https://www./downloads//ITCarchive/ITCvol3.zip" target="_blank"><strong>Volume III:</strong> (1982-1986)</a><br />
-                                    <a title="Download ITC Volume IV" href="https://www./downloads//ITCarchive/ITCvol4.zip" target="_blank"><strong>Volume IV:</strong> (1987-1991)</a><br />
-                                    <a title="Download ITC Volume V" href="https://www./downloads//ITCarchive/ITCvol5.zip" target="_blank"><strong>Volume V:</strong> (1991-1995)</a>
+                                    <a title="Download ITC Volume I" href="/downloads/ITCvol1.zip" target="_blank"><strong>Volume I:</strong> (1973-1977)</a><br />
+                                    <a title="Download ITC Volume II" href="/downloads/ITCvol2.zip" target="_blank"><strong>Volume II:</strong> (1978-1981)</a><br />
+                                    <a title="Download ITC Volume III" href="/downloads/ITCvol3.zip" target="_blank"><strong>Volume III:</strong> (1982-1986)</a><br />
+                                    <a title="Download ITC Volume IV" href="/downloads/ITCvol4.zip" target="_blank"><strong>Volume IV:</strong> (1987-1991)</a><br />
+                                    <a title="Download ITC Volume V" href="/downloads/ITCvol5.zip" target="_blank"><strong>Volume V:</strong> (1991-1995)</a>
                                 </aside>
                             </div>
                             <figcaption className="wrapper-text">
@@ -199,9 +199,9 @@ export default function Page() {
                                     </hgroup>
                                     <br />
                                     <strong><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> Download Black Pearl</strong> <br />
-                                    <a title="Download Black Pearl Issues 1-4" href="https://www./downloads//BParchive/bp_volI_i-iv.zip" target="_blank">Issues 1-4</a><br />
-                                    <a title="Download Black Pearl Issues 5-9" href="https://www./downloads//BParchive/bp_volI_v-ix.zip" target="_blank">Issues 5-9</a><br />
-                                    <a title="Download Black Pearl Issues 10-11" href="https://www./downloads//BParchive/bp_volI_x-volII_i.zip" target="_blank">Issues 10-11</a>
+                                    <a title="Download Black Pearl Issues 1-4" href="/downloads//BParchive/bp_volI_i-iv.zip" target="_blank">Issues 1-4</a><br />
+                                    <a title="Download Black Pearl Issues 5-9" href="/downloads//BParchive/bp_volI_v-ix.zip" target="_blank">Issues 5-9</a><br />
+                                    <a title="Download Black Pearl Issues 10-11" href="/downloads//BParchive/bp_volI_x-volII_i.zip" target="_blank">Issues 10-11</a>
                                 </aside>
                             </div>
                             <figcaption className="wrapper-text">
