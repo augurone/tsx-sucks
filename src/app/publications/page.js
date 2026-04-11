@@ -199,7 +199,7 @@ export default function Page() {
                                     </hgroup>
                                     <br />
                                     <strong><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> Download Black Pearl</strong> <br />
-                                    <a title="Download Black Pearl Issues 1-4" href="/downloads/BParchive/ bp_set_01-04.pdf" target="_blank">Issues 1-4</a><br />
+                                    <a title="Download Black Pearl Issues 1-4" href="/downloads/BParchive/bp_set_01-04.pdf" target="_blank">Issues 1-4</a><br />
                                     <a title="Download Black Pearl Issues 5-9" href="/downloads/BParchive/bp_set_05-09.pdf" target="_blank">Issues 5-9</a><br />
                                     <a title="Download Black Pearl Issues 10-11" href="/downloads/BParchive/bp_set_10-11.pdf" target="_blank">Issues 10-11</a>
                                 </aside>
