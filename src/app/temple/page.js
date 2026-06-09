@@ -270,10 +270,10 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Hannah Bender—Cancelarius" tilte="Hannah Bender—Cancelarius" src="/profile-bender_hannah.webp" style={{backgroundImage: 'url(/profile-bender_hannah.webp)', backgroundPosition: '50% 20%', backgroundSize: '100%'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Ember Valentine—Cancelarius" tilte="Ember Valentine—Cancelarius" src="/profile-valentine_ember.jpeg" style={{backgroundImage: 'url(/profile-valentine_ember.jpeg)', backgroundPosition: '50% 20%', backgroundSize: '100%'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
-                                                Hannah Bender<br />
+                                                Ember Valentine<br />
                                                 &#x263f;
                                             </span>
                                         </li>
@@ -323,7 +323,7 @@ export default function Page() {
                                         <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Gabriel Osuna—Dean" title="Gabriel Osuna—Dean" src="/profile-osuna_gabriel.webp" style={{backgroundImage: 'url(/profile-osuna_gabriel.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
+                                                        <Image height="62" width="62" alt="Billie Austin—Dean" title="Billie Austin—Dean" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
                                                         Gabriel Osuna <br />
@@ -341,7 +341,7 @@ export default function Page() {
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Billie Austin—Bursar" title="Billie Austin—Bursar" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
+                                                        <Image height="62" width="62" alt="Jacob Jones—Bursar" title="Jacob Jones—Bursar" src="/profile-jones_jacob.jpeg" style={{backgroundImage: 'url(/profile-jones_jacob.jpeg)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
                                                         Billie Austin <br />

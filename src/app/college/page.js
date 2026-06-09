@@ -115,7 +115,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                        <div className="wrapper-img wrapper-img--med">
-                                           <Image alt="Zeph Bender— Chancellor" width="62" height="62" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
+                                           <Image alt="Zeph Bender — Vice Chancellor" width="62" height="62" src="/profile-bender_zeph.webp" style={{backgroundImage: 'url(/profile-bender_zeph.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                        </div>
                                        <span className="text text--medium">
                                            Zeph Bender <br />
@@ -208,7 +208,7 @@ export default function Page() {
                                 <ul className="list list--flex list--thumbnails thumbnail--horizontal u-justify--evenly">
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image loading="lazy" alt="Andrew Ferren—Dean" width="62" height="62" src="/profile-ferren_andrew.webp"style={{backgroundImage: 'url(/profile-ferren_andrew.webp)', backgroundPosition: '0 0'}} />
+                                            <Image loading="lazy" alt="Andrew Ferren" width="62" height="62" src="/profile-ferren_andrew.webp"style={{backgroundImage: 'url(/profile-ferren_andrew.webp)', backgroundPosition: '0 0'}} />
                                         </div>
                                         <span className="text text--medium">
                                             Andrew Ferren
@@ -225,7 +225,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <div className="wrapper-img wrapper-img--med">
-                                            <Image alt="Billie Austin—Bursar" width="62" height="62" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
+                                            <Image alt="Billie Austin—Dean" width="62" height="62" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
                                         </div>
                                         <span className="text text--medium">
                                             Billie Austin
