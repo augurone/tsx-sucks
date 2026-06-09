@@ -387,10 +387,10 @@ export default function Page() {
                                     <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Juan Ramirez—Praemonstrator" src="/profile-ramirez_juan.webp" style={{backgroundImage: 'url(/profile-ramirez_juan.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Bryce Churchill—Praemonstrator" src="/profile-churchill_bryce.jpeg" style={{backgroundImage: 'url(/profile-churchill_bryce.jpeg)', backgroundPosition: '50% 50%'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
-                                                Juan Ramirez <br />
+                                                Bryce Churchill <br />
                                                 &#x1F714;
                                             </span>
                                         </li>
