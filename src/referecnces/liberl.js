@@ -28,7 +28,7 @@ const LiberL = () => (
                 <li>These are fools that men adore; both their Gods &amp; their men are fools.</li>
                 <li>Come forth, o children, under the stars, &amp; take your fill of love!</li>
                 <li>I am above you and in you.  My ecstasy is in yours.  My joy is to see your joy.</li>
-                <li>Above, the gemmed azure is<br />&nbsp;&nbsp;&nbsp;The naked splendour of Nuit;<br />She bends in ecstasy to kiss<br />&nbsp;&nbsp;&nbsp;The secret ardours of Hadit.<br />The winged globe, the starry blue,<br />Are mine, O Ankh-af-na-khonsu!</li>
+                <li>Above, the gemmèd azure is<br />&nbsp;&nbsp;&nbsp;The naked splendour of Nuit;<br />She bends in ecstasy to kiss<br />&nbsp;&nbsp;&nbsp;The secret ardours of Hadit.<br />The wingèd globe, the starry blue,<br />Are mine, O Ankh-af-na-khonsu!</li>
                 <li>Now ye shall know that the chosen priest &amp; apostle of infinite space is the prince-priest the Beast; and in his woman called the Scarlet Woman is all power given.  They shall gather my children into their fold: they shall bring the glory of the stars into the hearts of men.</li>
                 <li>For he is ever a sun, and she a moon.  But to him is the winged secret flame, and to her the stooping starlight.</li>
                 <li>But ye are not so chosen.</li>
@@ -63,7 +63,7 @@ const LiberL = () => (
                 <li>He must teach; but he may make severe the ordeals.</li>
                 <li>The word of the Law is &Theta;&epsilon;&lambda;&eta;&mu;&alpha;.</li>
                 <li>Who calls us Thelemites will do no wrong, if he look but close into the word.  For there are therein Three Grades, the Hermit, and the Lover, and the man of Earth.  Do what thou wilt shall be the whole of the Law.</li>    
-                <li>The word of Sin is Restriction.  O man! refuse not thy wife, if she will! O lover, if thou wilt, depart! There is no bond that can unite the divided but love: all else is a curse. Accursed! Accursed be it to the aeons! Hell.</li>
+                <li>The word of Sin is Restriction.  O man! refuse not thy wife, if she will! O lover, if thou wilt, depart! There is no bond that can unite the divided but love: all else is a curse. Accurséd! Accurséd be it to the aeons! Hell.</li>
                 <li>Let it be that state of manyhood bound and loathing.  So with thy all; thou hast no right but to do thy will.</li>
                 <li>Do that, and no other shall say nay.</li>
             </ol>
@@ -85,7 +85,7 @@ const LiberL = () => (
                 <li>If this be not aright; if ye confound the space-marks, saying: They are one; or saying, They are many; if the ritual be not ever unto me: then expect the direful judgments of Ra Hoor Khuit!</li>
                 <li>This shall regenerate the world, the little world my sister, my heart &amp; my tongue, unto whom I send this kiss.  Also, o scribe and prophet, though thou be of the princes, it shall not assuage thee nor absolve thee.  But ecstasy be thine and joy of earth: ever To me! To me!</li>
                 <li>Change not as much as the style of a letter; for behold! thou, o prophet, shalt not behold all these mysteries hidden therein.</li>
-                <li>The child of thy bowels, he shall behold them.</li>
+                <li>The child of thy bowels, <em>he<em> shall behold them.</li>
                 <li>Expect him not from the East, nor from the West; for from no expected house cometh that child.  Aum! All words are sacred and all prophets true; save only that they understand a little; solve the first half of the equation, leave the second unattacked.  But thou hast all in the clear light, and some, though not all, in the dark.</li>
                 <li>Invoke me under my stars! Love is the law, love under will.  Nor let the fools mistake love; for there are love and love.  There is the dove, and there is the serpent.  Choose ye well! He, my prophet, hath chosen, knowing the law of the fortress, and the great mystery of the House of God.  All these old letters of my Book are aright; but &#1510; is not the Star.  This also is secret: my prophet shall reveal it to the wise.</li>
                 <li>I give unimaginable joys on earth: certainty, not faith, while in life, upon death; peace unutterable, rest, ecstasy; nor do I demand aught in sacrifice.</li>
@@ -144,7 +144,7 @@ const LiberL = () => (
                 <li>I am the secret Serpent coiled about to spring: in my coiling there is joy.  If I lift up my head, I and my Nuit are one.  If I droop down mine head, and shoot forth venom, then is rapture of the earth, and I and the earth are one.</li>
                 <li>There is great danger in me; for who doth not understand these runes shall make a great miss.  He shall fall down into the pit called Because, and there he shall perish with the dogs of Reason.</li>
                 <li>Now a curse upon Because and his kin!</li>
-                <li>May Because be accursed for ever!</li>
+                <li>May Because be accursèd for ever!</li>
                 <li>If Will stops and cries Why, invoking Because, then Will stops &amp; does nought.</li>
                 <li>If Power asks why, then is Power weakness.</li>
                 <li>Also reason is a lie; for there is a factor infinite &amp; unknown; &amp; all their words are skew-wise.</li>
@@ -223,11 +223,11 @@ const LiberL = () => (
                 <li>I will give you a war-engine.</li>
                 <li>With it ye shall smite the peoples; and none shall stand before you.</li>
                 <li>Lurk! Withdraw! Upon them! this is the Law of the Battle of Conquest: thus shall my worship be about my secret house. </li>
-                <li>Get the stele of revealing itself; set it in thy secret temple &mdash; and that temple is already aright disposed &mdash; &amp; it shall be your Kiblah for ever.  It shall not fade, but miraculous colour shall come back to it day after day.  Close it in locked glass for a proof to the world.</li>
+                <li>Get the stélé of revealing itself; set it in thy secret temple &mdash; and that temple is already aright disposed &mdash; &amp; it shall be your Kiblah for ever.  It shall not fade, but miraculous colour shall come back to it day after day.  Close it in locked glass for a proof to the world.</li>
                 <li>This shall be your only proof.  I forbid argument.  Conquer! That is enough.  I will make easy to you the abstruction from the ill-ordered house in the Victorious City.  Thou shalt thyself convey it with worship, o prophet, though thou likest it not. Thou shalt have danger &amp; trouble.  Ra-Hoor-Khu is with thee. Worship me with fire &amp; blood; worship me with swords &amp; with spears.  Let the woman be girt with a sword before me: let blood flow to my name.  Trample down the Heathen; be upon them, o warrior, I will give you of their flesh to eat!</li>
                 <li>Sacrifice cattle, little and big: after a child.</li>
                 <li>But not now.</li>
-                <li>Ye shall see that hour, o blessed Beast, and thou the Scarlet Concubine of his desire!</li>
+                <li>Ye shall see that hour, o blessèd Beast, and thou the Scarlet Concubine of his desire!</li>
                 <li>Ye shall be sad thereof.</li>
                 <li>Deem not too eagerly to catch the promises; fear not to undergo the curses.  Ye, even ye, know not this meaning all.</li>
             </ol>
@@ -236,7 +236,7 @@ const LiberL = () => (
             <ol start={17}>
                 <li>Fear not at all; fear neither men nor Fates, nor gods, nor anything.  Money fear not, nor laughter of the folk folly, nor any other power in heaven or upon the earth or under the earth. Nu is your refuge as Hadit your light; and I am the strength, force, vigour, of your arms.</li>
                 <li>Mercy let be off; damn them who pity! Kill and torture; spare not; be upon them!</li>
-                <li>That stele they shall call the Abomination of Desolation; count well its name, &amp; it shall be to you as 718.</li>
+                <li>That stélé they shall call the Abomination of Desolation; count well its name, &amp; it shall be to you as 718.</li>
                 <li>Why? Because of the fall of Because, that he is not there again.</li>
                 <li>Set up my image in the East: thou shalt buy thee an image which I will show thee, especial, not unlike the one thou knowest. And it shall be suddenly easy for thee to do this.</li>
                 <li>The other images group around me to support me: let all be worshipped, for they shall cluster to exalt me.  I am the visible object of worship; the others are secret; for the Beast &amp; his Bride are they: and for the winners of the Ordeal x.  What is this? Thou shalt know.</li>
@@ -255,10 +255,10 @@ const LiberL = () => (
                 <li>There cometh a rich man from the West who shall pour his gold upon thee.</li>
                 <li>From gold forge steel!</li>
                 <li>Be ready to fly or to smite!</li>
-                <li>But your holy place shall be untouched throughout the centuries: though with fire and sword it be burnt down &amp; shattered, yet an invisible house there standeth, and shall stand until the fall of the Great Equinox; when Hrumachis shall arise and the double-wanded one assume my throne and place. Another prophet shall arise, and bring fresh fever from the skies; another woman shall awakethe lust &amp; worship of the Snake; another soul of God and beast shall mingle in the globed priest; another sacrifice shall stain the tomb; another king shall reign; and blessing no longer be poured To the Hawk-headed mystical Lord!</li>
+                <li>But your holy place shall be untouched throughout the centuries: though with fire and sword it be burnt down &amp; shattered, yet an invisible house there standeth, and shall stand until the fall of the Great Equinox; when Hrumachis shall arise and the double-wanded one assume my throne and place. Another prophet shall arise, and bring fresh fever from the skies; another woman shall awakethe lust &amp; worship of the Snake; another soul of God and beast shall mingle in the globèd priest; another sacrifice shall stain the tomb; another king shall reign; and blessing no longer be poured To the Hawk-headed mystical Lord!</li>
                 <li>The half of the word of Heru-ra-ha, called Hoor-pa-kraat and Ra-Hoor-Khut. </li>
                 <li>Then said the prophet unto the God:</li>
-                <li>I adore thee in the song &mdash;<br />I am the Lord of Thebes, and I<br />&nbsp;&nbsp;&nbsp;The inspired forth-speaker of Mentu;<br />For me unveils the veiled sky,<br />&nbsp;&nbsp;&nbsp;The self-slain Ankh-af-na-khonsu<br />Whose words are truth.  I invoke, I greet<br />&nbsp;&nbsp;&nbsp;Thy presence, O Ra-Hoor-Khuit! Unity uttermost showed!<br />&nbsp;&nbsp;&nbsp;I adore the might of Thy breath,<br />Supreme and terrible God,<br />&nbsp;&nbsp;&nbsp;Who makest the gods and death<br />To tremble before Thee:&mdash;<br />&nbsp;&nbsp;&nbsp;I, I adore thee! Appear on the throne of Ra!<br />&nbsp;&nbsp;&nbsp;Open the ways of the Khu!<br />Lighten the ways of the Ka!<br />&nbsp;&nbsp;&nbsp;The ways of the Khabs run through<br />To stir me or still me!<br />&nbsp;&nbsp;&nbsp;Aum! let it fill me!</li>
+                <li>I adore thee in the song &mdash;<br />I am the Lord of Thebes, and I<br />&nbsp;&nbsp;&nbsp;The inspired forth-speaker of Mentu;<br />For me unveils the veilèd sky,<br />&nbsp;&nbsp;&nbsp;The self-slain Ankh-af-na-khonsu<br />Whose words are truth.  I invoke, I greet<br />&nbsp;&nbsp;&nbsp;Thy presence, O Ra-Hoor-Khuit! Unity uttermost showed!<br />&nbsp;&nbsp;&nbsp;I adore the might of Thy breath,<br />Supreme and terrible God,<br />&nbsp;&nbsp;&nbsp;Who makest the gods and death<br />To tremble before Thee:&mdash;<br />&nbsp;&nbsp;&nbsp;I, I adore thee! Appear on the throne of Ra!<br />&nbsp;&nbsp;&nbsp;Open the ways of the Khu!<br />Lighten the ways of the Ka!<br />&nbsp;&nbsp;&nbsp;The ways of the Khabs run through<br />To stir me or still me!<br />&nbsp;&nbsp;&nbsp;Aum! let it fill me!</li>
             </ol>
         </section>
         <section className="wrapper-text wrapper-text--columns">
