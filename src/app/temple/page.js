@@ -326,7 +326,7 @@ export default function Page() {
                                                         <Image height="62" width="62" alt="Billie Austin—Dean" title="Billie Austin—Dean" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
-                                                        Gabriel Osuna <br />
+                                                        Billie Austin <br />
                                                         &#x1F714;
                                                     </span>
                                                 </li>
@@ -344,7 +344,7 @@ export default function Page() {
                                                         <Image height="62" width="62" alt="Jacob Jones—Bursar" title="Jacob Jones—Bursar" src="/profile-jones_jacob.jpeg" style={{backgroundImage: 'url(/profile-jones_jacob.jpeg)', backgroundPosition: '50% 50%'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
-                                                        Billie Austin <br />
+                                                        Jacob Jones <br />
                                                         &#x1F70D;
                                                     </span>
                                                 </li>
