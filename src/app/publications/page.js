@@ -249,7 +249,7 @@ export default function Page() {
                                 <a title="Download the COT Monograph: Liber Theta: Tarot Symbolism & Divination" className="block self-justify-end mt-auto" href="/downloads/cot_monograph_eshleman_LiberT.pdf" target="_blank"><FontAwesomeIcon style={{ 'float': 'left' }} icon={['fas', 'file-arrow-down',]} /> <strong>pdf</strong> (860kb)</a>
                             </li>
                             <li className="card card--book flex flex-col">
-                                <a title="Download the COT Monograph: SEFER YETZIYRAH" href="/downloads/cot_monograph_eshleman_SMA.pdf">
+                                <a title="Download the COT Monograph: SEFER YETZIYRAH" href="/downloads/cot_monograph_SeferYetzirah.pdf">
                                     <Image className="w-full md:w-[220px]" width="207" height="267" alt="SEFER YETZIYRAH James A. Eshleman" src="/cover_SeferYetzirah.jpg" style={{ backgroundImage: 'url(/cover_SeferYetzirah.jpg)' }} loading = 'lazy' />
                                 </a>
                                 <cite><strong>SEFER YETZIYRAH</strong> &#40;v3.1&#41;</cite>
