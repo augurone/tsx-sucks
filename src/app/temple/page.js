@@ -341,10 +341,10 @@ export default function Page() {
                                                 </li>
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Jacob Jones—Bursar" title="Jacob Jones—Bursar" src="/profile-jones_jacob.jpeg" style={{backgroundImage: 'url(/profile-jones_jacob.jpeg)', backgroundPosition: '50% 50%'}} loading = 'lazy' />
+                                                        <Image height="62" width="62" alt="Andrew Ferren—Bursar" title="Andrew Ferren—Bursar" src="/profile-ferren_andrew.webp" style={{backgroundImage: 'url(/profile-ferren_andrew.webp)', backgroundPosition: '50% 50%'}} loading = 'lazy' />
                                                     </div>
                                                     <span className="text text--medium">
-                                                        Jacob Jones <br />
+                                                        Andrew Ferren <br />
                                                         &#x1F70D;
                                                     </span>
                                                 </li>
