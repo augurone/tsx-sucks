@@ -39,6 +39,7 @@ body.theme--Warmer {
     --color-background-light-transparent: rgba(var(--rgb-Warmer-grey-light), 0.39);
     --color-effects-goldenrod-transparent-less: rgba(var(--rgb-Core-goldenrod), 0.131);
     --color-effects-goldenrod-transparent-most: rgba(var(--rgb-Core-goldenrod), 0.1);
+    rgba(228, 189, 26, 0. 0.131);
     --color-text-default: rgba(var(--rgb-Warmer-grey-text), 1);
     --type-blockquote-color-background: var(--color-background-light);
     --type-blockquote-graphics-color: var(--color-background-dark);

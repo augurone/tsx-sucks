@@ -323,20 +323,11 @@ export default function Page() {
                                         <ul className="list list--flex list--thumbnails thumbnail--horizontal text text--medium u-justify--evenly">
                                                 <li>
                                                     <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Billie Austin—Dean" title="Billie Austin—Dean" src="/profile-austin_billie.webp" style={{backgroundImage: 'url(/profile-austin_billie.webp)', backgroundPosition: '50% 20%', backgroundSize: '200%'}} loading = 'lazy' />
+                                                        <Image loading="lazy" height="62" width="62" alt="Chad Augur—Grand Cancellarius" title="Chad Augur—Grand Cancellarius" src="/profile-augur_chad.webp" style={{backgroundImage: 'url(/profile-augur_chad.webp)', backgroundPosition: '50% 0', backgroundSize: ' 156%'}} />
                                                     </div>
                                                     <span className="text text--medium">
-                                                        Billie Austin <br />
+                                                        Chad Augur <br />
                                                         &#x1F714;
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <div className="wrapper-img wrapper-img--med">
-                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" titlet="Aleph Kali—Scribe" src="/profile-kali_aleph.webp" style={{backgroundImage: 'url(/profile-kali_aleph.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
-                                                    </div>
-                                                    <span className="text text--medium">
-                                                        Aleph Kali <br />
-                                                        &#x263f;
                                                     </span>
                                                 </li>
                                                 <li>
@@ -345,6 +336,16 @@ export default function Page() {
                                                     </div>
                                                     <span className="text text--medium">
                                                         Andrew Ferren <br />
+                                                        &#x263f;
+                                                    </span>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <div className="wrapper-img wrapper-img--med">
+                                                        <Image height="62" width="62" alt="Aleph Kali—Scribe" titlet="Aleph Kali—Scribe" src="/profile-kali_aleph.webp" style={{backgroundImage: 'url(/profile-kali_aleph.webp)', backgroundPosition: '0 0'}} loading = 'lazy'/>
+                                                    </div>
+                                                    <span className="text text--medium">
+                                                        Aleph Kali <br />
                                                         &#x1F70D;
                                                     </span>
                                                 </li>

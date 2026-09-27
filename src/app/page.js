@@ -310,6 +310,12 @@ export default async function Home() {
                     </article>
                     <article className="article  article--fullWidth">
                         <h3 id="article--news">What&apos;s New?!</h3>
+                        <strong>Occult T&apos;s for a good cause</strong>
+                        <section>
+                            <strong>Support operations cost and member scholarships</strong>
+                            Our Rules &amp; Regulations bar no one for financial reasons. In various ways we support each other in this work, and we are inviting you to contribute if you find what we offer is valuable to you. May Life, Love, Liberty and Light be extended. 
+                            <p>A number of custom designs contributed my memembers, and a couple classic ones. <a href="https://www.bonfire.com/store/temple-of-thelema/" title="TOT online merch">Our Bonfire Store</a></p>
+                        </section>
                         <strong>The Relaunch of the Website And Forum, &amp; More!</strong>
                         <section className="wrapper-text wrapper-text--columns">
                             <strong>Website Refresh</strong>
