@@ -310,14 +310,11 @@ export default async function Home() {
                     </article>
                     <article className="article  article--fullWidth">
                         <h3 id="article--news">What&apos;s New?!</h3>
-                        <strong>Occult T&apos;s for a good cause</strong>
+                        <strong>The Relaunch of the Website And Forum, &amp; More!</strong>
                         <section>
-                            <strong>Support operations cost and member scholarships</strong>
+                            <strong>New Occult T-Shirt Designs</strong>
                             Our Rules &amp; Regulations bar no one for financial reasons. In various ways we support each other in this work, and we are inviting you to contribute if you find what we offer is valuable to you. May Life, Love, Liberty and Light be extended. 
                             <p>A number of custom designs contributed my members, and a couple classic ones. <a href="https://www.bonfire.com/store/temple-of-thelema/" title="TOT online merch">Our Bonfire Store</a></p>
-                        </section>
-                        <strong>The Relaunch of the Website And Forum, &amp; More!</strong>
-                        <section className="wrapper-text wrapper-text--columns">
                             <strong>Website Refresh</strong>
                             <p>The last time this site was substantially updated was in 2004. Twenty years hence, it was about time. Nearly all the content from the old site has moved here, minus a Liber 185, outdated information, and broken links. This site is built on a modern architecture, is designed to work across all devices, and will have regularly updated content. In the near future, we will be adding new functionality to support the promulgation of the Law. This has been a long time coming, and we hope that you will enjoy what we provide.</p>
                             <strong>Heruraha.net Lives! Sort of&#x2026;</strong>
