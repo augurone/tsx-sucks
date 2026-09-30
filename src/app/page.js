@@ -312,6 +312,14 @@ export default async function Home() {
                         <h3 id="article--news">What&apos;s New?!</h3>
                         <strong>The Relaunch of the Website And Forum, &amp; More!</strong>
                         <section className="wrapper-text wrapper-text--columns">
+                            <div className="flex wrap gap-2 col-span-1 max-w-full">
+                                <a className="contents" href="https://www.bonfire.com/konx-om-pax-1-1/">
+                                    <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: I Hex NY" src="/product_tshirt-IhexNyc.jpeg" title="College Of Thelema Tshirt: I hex NY" loading='lazy' />
+                                </a>
+                                <a className="contents" href="https://www.bonfire.com/temple-of-thelema-thelemic-mass/">
+                                    <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Thelemic Mass" src="/product_tshirt-thelemicMass.jpeg" title="College Of Thelema Tshirt: Thelemic Mass" loading='lazy' />
+                                </a>
+                            </div>
                             <strong>New Occult T-Shirt Designs</strong>
                             <p>Our Rules &amp; Regulations bar no one for financial reasons. In various ways we support each other in this work, and we are inviting you to contribute if you find what we offer is valuable to you. May Life, Love, Liberty and Light be extended. 
                             A number of custom designs contributed my members, and a couple classic ones. <a href="https://www.bonfire.com/store/temple-of-thelema/" title="TOT online merch">Our Bonfire Store</a></p>

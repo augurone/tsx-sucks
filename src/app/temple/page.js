@@ -406,10 +406,10 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Tamara Wyndham—Imperator" src="/profile-wyndham_tamara.webp" style={{backgroundImage: 'url(/profile-wyndham_tamara.webp)', backgroundPosition: '0 0'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Shariyf Clark—Imperator" src="/profile_clark-shariyf.jpeg" style={{backgroundImage: 'url(/profile_clark-shariyf.jpeg)', backgroundPosition: '0 0'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
-                                                Tamara Wyndham<br />
+                                                Shariyf Clark<br />
                                                 &#x1F70D;
                                             </span>
                                         </li>
