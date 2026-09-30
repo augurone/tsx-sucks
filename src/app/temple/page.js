@@ -406,7 +406,7 @@ export default function Page() {
                                         </li>
                                         <li>
                                             <div className="wrapper-img wrapper-img--med">
-                                                <Image height="62" width="62" alt="Shariyf Clark—Imperator" src="/profile-clark_shariyf.jpeg" style={{backgroundImage: 'url(/profile-clark_shariyf.jpeg)', backgroundPosition: '0 0'}} loading = 'lazy' />
+                                                <Image height="62" width="62" alt="Shariyf Clark—Imperator" src="/profile-clark_shariyf.jpeg" style={{backgroundImage: 'url(/profile-clark_shariyf.jpeg)', backgroundPosition: '0 42%'}} loading = 'lazy' />
                                             </div>
                                             <span className="text text--medium">
                                                 Shariyf Clark<br />
