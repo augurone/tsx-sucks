@@ -316,8 +316,11 @@ export default async function Home() {
                                 <a className="contents" href="https://www.bonfire.com/konx-om-pax-1-1/">
                                     <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: I Hex NY" src="/product_tshirt-IhexNyc.jpeg" title="College Of Thelema Tshirt: I hex NY" loading='lazy' />
                                 </a>
-                                <a className="contents" href="https://www.bonfire.com/temple-of-thelema-thelemic-mass/">
+                                {/* <a className="contents" href="https://www.bonfire.com/temple-of-thelema-thelemic-mass/">
                                     <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Thelemic Mass" src="/product_tshirt-thelemicMass.jpeg" title="College Of Thelema Tshirt: Thelemic Mass" loading='lazy' />
+                                </a> */}
+                                <a className="contents" href="https://www.bonfire.com/hpk-rhk-harpocrates-1/">
+                                    <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Harpocrates" src="/product_tshirt-harpocrates.jpeg" title="College Of Thelema Tshirt: Harpocrates" loading='lazy' />
                                 </a>
                             </div>
                             <strong>New Occult T-Shirt Designs</strong>
