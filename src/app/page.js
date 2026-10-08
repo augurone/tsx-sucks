@@ -381,9 +381,6 @@ export default async function Home() {
                             Need to figure you the Promise:<Element />
                             It works for what I need it for right now. 
                          */}
-                            limit= "&limit=3"
-                            order= "&order=-fields.dateAndTime"
-                            title= "Babalon Salon: Events for Women"/>
                         <EventCollection 
                             qry="metadata.tags.sys.id[in]=losAngeles"
                             limit= "&limit=3"
