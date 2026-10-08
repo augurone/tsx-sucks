@@ -313,19 +313,22 @@ export default async function Home() {
                         <strong>The Relaunch of the Website And Forum, &amp; More!</strong>
                         <section className="wrapper-text wrapper-text--columns">
                             <div className="flex wrap gap-2 col-span-1 max-w-full">
-                                <a className="contents" href="https://www.bonfire.com/konx-om-pax-1-1/">
+                                {/* <a className="contents" href="https://www.bonfire.com/konx-om-pax-1-1/">
                                     <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: I Hex NY" src="/product_tshirt-IhexNyc.jpeg" title="College Of Thelema Tshirt: I hex NY" loading='lazy' />
-                                </a>
+                                </a> */}
                                 {/* <a className="contents" href="https://www.bonfire.com/temple-of-thelema-thelemic-mass/">
                                     <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Thelemic Mass" src="/product_tshirt-thelemicMass.jpeg" title="College Of Thelema Tshirt: Thelemic Mass" loading='lazy' />
                                 </a> */}
                                 <a className="contents" href="https://www.bonfire.com/hpk-rhk-harpocrates-1/">
                                     <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Harpocrates" src="/product_tshirt-harpocrates.jpeg" title="College Of Thelema Tshirt: Harpocrates" loading='lazy' />
                                 </a>
+                                <a className="contents" href="https://www.bonfire.com/temple-of-thelema-burning-hearts-1/">
+                                    <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Harpocrates" src="/product_tshirt-BurningHeartBillie.jpeg" title="College Of Thelema Tshirt: Harpocrates" loading='lazy' />
+                                </a>
                             </div>
                             <strong>New Occult T-Shirt Designs</strong>
-                            <p>Our Rules &amp; Regulations bar no one for financial reasons. In various ways we support each other in this work, and we are inviting you to contribute if you find what we offer is valuable to you. May Life, Love, Liberty and Light be extended. 
-                            A number of custom designs contributed by members, and a couple classic ones. <a href="https://www.bonfire.com/store/temple-of-thelema/" title="TOT online merch">Our Bonfire Store</a></p>
+                            <p>Our Rules &amp; Regulations bar no one for financial reasons. In various ways we support each other in this work. We are inviting you to contribute. If you find what we offer is valuable buy a tshirt and help us help you. All the custom designs are contributed by members, and a couple classic desings too. Be sure to check out our new line: <strong>Limited Edition Spiritual (Inside) Jokes</strong> at our 
+                            <a href="https://www.bonfire.com/store/temple-of-thelema/" title="TOT online merch"> Our Bonfire Store</a>. May Life, Love, Liberty and Light be extended.</p>
                             <strong>Website Refresh</strong>
                             <p>The last time this site was substantially updated was in 2004. Twenty years hence, it was about time. Nearly all the content from the old site has moved here, minus a Liber 185, outdated information, and broken links. This site is built on a modern architecture, is designed to work across all devices, and will have regularly updated content. In the near future, we will be adding new functionality to support the promulgation of the Law. This has been a long time coming, and we hope that you will enjoy what we provide.</p>
                             <strong>Heruraha.net Lives! Sort of&#x2026;</strong>
