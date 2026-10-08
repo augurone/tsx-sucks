@@ -323,7 +323,7 @@ export default async function Home() {
                                     <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Harpocrates" src="/product_tshirt-harpocrates.jpeg" title="College Of Thelema Tshirt: Harpocrates" loading='lazy' />
                                 </a>
                                 <a className="contents" href="https://www.bonfire.com/temple-of-thelema-burning-hearts-1/">
-                                    <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Harpocrates" src="/product_tshirt-BurningHeartBillie.jpeg" title="College Of Thelema Tshirt: Harpocrates" loading='lazy' />
+                                    <Image className="basis-1/2 shrink-1 min-w-0 max-w-1/2" width="186" height="556" alt="tshirt: Harpocrates" src="/product_tshirt-BurningHeartBillie.jpeg" title="College Of Thelema Tshirt: Burning Hearts" loading='lazy' />
                                 </a>
                             </div>
                             <strong>New Occult T-Shirt Designs</strong>
