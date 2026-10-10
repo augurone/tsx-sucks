@@ -327,7 +327,7 @@ export default async function Home() {
                                 </a>
                             </div>
                             <strong>New Occult T-Shirt Designs</strong>
-                            <p>Our Rules &amp; Regulations bar no one for financial reasons. In various ways we support each other in this work. We are inviting you to contribute. If you find what we offer is valuable to you buy a tshirt and help us help you. All the custom designs are contributed by members, and a couple classic desings (Phyllis and ) too. Be sure to check out our new line: <strong>Limited Edition Spiritual (Inside) Jokes</strong> at our 
+                            <p>Our Rules &amp; Regulations bar no one for financial reasons. In various ways we support each other in this work. We are inviting you to contribute. If you find what we offer is valuable to you buy a tshirt and help us help you. All the custom designs are contributed by members, and a couple classic desings (Meral and Crowley) too. Be sure to check out our new line: <strong>Limited Edition Spiritual (Inside) Jokes</strong> at our 
                             <a href="https://www.bonfire.com/store/temple-of-thelema/" title="TOT online merch"> Our Bonfire Store</a>. May Life, Love, Liberty and Light be Extended.</p>
                             <strong>Coming to Oakland 2027: Thelemic Art Party</strong>
                             <p>Look for details here how you can be come see the show featuring performances and art from members of the Temple. Evening of Sunday, May 30 well into the night.</p>
