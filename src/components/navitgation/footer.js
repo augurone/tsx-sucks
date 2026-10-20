@@ -37,6 +37,7 @@ const Footer = () => (
                         <address >
                 			PO Box 156<br />
                 			New York, NY 10185<br />
+                            <br />
                 			<a href="mailto:hathor@thelema.org" target="_self">hathor@thelema.org</a>
                         </address>
                     </li>
