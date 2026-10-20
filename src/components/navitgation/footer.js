@@ -35,9 +35,8 @@ const Footer = () => (
             		<li>
                         <h3>Hathor Pronaos No. 7</h3>
                         <address >
-                			P. O Box 81535<br />
-                			1057 Steeles Ave West<br />
-                			North York ON M2R 2S0<br />
+                			PO Box 156<br />
+                			New York, NY 10185<br />
                 			<a href="mailto:hathor@thelema.org" target="_self">hathor@thelema.org</a>
                         </address>
                     </li>
